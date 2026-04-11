@@ -1,0 +1,31 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "Grizz Cycle Watch"
+  subtitle: "Regulation / Deregulation Cycles in News Events and Market Patterns"
+  date: today
+  chapters:
+    - index.qmd
+    - part: regulation/index.qmd
+      chapters:
+        - regulation/cycles.qmd
+    - part: deregulation/index.qmd
+      chapters:
+        - deregulation/patterns.qmd
+    - part: markets/index.qmd
+      chapters:
+        - markets/patterns.qmd
+    - part: news/index.qmd
+      chapters:
+        - news/events.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 3

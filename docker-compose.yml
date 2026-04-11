@@ -1,0 +1,8 @@
+services:
+  quarto:
+    image: ghcr.io/quarto-dev/quarto
+    volumes:
+      - .:/project
+    ports:
+      - "4848:4848"
+    command: quarto preview /project --port 4848 --host 0.0.0.0
