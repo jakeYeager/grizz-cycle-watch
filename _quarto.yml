@@ -11,15 +11,23 @@ book:
     - part: regulation/index.qmd
       chapters:
         - regulation/cycles.qmd
+        - regulation/regulatory-cycle-phases.qmd
+        - regulation/legal-fraud-psychology.qmd
     - part: deregulation/index.qmd
       chapters:
         - deregulation/patterns.qmd
     - part: markets/index.qmd
       chapters:
         - markets/patterns.qmd
+        - markets/kindleberger-mania-model.qmd
+        - markets/debt-crisis-catalysts.qmd
+        - markets/market-conflict-cycles.qmd
     - part: news/index.qmd
       chapters:
         - news/events.qmd
+        - news/empty-pipeline.qmd
+        - news/three-body-problem.qmd
+        - news/ordnance-cost-asymmetry.qmd
     - references.qmd
 
 bibliography: references.bib
