@@ -58,7 +58,7 @@ Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 
 | Content type | Target directory |
 |---|---|
-| Regulatory framework, rule-making cycles, post-crisis reform | `regulation/` |
+| Regulatory framework, rule-making cycles, post-crisis reform | `theory/` |
 | Mania/bubble psychology, fraud cycles, behavioral finance | `market-behavior/` |
 | Financial theory, crisis models, leverage/debt analysis | `market-behavior/` |
 | Price action, volatility, positioning around regulatory events | `markets/` |
@@ -134,17 +134,15 @@ PDF-to-Markdown and Word-to-Markdown conversions often introduce artifacts. Befo
 The project uses `project: type: website` with a docked sidebar. After moving files, register each new page under its section in the `website.sidebar.contents` list:
 
 ```yaml
-- section: "Regulation"
+- section: "Theory"
   contents:
-    - regulation/index.md
-    - regulation/cycles.md                    # existing placeholder — keep
-    - regulation/regulatory-cycle-phases.md   # new
+    - theory/regulatory-cycle-phases.md       # existing
+    - theory/new-article.md                   # new
 ```
 
-- Preserve existing placeholder stubs — they are intentional
 - Add new entries **after** existing entries within each section
 - Do not re-order existing entries
-- The `Deregulation` section should remain between `Regulation` and `Markets`
+- Current section order: Theory → Market Behavior → Markets → Armed Conflict → News
 
 ---
 
@@ -157,13 +155,13 @@ Issues found:
 - Version footer in body: `Version 1.0 | Generated on August 17, 2025 | …`
 - No title casing issues; H1 present
 
-**Output:** `regulation/regulatory-cycle-phases.md`
+**Output:** `theory/regulatory-cycle-phases.md`
 
 Changes made:
 1. Added frontmatter (`title`, `date: "2025-08-17"`, `version: "1.0"`, `description`, `categories: [regulation, theory]`)
 2. Removed version footer
 3. Moved file, renamed to kebab-case `.md`
-4. Registered in `_quarto.yml` under the `"Regulation"` sidebar section
+4. Registered in `_quarto.yml` under the `"Theory"` sidebar section
 
 ---
 
