@@ -3,6 +3,7 @@ title: "Signal Log"
 date: "2026-04-11"
 description: "Append-only log of watch list signal events. Each entry is dated, cross-referenced to section indicators, and tagged with scenario impact. Source for position updates and report triggers."
 status: "living-document"
+categories: [news]
 ---
 
 # Signal Log

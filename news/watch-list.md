@@ -3,6 +3,7 @@ title: "Watch List"
 date: "2026-04-11"
 description: "Baseline indicators distilled from the project's theoretical frameworks — organized by topic, weighted toward late-cycle signals. Serves as a standing brief for monitoring new events."
 status: "living-document"
+categories: [news]
 ---
 
 # Watch List
