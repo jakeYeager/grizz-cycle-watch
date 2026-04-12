@@ -83,7 +83,7 @@ Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 - In-text: `(Author, Year)` or `Author (Year)` narrative form
 - Reference list entries: `**Author, A. B.** (Year). Title. *Journal*, *vol*(issue), pages.`
 - Do **not** use MLA, Chicago, or numbered footnote styles
-- The `references.bib` file is the eventual home for all citations; migration is a separate task
+- Reference lists stay inline within each article; `references.bib` is available for future BibTeX migration on a per-page basis
 
 ### Version footers
 Remove lines of the form:
@@ -130,19 +130,20 @@ PDF-to-Markdown and Word-to-Markdown conversions often introduce artifacts. Befo
 
 ## 7. Updating `_quarto.yml`
 
-After moving files, register each new chapter under its part in `_quarto.yml`:
+The project uses `project: type: website` with a docked sidebar. After moving files, register each new page under its section in the `website.sidebar.contents` list:
 
 ```yaml
-- part: regulation/index.qmd
-  chapters:
-    - regulation/cycles.qmd          # existing placeholder — keep
+- section: "Regulation"
+  contents:
+    - regulation/index.qmd
+    - regulation/cycles.qmd                    # existing placeholder — keep
     - regulation/regulatory-cycle-phases.qmd   # new
 ```
 
 - Preserve existing placeholder stubs — they are intentional
-- Add new chapters **after** existing entries within each part
+- Add new entries **after** existing entries within each section
 - Do not re-order existing entries
-- The `deregulation/` part should remain in position between `regulation/` and `markets/`
+- The `Deregulation` section should remain between `Regulation` and `Markets`
 
 ---
 
@@ -161,7 +162,7 @@ Changes made:
 1. Added frontmatter (`title`, `date: "2025-08-17"`, `version: "1.0"`, `description`, `categories: [regulation, theory]`)
 2. Removed version footer
 3. Moved file, renamed to kebab-case `.qmd`
-4. Registered in `_quarto.yml` under `regulation/`
+4. Registered in `_quarto.yml` under the `"Regulation"` sidebar section
 
 ---
 
@@ -189,5 +190,5 @@ Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 
 - **`news/` taxonomy:** `news/` will overload as the project scales. Possible sub-directories or renamed parts (e.g., `events/`, `reports/`, `analysis/`) should be decided before the next large batch and this routing table updated.
 - **File naming for dated reports:** weekly/periodic reports may warrant a `YYYY-MM-DD-slug.qmd` convention rather than pure slug naming.
-- **`references.bib` migration:** inline APA reference lists should eventually become BibTeX entries with `@key` citations. When that migration runs, the formatting standards here will need a companion rule for citation key conventions.
+- **Per-page citations:** when inline APA reference lists are converted to BibTeX, add `bibliography: references.bib` to each page's frontmatter rather than relying on a global `bibliography:` key. A companion rule for citation key conventions will be needed at that point.
 - **Quarto listings:** once `news/` or `reports/` grows past ~10 entries, the index should switch to a `listing:` block rather than manual `_quarto.yml` chapter registration.
