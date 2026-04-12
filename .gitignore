@@ -2,7 +2,7 @@ _book/
 _site/
 _freeze/
 .quarto/
-.DS_Store
+**/.DS_Store
 
 /.quarto/
 **/*.quarto_ipynb
