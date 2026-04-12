@@ -83,6 +83,19 @@ FIELDNAMES = ["date"] + list(SERIES.keys())
 # Helpers
 # ---------------------------------------------------------------------------
 
+def load_dotenv(path: Path = Path(__file__).parent.parent / ".env") -> None:
+    """Load KEY=VALUE pairs from .env into os.environ. Silent if file missing."""
+    try:
+        with open(path) as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith("#") and "=" in line:
+                    key, _, value = line.partition("=")
+                    os.environ.setdefault(key.strip(), value.strip())
+    except FileNotFoundError:
+        pass
+
+
 def fetch_series(api_key: str, series_id: str, start: str, end: str) -> dict:
     r = requests.get(
         FRED_BASE,
@@ -137,6 +150,7 @@ def main():
                         help="Pull full history from 2020-01-01")
     args = parser.parse_args()
 
+    load_dotenv()
     api_key = os.environ.get("FRED_API_KEY")
     if not api_key:
         print("Error: FRED_API_KEY not set.", file=sys.stderr)
