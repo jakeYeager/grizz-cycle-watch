@@ -6,7 +6,7 @@
 #   ./scripts/evaluate.sh <url> --write   # append to log if relevant
 #
 # Without --write, prints the evaluation to stdout only.
-# With --write, appends a log entry to news/log.md if the article is relevant.
+# With --write, appends a log entry to news/signal-log.md if the article is relevant.
 
 set -euo pipefail
 
@@ -26,27 +26,29 @@ fi
 
 WRITE_INSTRUCTION=""
 if $WRITE; then
-  WRITE_INSTRUCTION="If the article is relevant, append the formatted log entry to news/log.md using today's date heading (## YYYY-MM-DD). Create the heading if it does not exist."
+  WRITE_INSTRUCTION="If the article is relevant, append the formatted log entry to news/signal-log.md using today's date heading (## YYYY-MM-DD). Create the heading if it does not exist."
 else
   WRITE_INSTRUCTION="Do not write to any files. Print the evaluation and, if relevant, the formatted log entry to stdout only."
 fi
 
+AGENT_SPEC=$(cat "$REPO/.claude/agents/signal-monitor.md")
+
 echo "▶ Evaluating: $URL"
 echo ""
 
-claude -p "Read .claude/agent-brief.md for project context and the relevance standard.
-Read news/index.md for the current watch list and cycle position.
+claude -p "$AGENT_SPEC
 
-Evaluate this article for inclusion in the signal log:
-$URL
+Evaluate a single article rather than running a broad search pass.
 
-Fetch and read the article. Then answer in this order:
+Fetch and read this article: $URL
+
+Answer in this order:
 
 1. RELEVANT: yes / no
-2. INDICATORS MOVED: which specific watch list indicators does this advance (be precise)
+2. INDICATORS MOVED: which specific watch list indicators does this advance (exact language from news/watch-list.md)
 3. SECTIONS: which project sections are affected
-4. ESCALATION: does this hit any immediate escalation trigger? (list which ones, or 'none')
-5. LOG ENTRY: if relevant, the complete formatted entry ready for news/log.md
+4. ESCALATION: does this hit any immediate escalation trigger from the decision tree? (list which ones, or 'none')
+5. LOG ENTRY: if relevant, the complete formatted entry ready for news/signal-log.md
 6. REASONING: 2–3 sentences on why this clears or fails the relevance threshold
 
 $WRITE_INSTRUCTION" \
