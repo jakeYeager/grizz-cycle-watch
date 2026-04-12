@@ -7,24 +7,6 @@ status: "living-document"
 
 # Signal Log
 
-Append-only. Add new entries at the top under the current date heading. Do not edit past entries — corrections go in a new entry with a note referencing the original.
-
-**Entry format:**
-
-```
-### [Short title]
-
-**Indicators:** [watch list indicator(s) moved]
-
-**Sections:** [Regulatory Cycle / Market Behavior / Global Debt / Armed Conflict]
-
-**Scenario impact:** [probability shift or phase implication]
-
-**Source:** [outlet, date]
-
-**Note:** [1–3 sentences of context — what this changes in the framework]
-```
-
 ---
 
 ## 2026-04-12
