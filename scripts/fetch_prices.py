@@ -222,16 +222,19 @@ def main():
 
     print(f"\n  {new_count} new rows, {updated_count} cells updated → {CSV_PATH.relative_to(Path.cwd())}")
 
-    # Print latest values with threshold flags
+    # Print latest values with threshold flags — each series uses its own
+    # most recent date because some series (e.g. Brent) lag others by days.
     if all_data:
-        latest_date = max(all_data)
-        latest      = all_data[latest_date]
-        print(f"\nLatest values ({latest_date}):")
+        print("\nLatest values:")
         for col, (sid, label) in SERIES.items():
-            val  = latest.get(col, "n/a")
-            flag = threshold_flag(col, val) if val != "n/a" else ""
-            flag_str = f"  ← {flag}" if flag else ""
-            print(f"  {label:<40} {val}{flag_str}")
+            dated = [(d, v[col]) for d, v in all_data.items() if col in v]
+            if dated:
+                latest_d, val = max(dated)
+                flag     = threshold_flag(col, val)
+                flag_str = f"  ← {flag}" if flag else ""
+                print(f"  {label:<40} {val}  ({latest_d}){flag_str}")
+            else:
+                print(f"  {label:<40} n/a")
 
 
 if __name__ == "__main__":
