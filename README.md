@@ -22,7 +22,7 @@ Run in order. The monitor reads `data/prices.csv` before searching, so the price
 # 1. Update price data (Brent, Treasury 10yr, VIX, HY spread)
 uv run scripts/fetch_prices.py
 
-# 2. Run the signal monitor (searches news, appends to news/log.md)
+# 2. Run the signal monitor (searches news, appends to news/signal-log.md)
 ./scripts/monitor.sh
 ```
 

@@ -8,20 +8,20 @@ Governs how signals are captured, evaluated, and escalated into analysis reports
 
 | Layer | File | Purpose | Trigger |
 |---|---|---|---|
-| **Signal log** | `news/log.md` | Append-only event capture | Any watch list indicator moves |
-| **Position update** | `news/index.md` | Current cycle state table | Accumulated signals shift a phase or scenario probability |
+| **Signal log** | `news/signal-log.md` | Append-only event capture | Any watch list indicator moves |
+| **Position update** | `news/watch-list.md` | Current cycle state table | Accumulated signals shift a phase or scenario probability |
 | **Analysis file** | Section directory | Full report or addendum | Escalation thresholds met (see Section 4) |
 
 ---
 
 ## 2. Log Entry Format
 
-Add new entries at the top of `news/log.md`, under a `## YYYY-MM-DD` date heading. Create the heading if it doesn't exist.
+Add new entries at the top of `news/signal-log.md`, under a `## YYYY-MM-DD` date heading. Create the heading if it doesn't exist.
 
 ```markdown
 ### [Short title]
 
-**Indicators:** [watch list indicator(s) moved — exact language from news/index.md]
+**Indicators:** [watch list indicator(s) moved — exact language from news/watch-list.md]
 
 **Sections:** [Regulatory Cycle / Market Behavior / Global Debt / Armed Conflict]
 
@@ -49,15 +49,15 @@ Three agents handle the monitoring pipeline. Each reads topic context before act
 **Role:** Searches for news matching watch list indicators and writes log entries.
 
 **Context to read before searching:**
-- `news/index.md` — current watch list and cycle position
-- `news/log.md` — recent entries (avoid duplicating events already logged)
+- `news/watch-list.md` — current watch list and cycle position
+- `news/signal-log.md` — recent entries (avoid duplicating events already logged)
 
 **Search strategy:**
 - For each section in the watch list, run searches targeting the specific indicators listed
 - Prioritize cross-cutting signals (events that move indicators in multiple sections)
 - Ignore general market commentary unless it directly references a watch list indicator
 
-**Output:** One or more log entries appended to `news/log.md`. Never writes analysis files directly.
+**Output:** One or more log entries appended to `news/signal-log.md`. Never writes analysis files directly.
 
 **Cadence:** Daily, or immediately when a user flags a relevant event.
 
@@ -69,12 +69,12 @@ Three agents handle the monitoring pipeline. Each reads topic context before act
 
 **Context to read before synthesizing:**
 - All section files (theory/, market-behavior/, global-debt/, armed-conflict/)
-- `news/index.md` — current cycle position
-- `news/log.md` — all entries since last position update
+- `news/watch-list.md` — current cycle position
+- `news/signal-log.md` — all entries since last position update
 
 **Output:** One of four recommendations:
 1. **No action** — signals confirm existing position, no change warranted
-2. **Position update** — update the cycle position table in `news/index.md`
+2. **Position update** — update the cycle position table in `news/watch-list.md`
 3. **Addendum** — draft a companion file to an existing analysis
 4. **Full report** — draft a new analysis file (see escalation thresholds below)
 
@@ -89,7 +89,7 @@ Three agents handle the monitoring pipeline. Each reads topic context before act
 **Context to read before writing:**
 - The specific analysis file being extended (if addendum)
 - Relevant section files for cross-references
-- `news/log.md` entries that triggered the escalation
+- `news/signal-log.md` entries that triggered the escalation
 - `.claude/rules/inbox-triage.md` — formatting standards, frontmatter schema, APA citations
 
 **Output:**
@@ -103,7 +103,7 @@ Three agents handle the monitoring pipeline. Each reads topic context before act
 ### Level 1 → Log only
 Default for all signals. A single indicator moving, even materially, stays at log level unless escalation thresholds below are met.
 
-### Level 2 → Position update (edit `news/index.md`)
+### Level 2 → Position update (edit `news/watch-list.md`)
 
 Trigger when **any** of:
 - Scenario probability shift of ≥15 percentage points (e.g., Scenario C moves from 20% to 35%)
@@ -162,7 +162,7 @@ Trigger when:
 ./scripts/evaluate.sh https://example.com/article --write  # append to log if relevant
 ```
 
-Without `--write`, output goes to stdout for review before committing. With `--write`, the agent appends directly to `news/log.md`.
+Without `--write`, output goes to stdout for review before committing. With `--write`, the agent appends directly to `news/signal-log.md`.
 
 ### "Training" the agent
 
@@ -171,14 +171,14 @@ Agent context is not a model fine-tune — it is file-based and version-controll
 | File | What it controls |
 |---|---|
 | `.claude/agent-brief.md` | Cycle position, search query patterns, escalation triggers, relevance standard |
-| `news/index.md` | Current watch list — the primary signal specification |
-| `news/log.md` | Recent entries — prevents duplicate logging |
+| `news/watch-list.md` | Current watch list — the primary signal specification |
+| `news/signal-log.md` | Recent entries — prevents duplicate logging |
 | Topic analysis files | Deep framework context for evaluating relevance |
 
 **To adjust what the agent searches for:** edit the search query patterns in `.claude/agent-brief.md`.
 **To tighten or loosen relevance:** edit the Relevance Standard section in `.claude/agent-brief.md`.
-**To update cycle position:** edit the position table in both `news/index.md` and `.claude/agent-brief.md`.
-**To add a new watch list indicator:** add it to `news/index.md` and add corresponding search queries to `.claude/agent-brief.md`.
+**To update cycle position:** edit the position table in both `news/watch-list.md` and `.claude/agent-brief.md`.
+**To add a new watch list indicator:** add it to `news/watch-list.md` and add corresponding search queries to `.claude/agent-brief.md`.
 
 ---
 
@@ -186,4 +186,4 @@ Agent context is not a model fine-tune — it is file-based and version-controll
 
 - **Automated vs. manual cadence:** Signal Monitor can run on a schedule or be invoked manually. Daily automated search is the target state; until then, invoke when user flags a relevant event.
 - **Source quality standards:** Currently no formal source tier list. Prioritize primary sources (government statements, central bank releases, shipping AIS data, official exchange data) over commentary.
-- **Log archiving:** Once `news/log.md` exceeds ~100 entries, consider splitting into dated archive files (e.g., `news/log-2026-q2.md`) and starting a fresh current log.
+- **Log archiving:** Once `news/signal-log.md` exceeds ~100 entries, consider splitting into dated archive files (e.g., `news/log-2026-q2.md`) and starting a fresh current log.

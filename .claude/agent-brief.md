@@ -45,8 +45,8 @@ Read these before acting. They contain the indicators, current positions, log fo
 
 | File | Purpose |
 |---|---|
-| `news/index.md` | Watch list — specific indicators per section |
-| `news/log.md` | Recent signal entries — do not duplicate |
+| `news/watch-list.md` | Watch list — specific indicators per section |
+| `news/signal-log.md` | Recent signal entries — do not duplicate |
 | `.claude/rules/signal-monitoring.md` | Log format and escalation decision tree |
 
 ## Deep Context Files

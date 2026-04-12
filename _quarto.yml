@@ -30,9 +30,9 @@ website:
           - armed-conflict/three-blockade-problem.md
       - section: "News"
         contents:
-          - news/index.md
+          - news/watch-list.md
           - news/april-2026-convergence.md
-          - news/log.md
+          - news/signal-log.md
 format:
   html:
     theme: cosmo
