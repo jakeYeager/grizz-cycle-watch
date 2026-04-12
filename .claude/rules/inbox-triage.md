@@ -61,7 +61,8 @@ Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 | Regulatory framework, rule-making cycles, post-crisis reform | `regulation/` |
 | Behavioral finance applied to regulatory capture / fraud cycles | `regulation/` |
 | Financial theory, crisis models, leverage/debt analysis | `markets/` |
-| Market-conflict nexus, geopolitical market impact | `markets/` |
+| Market-conflict nexus, geopolitical market impact | `armed-conflict/` |
+| Armed conflict situation reports, ordnance/defense economics, active conflict analysis | `armed-conflict/` |
 | Ongoing world events, live situation reports, current-date analyses | `news/` |
 | Deregulation rollbacks, exemptions, regulatory capture mechanisms | `deregulation/` |
 

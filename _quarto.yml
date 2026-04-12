@@ -27,14 +27,17 @@ website:
           - markets/patterns.md
           - markets/kindleberger-mania-model.md
           - markets/debt-crisis-catalysts.md
-          - markets/market-conflict-cycles.md
+      - section: "Armed Conflict"
+        contents:
+          - armed-conflict/index.md
+          - armed-conflict/market-conflict-cycles.md
+          - armed-conflict/empty-pipeline.md
+          - armed-conflict/three-body-problem.md
+          - armed-conflict/ordnance-cost-asymmetry.md
       - section: "News"
         contents:
           - news/index.md
           - news/events.md
-          - news/empty-pipeline.md
-          - news/three-body-problem.md
-          - news/ordnance-cost-asymmetry.md
 format:
   html:
     theme: cosmo
