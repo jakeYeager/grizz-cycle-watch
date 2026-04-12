@@ -9,7 +9,7 @@ Updated by `scripts/fetch_prices.py`. Append-only — new rows added on each run
 | Column | Series | Source | Watch List Threshold |
 |---|---|---|---|
 | `brent_usd` | Brent crude spot (USD/bbl) | FRED: DCOILBRENTEU | WARN >$95 / ALERT >$130 |
-| `gold_usd` | Gold price, London AM fix (USD/troy oz) | FRED: GOLDAMGBD228NLBM | — (use in correlation with brent) |
+| `gold_usd` | Gold price, London PM fix (USD/troy oz) | FRED: GOLDPMGBD228NLBM | — (use in correlation with brent) |
 | `treasury_10yr` | 10-Year Treasury yield (%) | FRED: DGS10 | WARN >4.75% / ALERT >5.0% |
 | `vix` | CBOE VIX volatility index | FRED: VIXCLS | WARN >25 / ALERT >40 |
 | `hy_spread` | ICE BofA US HY OA spread (%) | FRED: BAMLH0A0HYM2 | WARN >5.0% / ALERT >7.0% |

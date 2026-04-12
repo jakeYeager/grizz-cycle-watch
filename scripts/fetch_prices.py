@@ -46,31 +46,34 @@ import requests
 
 SERIES = {
     "brent_usd":     ("DCOILBRENTEU",       "Brent crude spot (USD/bbl)"),
-    "gold_usd":      ("GOLDAMGBD228NLBM",   "Gold price (USD/troy oz)"),
+    "gold_usd":      ("GOLDPMGBD228NLBM",   "Gold price (USD/troy oz)"),   # PM fix; AM fix (GOLDAMGBD228NLBM) returns 400
     "treasury_10yr": ("DGS10",             "10-Year Treasury yield (%)"),
     "vix":           ("VIXCLS",            "CBOE VIX"),
     "hy_spread":     ("BAMLH0A0HYM2",      "ICE BofA US HY spread (%)"),
 }
 
-# Watch list threshold levels — printed as flags on latest values
+# Threshold levels printed as flags on latest values.
+# Each entry: (value, direction, label)
+#   direction "above" — flag fires when v >= value  (escalation signals)
+#   direction "below" — flag fires when v <  value  (resolution signals)
 THRESHOLDS = {
     "brent_usd": [
-        (130.0, "ALERT — Level 4 escalation trigger"),
-        (95.0,  "WARN  — Stagflation pressure on G7 debt service"),
-        (90.0,  "NOTE  — Below $90 = Scenario A resolution signal"),
+        (130.0, "above", "ALERT — Level 4 escalation trigger"),
+        (95.0,  "above", "WARN  — Stagflation pressure on G7 debt service"),
+        (90.0,  "below", "NOTE  — Scenario A resolution signal"),
     ],
     "treasury_10yr": [
-        (5.0,  "ALERT — Level 4 escalation trigger"),
-        (4.75, "WARN  — G7 sovereign debt service stress"),
-        (4.0,  "NOTE  — Below 4.0% = Scenario A resolution signal"),
+        (5.0,  "above", "ALERT — Level 4 escalation trigger"),
+        (4.75, "above", "WARN  — G7 sovereign debt service stress"),
+        (4.0,  "below", "NOTE  — Scenario A resolution signal"),
     ],
     "hy_spread": [
-        (7.0,  "ALERT — Distress-level credit spread"),
-        (5.0,  "WARN  — Elevated; watch for Minsky Phase 3 deepening"),
+        (7.0,  "above", "ALERT — Distress-level credit spread"),
+        (5.0,  "above", "WARN  — Elevated; watch for Minsky Phase 3 deepening"),
     ],
     "vix": [
-        (40.0, "ALERT — Crisis-level volatility"),
-        (25.0, "WARN  — Elevated uncertainty"),
+        (40.0, "above", "ALERT — Crisis-level volatility"),
+        (25.0, "above", "WARN  — Elevated uncertainty"),
     ],
 }
 
@@ -131,8 +134,10 @@ def threshold_flag(col: str, value: str) -> str:
         v = float(value)
     except ValueError:
         return ""
-    for threshold, label in levels:
-        if v >= threshold:
+    for threshold, direction, label in levels:
+        if direction == "above" and v >= threshold:
+            return label
+        if direction == "below" and v < threshold:
             return label
     return ""
 
