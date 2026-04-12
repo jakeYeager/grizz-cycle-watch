@@ -16,7 +16,6 @@ website:
           - theory/regulatory-cycle-phases.md
       - section: "Market Behavior"
         contents:
-          - market-behavior/index.md
           - market-behavior/kindleberger-mania-model.md
           - market-behavior/legal-fraud-psychology.md
       - section: "Global Debt"
@@ -24,7 +23,6 @@ website:
           - global-debt/debt-crisis-catalysts.md
       - section: "Armed Conflict"
         contents:
-          - armed-conflict/index.md
           - armed-conflict/market-conflict-cycles.md
           - armed-conflict/empty-pipeline.md
           - armed-conflict/three-body-problem.md
