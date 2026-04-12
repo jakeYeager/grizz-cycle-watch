@@ -19,11 +19,9 @@ website:
           - market-behavior/index.md
           - market-behavior/kindleberger-mania-model.md
           - market-behavior/legal-fraud-psychology.md
-      - section: "Markets"
+      - section: "Global Debt"
         contents:
-          - markets/index.md
-          - markets/patterns.md
-          - markets/debt-crisis-catalysts.md
+          - global-debt/debt-crisis-catalysts.md
       - section: "Armed Conflict"
         contents:
           - armed-conflict/index.md

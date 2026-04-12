@@ -61,7 +61,7 @@ Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 | Regulatory framework, rule-making cycles, post-crisis reform | `theory/` |
 | Mania/bubble psychology, fraud cycles, behavioral finance | `market-behavior/` |
 | Financial theory, crisis models, leverage/debt analysis | `market-behavior/` |
-| Price action, volatility, positioning around regulatory events | `markets/` |
+| Debt cycles, leverage crises, sovereign and corporate debt dynamics | `global-debt/` |
 | Market-conflict nexus, geopolitical market impact | `armed-conflict/` |
 | Armed conflict situation reports, ordnance/defense economics, active conflict analysis | `armed-conflict/` |
 | Ongoing world events, live situation reports, current-date analyses | `news/` |
@@ -142,7 +142,7 @@ The project uses `project: type: website` with a docked sidebar. After moving fi
 
 - Add new entries **after** existing entries within each section
 - Do not re-order existing entries
-- Current section order: Theory → Market Behavior → Markets → Armed Conflict → News
+- Current section order: Theory → Market Behavior → Global Debt → Armed Conflict → News
 
 ---
 
