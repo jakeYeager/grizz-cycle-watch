@@ -41,6 +41,17 @@ To evaluate a specific article:
 ./scripts/evaluate.sh https://example.com/article --write  # append to log if relevant
 ```
 
+## Maintenance
+
+Run weekly or after large structural changes:
+
+```bash
+./scripts/housekeeping.sh           # run checks + agent
+./scripts/housekeeping.sh --dry-run # print findings only, no agent
+```
+
+Checks: internal link validation, `_quarto.yml` consistency, frontmatter completeness, signal log size (archives at 100 entries), stale working-documents.
+
 ## Automation
 
 See `.claude/docs/cron-options.md` for macOS cron and Claude Code schedule skill options.
