@@ -14,7 +14,7 @@ status: "living-document"
 | Framework | Phase | Position |
 |---|---|---|
 | Regulatory Cycle (20–30yr) | Phase 4 / 5 boundary | Judicial resistance to deregulation now material; transition zone entered |
-| Kindleberger Mania Model | **Stage 4 onset confirmed** | Fire-sale signal triggered April 2–10; forced deleveraging documented |
+| Kindleberger Mania Model | Stage 4 signals present | Gold/oil correlation degraded by Trump messaging noise; Blue Owl gates are the cleaner indicator |
 | Legal Fraud Lifecycle | Phase 3 → 4 | Identity integration complete; rational override failing |
 | Minsky Debt Cycle | **Phase 3 onset** | Blue Owl redemption gates active at scale; forced deleveraging beginning |
 | Armed Conflict (Hormuz) | Scenario B / C boundary | Dual chokepoint activation; Pakistan talks stalled; Scenario C floor rising |
@@ -38,7 +38,7 @@ status: "living-document"
 
 ## Market Behavior
 
-**Position:** Kindleberger **Stage 4 onset confirmed** (2026-04-11). Gold and Brent fell simultaneously April 2–10 — the explicit fire-sale signal indicating margin calls propagating across asset classes. P/E at 29.9x; AI narrative still holding but institutional liquidation of liquid positions now documented.
+**Position:** Kindleberger Stage 4 signals present (2026-04-11). Gold and Brent fell simultaneously April 2–10, matching the fire-sale pattern, but signal quality is degraded — Trump administration tariff and trade messaging has generated aggressive position unwinding that mimics the correlation signature without necessarily indicating structural propagation. The Blue Owl redemption gates are the cleaner Stage 4 indicator: Q1 structural redemption pressure independent of the news cycle. Confirm Stage 4 with sustained correlated moves during quiet messaging periods, or second-order credit effects (spread widening, prime broker stress).
 
 **Late-stage signals to watch:**
 

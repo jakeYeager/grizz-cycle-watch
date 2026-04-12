@@ -18,7 +18,7 @@ The Signal Monitor's April 11 pass identified five material signals logged acros
 
 | Framework | Previous Position | Current Position | Signal |
 |---|---|---|---|
-| Kindleberger | Stage 3 → 4 (early distress) | **Stage 4 onset confirmed** | Gold + Brent simultaneous sell-off April 2–10 |
+| Kindleberger | Stage 3 → 4 (early distress) | Stage 4 signals present — **signal quality degraded** | Gold + Brent sell-off present but confounded by Trump messaging whiplash |
 | Minsky | Phase 2 (peak leverage) | **Phase 3 onset** | Blue Owl redemption gates at 21.9–40.7% request levels |
 | Hormuz | Scenario B (~45%) | **Scenario B/C boundary** | Pakistan talks stalled; Houthi dual chokepoint active |
 | Regulatory | Phase 4/5 transition zone | **Transition zone confirmed** | CFPB court orders blocking defunding |
@@ -31,11 +31,13 @@ Five entries logged April 11, 2026 — each significant independently; together 
 
 ### 1. Gold + Brent simultaneous sell-off (Market Behavior / Global Debt / Armed Conflict)
 
-**Why this is the highest-priority signal:** The watch list flagged this exact pattern — gold and oil falling together — as the Scenario C fire-sale indicator in the Armed Conflict section. It was listed not as a general market risk but as a specific cross-wiring test: when both fall simultaneously, the move is not driven by commodity fundamentals or rate expectations in isolation. It indicates institutional investors liquidating liquid positions across asset classes to meet margin calls.
+**Signal quality: degraded.** The watch list flagged this exact pattern — gold and oil falling together — as the Scenario C fire-sale indicator, specifically as a cross-wiring test distinguishing margin call propagation from commodity fundamentals. From April 2–10, gold and silver sold off in a documented "dash for cash" while Brent fell from ~$111 to ~$95.
 
-From April 2–10, gold and silver sold off in a documented "dash for cash" while Brent fell from ~$111 to ~$95. The two moves happening together is the signature of collateral calls propagating through the system — the mechanism Brunnermeier (2009) identifies as the transition from market illiquidity to funding illiquidity. This is Kindleberger Stage 4 by definition: smart money exiting, credit tightening, forced selling beginning.
+However, the Trump administration's tariff and trade messaging has been generating unusually aggressive position unwinding throughout this period. Policy-driven whiplash produces the same short-term correlation signature — rapid liquidation of liquid positions across asset classes — without the structural self-reinforcing propagation that characterizes a genuine Kindleberger Stage 4 fire sale. A real Stage 4 move is independent of the news cycle and feeds itself through margin calls. A whiplash move reverses when the messaging reverses.
 
-The Brent decline is particularly important to contextualize: it does not represent Scenario A (resolution). It represents leveraged energy positions being liquidated alongside everything else. The underlying supply disruption is unchanged.
+**What would confirm genuine Stage 4:** sustained correlated moves during quiet messaging periods; credit spread widening independent of tariff headlines; prime broker margin call data; or a second wave of private credit fund gates. Until one of those clears, the gold/oil correlation should be treated as a Stage 4 candidate signal, not a confirmation.
+
+The Brent decline, in any case, does not represent Scenario A (resolution) — the supply disruption is unchanged. It represents position liquidation, whether structural or policy-driven.
 
 ### 2. Blue Owl Capital redemption gates (Market Behavior / Global Debt)
 

@@ -105,6 +105,12 @@ Any of these warrant a Level 4 full report regardless of other signals:
 
 ---
 
+## Known Confounding Factors
+
+**Trump administration messaging volatility (active as of 2026-04-11):** Frequent tariff announcements, reversals, and trade war escalation/de-escalation cycles are generating aggressive position unwinding that mimics structural fire-sale signatures. When logging gold/oil correlation moves or broad asset sell-offs, note whether the timing aligns with a specific policy statement or trade headline. Moves that reverse within 24–48 hours of a messaging shift are likely whiplash, not structural. As log history accumulates, cross-reference new correlation signals against prior entries to assess whether the pattern is sustained or episodic.
+
+---
+
 ## Relevance Standard
 
 Be conservative. A signal clears the bar if it clearly moves a specific named indicator in the watch list. General market commentary, opinion pieces, and background explainers do not qualify unless they contain primary data (price levels, government statements, official agency actions) that directly advances a watch list indicator.
