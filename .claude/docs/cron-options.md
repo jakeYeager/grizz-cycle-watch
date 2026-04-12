@@ -10,20 +10,32 @@ Runs the script on your machine on a schedule. Simple to set up — no external 
 
 **Setup:**
 ```bash
+mkdir -p /Users/jake/Projects/Code/prod/grizz-cycle-watch/logs
 crontab -e
 ```
 
-Add:
+Add the two-step daily sequence — price fetch first, then monitor pass:
 ```
-0 8 * * * cd /Users/jake/Projects/Code/prod/grizz-cycle-watch && ./scripts/monitor.sh >> logs/monitor.log 2>&1
+# Fetch FRED price data (Brent, gold, Treasury yield, VIX, HY spread)
+0 7 * * 1-5 cd /Users/jake/Projects/Code/prod/grizz-cycle-watch && FRED_API_KEY=your_key python3 scripts/fetch_prices.py >> logs/prices.log 2>&1
+
+# Run signal monitor (reads prices.csv before web searches)
+0 8 * * 1-5 cd /Users/jake/Projects/Code/prod/grizz-cycle-watch && ./scripts/monitor.sh >> logs/monitor.log 2>&1
 ```
 
-This fires at 8am daily. Adjust the time (`0 8 * * *`) as needed.
+Price fetch runs at 7am Mon–Fri; monitor runs at 8am. The monitor reads `data/prices.csv` for ground-truth price levels before any web searches, so the sequence matters.
+
+**One-time setup:**
+```bash
+# Seed full price history before first automated run
+export FRED_API_KEY=your_key_here
+python3 scripts/fetch_prices.py --full
+```
 
 **Tradeoffs:**
 - Machine must be on and awake at run time
-- Logs stay local in `logs/monitor.log`
-- No additional setup beyond the crontab entry
+- Logs stay local in `logs/prices.log` and `logs/monitor.log`
+- `FRED_API_KEY` must be set in the crontab entry (cron doesn't inherit shell env)
 - Best for: current state (local-only repo)
 
 ---
