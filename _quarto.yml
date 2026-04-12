@@ -5,36 +5,30 @@ project:
 website:
   title: "Grizz Cycle Watch"
   description: "Regulation / Deregulation Cycles in News Events and Market Patterns"
-  search: true
   sidebar:
     style: docked
     search: true
+    collapse-level: 1
     contents:
       - index.md
       - section: "News"
-        collapsed: false
         contents:
           - news/watch-list.md
           - news/signal-log.md
       - section: "Convergence Reports"
-        collapsed: false
         contents:
           - news-convergence/april-2026-convergence.md
       - section: "Theory"
-        collapsed: true
         contents:
           - theory/regulatory-cycle-phases.md
       - section: "Market Behavior"
-        collapsed: true
         contents:
           - market-behavior/kindleberger-mania-model.md
           - market-behavior/legal-fraud-psychology.md
       - section: "Global Debt"
-        collapsed: true
         contents:
           - global-debt/debt-crisis-catalysts.md
       - section: "Armed Conflict"
-        collapsed: true
         contents:
           - armed-conflict/market-conflict-cycles.md
           - armed-conflict/empty-pipeline.md
