@@ -45,11 +45,13 @@ import requests
 # ---------------------------------------------------------------------------
 
 SERIES = {
-    "brent_usd":     ("DCOILBRENTEU",       "Brent crude spot (USD/bbl)"),
-    "gold_usd":      ("GOLDPMGBD228NLBM",   "Gold price (USD/troy oz)"),   # PM fix; AM fix (GOLDAMGBD228NLBM) returns 400
-    "treasury_10yr": ("DGS10",             "10-Year Treasury yield (%)"),
-    "vix":           ("VIXCLS",            "CBOE VIX"),
-    "hy_spread":     ("BAMLH0A0HYM2",      "ICE BofA US HY spread (%)"),
+    "brent_usd":     ("DCOILBRENTEU",  "Brent crude spot (USD/bbl)"),
+    # gold_usd: LBMA gold fixing series not available via FRED API.
+    # Import manually from LBMA CSV download (lbma.org.uk/prices/gold)
+    # and merge into data/prices.csv using scripts/merge_gold.py (TODO).
+    "treasury_10yr": ("DGS10",         "10-Year Treasury yield (%)"),
+    "vix":           ("VIXCLS",        "CBOE VIX"),
+    "hy_spread":     ("BAMLH0A0HYM2",  "ICE BofA US HY spread (%)"),
 }
 
 # Threshold levels printed as flags on latest values.
@@ -79,7 +81,8 @@ THRESHOLDS = {
 
 FRED_BASE = "https://api.stlouisfed.org/fred/series/observations"
 CSV_PATH  = Path(__file__).parent.parent / "data" / "prices.csv"
-FIELDNAMES = ["date"] + list(SERIES.keys())
+# gold_usd kept in FIELDNAMES so manually-merged rows survive round-trips
+FIELDNAMES = ["date", "brent_usd", "gold_usd", "treasury_10yr", "vix", "hy_spread"]
 
 
 # ---------------------------------------------------------------------------
@@ -179,7 +182,10 @@ def main():
                 all_data.setdefault(d, {})[col] = v
             print(f"{len(obs)} observations")
         except requests.HTTPError as e:
-            print(f"HTTP error: {e}")
+            if e.response is not None and e.response.status_code == 400:
+                print("series not found on FRED — check ID or source")
+            else:
+                print(f"HTTP error: {e}")
         except Exception as e:
             print(f"FAILED: {e}")
 
@@ -187,23 +193,34 @@ def main():
         print("\nNo data fetched. Check API key and network connection.")
         sys.exit(1)
 
-    # Append only new dates to CSV
-    existing = load_existing_dates(CSV_PATH)
-    new_rows  = {d: v for d, v in all_data.items() if d not in existing}
-
+    # Merge into CSV: append new dates, update existing rows with any newly
+    # available columns (e.g. after a series swap or manual gold merge).
     CSV_PATH.parent.mkdir(exist_ok=True)
-    write_header = not CSV_PATH.exists()
+    existing_rows: dict[str, dict] = {}
+    if CSV_PATH.exists():
+        with open(CSV_PATH, newline="") as f:
+            for row in csv.DictReader(f):
+                existing_rows[row["date"]] = row
 
-    with open(CSV_PATH, "a", newline="") as f:
+    new_count = updated_count = 0
+    for d, values in all_data.items():
+        if d not in existing_rows:
+            existing_rows[d] = {"date": d}
+            new_count += 1
+        else:
+            # Fill in any columns that were previously missing (empty string)
+            for col, val in values.items():
+                if not existing_rows[d].get(col):
+                    existing_rows[d][col] = val
+                    updated_count += 1
+
+    with open(CSV_PATH, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDNAMES, extrasaction="ignore")
-        if write_header:
-            writer.writeheader()
-        for d in sorted(new_rows):
-            row = {"date": d}
-            row.update(new_rows[d])
-            writer.writerow(row)
+        writer.writeheader()
+        for d in sorted(existing_rows):
+            writer.writerow(existing_rows[d])
 
-    print(f"\n  {len(new_rows)} new rows written → {CSV_PATH.relative_to(Path.cwd())}")
+    print(f"\n  {new_count} new rows, {updated_count} cells updated → {CSV_PATH.relative_to(Path.cwd())}")
 
     # Print latest values with threshold flags
     if all_data:
