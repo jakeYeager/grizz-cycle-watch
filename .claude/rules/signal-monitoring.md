@@ -140,7 +140,44 @@ Trigger when:
 
 ---
 
-## 5. Open Questions
+## 5. Invocation
+
+### Running the Monitor
+
+```bash
+./scripts/monitor.sh                          # standard pass, last 24–48hrs
+./scripts/monitor.sh --since 72h              # extend lookback
+./scripts/monitor.sh --section "Armed Conflict"  # single section
+```
+
+### Evaluating a one-off article
+
+```bash
+./scripts/evaluate.sh https://example.com/article        # print evaluation only
+./scripts/evaluate.sh https://example.com/article --write  # append to log if relevant
+```
+
+Without `--write`, output goes to stdout for review before committing. With `--write`, the agent appends directly to `news/log.md`.
+
+### "Training" the agent
+
+Agent context is not a model fine-tune — it is file-based and version-controlled. The agent reads these files at invocation time:
+
+| File | What it controls |
+|---|---|
+| `.claude/agent-brief.md` | Cycle position, search query patterns, escalation triggers, relevance standard |
+| `news/index.md` | Current watch list — the primary signal specification |
+| `news/log.md` | Recent entries — prevents duplicate logging |
+| Topic analysis files | Deep framework context for evaluating relevance |
+
+**To adjust what the agent searches for:** edit the search query patterns in `.claude/agent-brief.md`.
+**To tighten or loosen relevance:** edit the Relevance Standard section in `.claude/agent-brief.md`.
+**To update cycle position:** edit the position table in both `news/index.md` and `.claude/agent-brief.md`.
+**To add a new watch list indicator:** add it to `news/index.md` and add corresponding search queries to `.claude/agent-brief.md`.
+
+---
+
+## 6. Open Questions
 
 - **Automated vs. manual cadence:** Signal Monitor can run on a schedule or be invoked manually. Daily automated search is the target state; until then, invoke when user flags a relevant event.
 - **Source quality standards:** Currently no formal source tier list. Prioritize primary sources (government statements, central bank releases, shipping AIS data, official exchange data) over commentary.
