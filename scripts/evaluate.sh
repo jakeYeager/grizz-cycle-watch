@@ -31,7 +31,7 @@ else
   WRITE_INSTRUCTION="Do not write to any files. Print the evaluation and, if relevant, the formatted log entry to stdout only."
 fi
 
-AGENT_SPEC=$(cat "$REPO/.claude/agents/signal-monitor.md")
+AGENT_SPEC=$(awk 'BEGIN{n=0} /^---/{n++; next} n>=2{print}' "$REPO/.claude/agents/signal-monitor.md")
 
 echo "▶ Evaluating: $URL"
 echo ""

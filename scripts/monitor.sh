@@ -22,7 +22,7 @@ while [[ $# -gt 0 ]]; do
   esac
 done
 
-AGENT_SPEC=$(cat "$REPO/.claude/agents/signal-monitor.md")
+AGENT_SPEC=$(awk 'BEGIN{n=0} /^---/{n++; next} n>=2{print}' "$REPO/.claude/agents/signal-monitor.md")
 
 echo "▶ Signal Monitor — $(date '+%Y-%m-%d %H:%M')"
 echo "  Lookback: $SINCE | Scope: $SECTION"

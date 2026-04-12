@@ -82,6 +82,8 @@ for dir in theory market-behavior global-debt armed-conflict news-convergence ne
   [[ -d "$dir" ]] || continue
   for f in "$dir"/*.md; do
     [[ -f "$f" ]] || continue
+    # Skip living-documents — operational files, not categorized content articles
+    grep -q "^status: living-document" "$f" 2>/dev/null && continue
     for field in $REQUIRED_FIELDS; do
       if ! grep -q "^${field}:" "$f" 2>/dev/null; then
         FRONTMATTER_ISSUES="${FRONTMATTER_ISSUES}    $f: missing '${field}'\n"
@@ -136,7 +138,9 @@ fi
 
 # ─── Agent invocation ─────────────────────────────────────────────────────────
 
-AGENT_SPEC=$(cat "$REPO/.claude/agents/housekeeping.md")
+# Strip YAML frontmatter before passing to claude -p (frontmatter starts with ---
+# which the claude CLI argument parser mistakes for a flag)
+AGENT_SPEC=$(awk 'BEGIN{n=0} /^---/{n++; next} n>=2{print}' "$REPO/.claude/agents/housekeeping.md")
 
 PREFLIGHT_REPORT="Pre-flight findings from housekeeping.sh:"
 if [[ -z "$FINDINGS" ]]; then
@@ -146,8 +150,6 @@ else
 fi
 
 claude -p "$AGENT_SPEC
-
----
 
 $PREFLIGHT_REPORT
 
