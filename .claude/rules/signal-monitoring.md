@@ -95,6 +95,7 @@ Three agents handle the monitoring pipeline. Each reads topic context before act
 **Output:**
 - **Addendum:** new file in the relevant section directory, frontmatter `addendum-to:` field set, registered in `_quarto.yml`
 - **Full report:** new file in the most appropriate section directory, full frontmatter, registered in `_quarto.yml`
+- **Convergence report:** when Level 4 is triggered by cross-section convergence (multiple frameworks simultaneously), route to `news-convergence/` instead of a topic directory
 
 ---
 

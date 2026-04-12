@@ -7,8 +7,6 @@ status: "living-document"
 
 # Signal Log
 
----
-
 ## 2026-04-12
 
 ### US declares naval blockade of Strait of Hormuz after Pakistan talks collapse

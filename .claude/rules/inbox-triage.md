@@ -65,6 +65,7 @@ Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 | Market-conflict nexus, geopolitical market impact | `armed-conflict/` |
 | Armed conflict situation reports, ordnance/defense economics, active conflict analysis | `armed-conflict/` |
 | Ongoing world events, live situation reports, current-date analyses | `news/` |
+| Cross-section convergence reports — multiple frameworks triggering simultaneously | `news-convergence/` |
 
 **Routing ambiguity:** if a document spans two areas, prefer the directory whose *index.md* description is the better fit. Note the secondary category in frontmatter `categories`.
 

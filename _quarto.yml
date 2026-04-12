@@ -31,8 +31,10 @@ website:
       - section: "News"
         contents:
           - news/watch-list.md
-          - news/april-2026-convergence.md
           - news/signal-log.md
+      - section: "Convergence Reports"
+        contents:
+          - news-convergence/april-2026-convergence.md
 format:
   html:
     theme: cosmo
