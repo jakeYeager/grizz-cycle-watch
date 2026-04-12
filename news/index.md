@@ -9,7 +9,7 @@ status: "living-document"
 
 ## Current Cycle Position
 
-*Last updated: 2026-04-11 — convergence trigger hit; see [April 2026 Convergence Report](april-2026-convergence.md)*
+*Last updated: 2026-04-12 — Islamabad talks collapsed; US naval blockade declared; see [The Three Blockade Problem](../armed-conflict/three-blockade-problem.md)*
 
 | Framework | Phase | Position |
 |---|---|---|
@@ -17,7 +17,7 @@ status: "living-document"
 | Kindleberger Mania Model | Stage 4 signals present | Gold/oil correlation degraded by Trump messaging noise; Blue Owl gates are the cleaner indicator |
 | Legal Fraud Lifecycle | Phase 3 → 4 | Identity integration complete; rational override failing |
 | Minsky Debt Cycle | **Phase 3 onset** | Blue Owl redemption gates active at scale; forced deleveraging beginning |
-| Armed Conflict (Hormuz) | Scenario B / C boundary | Dual chokepoint activation; Pakistan talks stalled; Scenario C floor rising |
+| Armed Conflict (Hormuz) | **Active — Scenarios B/C/D** | Islamabad talks collapsed April 12; US naval blockade declared; three simultaneous closure mechanisms active; Scenario D (great-power incident) now modeled at 10% |
 
 ---
 
@@ -71,25 +71,26 @@ status: "living-document"
 
 ## Armed Conflict
 
-**Position:** Active — Scenario B/C boundary (2026-04-11). Pakistan talks produced no agreement after round one; indefinite extension pattern emerging. Iran directing Houthis to prepare renewed Bab al-Mandab campaign — dual chokepoint scenario now active preparation, not hypothesis. Scenario B remains base case but Scenario C floor has risen materially. Physical buffer period ended April 9; food inflation H2 2026 locked in regardless of resolution.
+**Position:** Active — Scenarios B/C/D (2026-04-12). Islamabad talks collapsed after 21 hours; Trump declared an immediate US naval blockade of the Strait of Hormuz. The strait is now subject to three simultaneous closure mechanisms: US Navy interdiction, Iranian ordnance, and an uncharted minefield that Iran has reportedly lost track of. Diplomatic off-ramp closed. Physical clearance is a prerequisite for reopening regardless of any future agreement. Scenario A probability collapsed to ~10%; Scenario D (great-power incident via US interdiction of Chinese/Indian vessels) now modeled at ~10%. See [The Three Blockade Problem](../armed-conflict/three-blockade-problem.md).
 
-**Indicator table (from *The Empty Pipeline*):**
+**Indicator table (from *The Three Blockade Problem*, April 12):**
 
-| Indicator | Scenario A Signal (Resolution) | Scenario C Signal (Escalation) |
+| Indicator | De-escalation Signal | Escalation Signal |
 |---|---|---|
-| AIS tanker transits in Hormuz | >20 daily within 72hrs of ceasefire | Continued near-zero, or vessel strikes resume |
-| Brent crude | Sustained decline below $90/bbl | Spike above $130/bbl on infrastructure strike |
-| 10-year Treasury yield | Decline toward 4.0% | Breach of 5.0% as stagflation fears entrench |
-| Gold vs. oil correlation | Gold rebounds as rate pressure eases | Both fall simultaneously — margin call / fire-sale dynamic |
-| EU aviation fuel | Stabilizes by June via alternative supply | Summer 2026 cancellations at scale; airline bailout requests |
-| Fertilizer / grain futures | Moderate — H2 food inflation still locked in | Grain futures surge; food security emergency in import-dependent nations |
+| AIS mine clearance progress | US CENTCOM announces verified safe corridor; commercial insurers re-enter market | No corridor declared within 72 hours; mine-related incident reported |
+| Chinese/Indian vessel behavior | Ships hold in Gulf of Oman; no attempt to transit under Iranian toll | Vessels attempt transit under bilateral deal; US interdiction orders tested |
+| IRGC naval activity | IRGC vessels withdraw from strait approach zones | Drone boats active near US mine-clearance destroyers |
+| Brent crude | Retreats below $105 on mine clearance progress | Spike above $135 on any incident |
+| LNG spot prices (Asia) | Moderate as alternative supply secured | Surge above 2022 records as Ras Laffan offline confirmed multi-month |
+| 10-year Treasury yield | Holds below 4.5% | Breaks above 5.0% as stagflation re-entrenches |
+| US-China diplomatic signaling | Beijing publicly calls for restraint; backs mine-clearance framework | PLA Navy deployment orders; Chinese state media escalates rhetoric |
+| Netanyahu coalition stability | Smotrich/Ben-Gvir moderate Lebanon demands | Coalition calls for Litani as permanent border; Lebanon ops intensify |
 
 **Additional signals to watch:**
 
-- Iran parliamentary vote on Hormuz transit toll legislation — passage would formalize closure under international maritime law
 - US Navy SM-2/SM-6 inventory disclosures or procurement emergency requests — indicates production constraint stress
-- Houthi activity at Bab al-Mandab resuming alongside Hormuz closure — dual chokepoint scenario
-- Bilateral deal collapse: any country previously granted passage being denied — signals fragmentation of patchwork
-- Israeli operations against Iranian nuclear sites escalating — removes diplomatic off-ramp
+- Chinese state-owned vessel attempting Hormuz transit — direct test of US interdiction order
+- IRGC drone activity near USS Frank E. Petersen or USS Michael Murphy during mine-clearance operations
 - Russia oil premium vs. Brent spread — tracks Russian windfall from Hormuz-free routing
-- Pakistan talks outcome: framework agreement vs. collapse vs. indefinite extension
+- EU aviation fuel strategic reserve drawdown rate — buffer exhaustion timeline
+- Ras Laffan LNG restoration timeline updates — structural multi-month shortfall confirmation
