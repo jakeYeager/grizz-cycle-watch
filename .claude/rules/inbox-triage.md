@@ -59,12 +59,12 @@ Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 | Content type | Target directory |
 |---|---|
 | Regulatory framework, rule-making cycles, post-crisis reform | `regulation/` |
-| Behavioral finance applied to regulatory capture / fraud cycles | `regulation/` |
-| Financial theory, crisis models, leverage/debt analysis | `markets/` |
+| Mania/bubble psychology, fraud cycles, behavioral finance | `market-behavior/` |
+| Financial theory, crisis models, leverage/debt analysis | `market-behavior/` |
+| Price action, volatility, positioning around regulatory events | `markets/` |
 | Market-conflict nexus, geopolitical market impact | `armed-conflict/` |
 | Armed conflict situation reports, ordnance/defense economics, active conflict analysis | `armed-conflict/` |
 | Ongoing world events, live situation reports, current-date analyses | `news/` |
-| Deregulation rollbacks, exemptions, regulatory capture mechanisms | `deregulation/` |
 
 **Routing ambiguity:** if a document spans two areas, prefer the directory whose *index.md* description is the better fit. Note the secondary category in frontmatter `categories`.
 

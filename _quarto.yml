@@ -17,15 +17,15 @@ website:
           - regulation/cycles.md
           - regulation/regulatory-cycle-phases.md
           - regulation/legal-fraud-psychology.md
-      - section: "Deregulation"
+      - section: "Market Behavior"
         contents:
-          - deregulation/index.md
-          - deregulation/patterns.md
+          - market-behavior/index.md
+          - market-behavior/kindleberger-mania-model.md
+          - market-behavior/legal-fraud-psychology.md
       - section: "Markets"
         contents:
           - markets/index.md
           - markets/patterns.md
-          - markets/kindleberger-mania-model.md
           - markets/debt-crisis-catalysts.md
       - section: "Armed Conflict"
         contents:
