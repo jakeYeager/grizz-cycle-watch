@@ -30,7 +30,7 @@ website:
       - section: "News"
         contents:
           - news/index.md
-          - news/events.md
+          - news/log.md
 format:
   html:
     theme: cosmo
