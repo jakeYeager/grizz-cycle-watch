@@ -10,31 +10,31 @@ website:
     style: docked
     search: true
     contents:
-      - index.qmd
+      - index.md
       - section: "Regulation"
         contents:
-          - regulation/index.qmd
-          - regulation/cycles.qmd
-          - regulation/regulatory-cycle-phases.qmd
-          - regulation/legal-fraud-psychology.qmd
+          - regulation/index.md
+          - regulation/cycles.md
+          - regulation/regulatory-cycle-phases.md
+          - regulation/legal-fraud-psychology.md
       - section: "Deregulation"
         contents:
-          - deregulation/index.qmd
-          - deregulation/patterns.qmd
+          - deregulation/index.md
+          - deregulation/patterns.md
       - section: "Markets"
         contents:
-          - markets/index.qmd
-          - markets/patterns.qmd
-          - markets/kindleberger-mania-model.qmd
-          - markets/debt-crisis-catalysts.qmd
-          - markets/market-conflict-cycles.qmd
+          - markets/index.md
+          - markets/patterns.md
+          - markets/kindleberger-mania-model.md
+          - markets/debt-crisis-catalysts.md
+          - markets/market-conflict-cycles.md
       - section: "News"
         contents:
-          - news/index.qmd
-          - news/events.qmd
-          - news/empty-pipeline.qmd
-          - news/three-body-problem.qmd
-          - news/ordnance-cost-asymmetry.qmd
+          - news/index.md
+          - news/events.md
+          - news/empty-pipeline.md
+          - news/three-body-problem.md
+          - news/ordnance-cost-asymmetry.md
 format:
   html:
     theme: cosmo

@@ -42,13 +42,13 @@ addendum-to: "Title (YYYY-MM-DD)"  # for companion/addendum documents
 
 ## 3. File Naming and Extension
 
-- **Extension:** always `.qmd` (not `.md`) — enables Quarto executable code blocks
+- **Extension:** always `.md` — pure prose content; use `.md` only if a specific page needs executable code cells
 - **Slug:** kebab-case, derived from the document title; omit version suffixes
 - **Examples:**
-  - `regulatory_cycle_phases_cited_v1.md` → `regulatory-cycle-phases.qmd`
-  - `debt_crisis_analysis_v2.md` → `debt-crisis-catalysts.qmd`
-  - `Kindleberger_mania.md` → `kindleberger-mania-model.qmd`
-  - `empty_pipeline_report.md` → `empty-pipeline.qmd`
+  - `regulatory_cycle_phases_cited_v1.md` → `regulatory-cycle-phases.md`
+  - `debt_crisis_analysis_v2.md` → `debt-crisis-catalysts.md`
+  - `Kindleberger_mania.md` → `kindleberger-mania-model.md`
+  - `empty_pipeline_report.md` → `empty-pipeline.md`
 
 Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 
@@ -65,7 +65,7 @@ Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 | Ongoing world events, live situation reports, current-date analyses | `news/` |
 | Deregulation rollbacks, exemptions, regulatory capture mechanisms | `deregulation/` |
 
-**Routing ambiguity:** if a document spans two areas, prefer the directory whose *index.qmd* description is the better fit. Note the secondary category in frontmatter `categories`.
+**Routing ambiguity:** if a document spans two areas, prefer the directory whose *index.md* description is the better fit. Note the secondary category in frontmatter `categories`.
 
 **`news/` overloading:** the `news/` directory is expected to grow fastest. When the project adds sub-directories or renames topic areas, update this routing table accordingly before triaging new batches.
 
@@ -135,9 +135,9 @@ The project uses `project: type: website` with a docked sidebar. After moving fi
 ```yaml
 - section: "Regulation"
   contents:
-    - regulation/index.qmd
-    - regulation/cycles.qmd                    # existing placeholder — keep
-    - regulation/regulatory-cycle-phases.qmd   # new
+    - regulation/index.md
+    - regulation/cycles.md                    # existing placeholder — keep
+    - regulation/regulatory-cycle-phases.md   # new
 ```
 
 - Preserve existing placeholder stubs — they are intentional
@@ -156,12 +156,12 @@ Issues found:
 - Version footer in body: `Version 1.0 | Generated on August 17, 2025 | …`
 - No title casing issues; H1 present
 
-**Output:** `regulation/regulatory-cycle-phases.qmd`
+**Output:** `regulation/regulatory-cycle-phases.md`
 
 Changes made:
 1. Added frontmatter (`title`, `date: "2025-08-17"`, `version: "1.0"`, `description`, `categories: [regulation, theory]`)
 2. Removed version footer
-3. Moved file, renamed to kebab-case `.qmd`
+3. Moved file, renamed to kebab-case `.md`
 4. Registered in `_quarto.yml` under the `"Regulation"` sidebar section
 
 ---
@@ -170,7 +170,7 @@ Changes made:
 
 1. Read all inbox files before touching any of them
 2. For each file: add frontmatter → fix formatting → fix encoding → convert references to APA
-3. Move and rename all files to target directories (kebab-case `.qmd`)
+3. Move and rename all files to target directories (kebab-case `.md`)
 4. Update `_quarto.yml`
 5. Commit with a message summarising the batch (see commit format below)
 
@@ -189,6 +189,6 @@ Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 ## 10. Open Questions for Future Revision
 
 - **`news/` taxonomy:** `news/` will overload as the project scales. Possible sub-directories or renamed parts (e.g., `events/`, `reports/`, `analysis/`) should be decided before the next large batch and this routing table updated.
-- **File naming for dated reports:** weekly/periodic reports may warrant a `YYYY-MM-DD-slug.qmd` convention rather than pure slug naming.
+- **File naming for dated reports:** weekly/periodic reports may warrant a `YYYY-MM-DD-slug.md` convention rather than pure slug naming.
 - **Per-page citations:** when inline APA reference lists are converted to BibTeX, add `bibliography: references.bib` to each page's frontmatter rather than relying on a global `bibliography:` key. A companion rule for citation key conventions will be needed at that point.
 - **Quarto listings:** once `news/` or `reports/` grows past ~10 entries, the index should switch to a `listing:` block rather than manual `_quarto.yml` chapter registration.
