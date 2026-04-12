@@ -14,33 +14,7 @@ Governs how signals are captured, evaluated, and escalated into analysis reports
 
 ---
 
-## 2. Log Entry Format
-
-Add new entries at the top of `news/signal-log.md`, under a `## YYYY-MM-DD` date heading. Create the heading if it doesn't exist.
-
-```markdown
-### [Short title]
-
-**Indicators:** [watch list indicator(s) moved — exact language from news/watch-list.md]
-
-**Sections:** [Regulatory Cycle / Market Behavior / Global Debt / Armed Conflict]
-
-**Scenario impact:** [probability shift, phase implication, or "confirms existing"]
-
-**Source:** [outlet or source, date]
-
-**Note:** [1–3 sentences — what this changes in the framework, not just what happened]
-```
-
-**Rules:**
-- Do not edit past entries. Corrections go in a new entry referencing the original.
-- Keep the Note field analytical, not descriptive — explain what the signal changes, not what it is.
-- If a signal touches multiple sections, list all of them. Cross-cutting events are the most important to capture.
-- If no watch list indicator is clearly moved, the event does not warrant a log entry.
-
----
-
-## 3. Agents
+## 2. Agents
 
 The three agents that handle the monitoring pipeline are defined in `.claude/agents/`. Each eager-loads `.claude/rules/escalation-tree.md` before acting.
 
@@ -54,7 +28,7 @@ Escalation thresholds and routing logic live in `.claude/rules/escalation-tree.m
 
 ---
 
-## 4. Invocation
+## 3. Invocation
 
 ### Running the Monitor
 
@@ -88,7 +62,7 @@ Agent context is file-based and version-controlled. Changes take effect on the n
 
 ---
 
-## 5. Open Questions
+## 4. Open Questions
 
 - **Automated vs. manual cadence:** Signal Monitor can run on a schedule or be invoked manually. Daily automated search is the target state; until then, invoke when user flags a relevant event.
 - **Source quality standards:** Currently no formal source tier list. Prioritize primary sources (government statements, central bank releases, shipping AIS data, official exchange data) over commentary.

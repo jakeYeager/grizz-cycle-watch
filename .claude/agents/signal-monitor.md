@@ -26,7 +26,29 @@ Read these files in order before searching:
 
 ## Output
 
-Append log entries to `news/signal-log.md` under a `## YYYY-MM-DD` date heading (create it if absent). Follow the entry format in `.claude/rules/signal-monitoring.md` exactly — one blank line between each field.
+Append log entries to `news/signal-log.md` under a `## YYYY-MM-DD` date heading (create it if absent).
+
+Entry format — one blank line between each field:
+
+```markdown
+### [Short title]
+
+**Indicators:** [watch list indicator(s) moved — exact language from news/watch-list.md]
+
+**Sections:** [Regulatory Cycle / Market Behavior / Global Debt / Armed Conflict]
+
+**Scenario impact:** [probability shift, phase implication, or "confirms existing"]
+
+**Source:** [outlet or source, date]
+
+**Note:** [1–3 sentences — what this changes in the framework, not just what happened]
+```
+
+**Rules:**
+- Do not edit past entries — corrections go in a new entry referencing the original
+- Keep the Note field analytical, not descriptive — explain what the signal changes, not what it is
+- If a signal touches multiple sections, list all of them — cross-cutting events are highest priority
+- If no watch list indicator is clearly moved, the event does not warrant a log entry
 
 Never write analysis files directly. If a Level 4 trigger is hit, flag it in the summary and recommend the Synthesis Reviewer be run.
 
