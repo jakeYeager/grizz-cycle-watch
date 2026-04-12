@@ -9,15 +9,15 @@ status: "living-document"
 
 ## Current Cycle Position
 
-The project frameworks converge on a consistent reading as of April 2026:
+*Last updated: 2026-04-11 — convergence trigger hit; see [April 2026 Convergence Report](april-2026-convergence.md)*
 
 | Framework | Phase | Position |
 |---|---|---|
-| Regulatory Cycle (20–30yr) | Phase 4 → 5 | Active deregulation since 2017; crisis window 2025–2029 |
-| Kindleberger Mania Model | Stage 3 → 4 | Peak mania; early distress signals present |
+| Regulatory Cycle (20–30yr) | Phase 4 / 5 boundary | Judicial resistance to deregulation now material; transition zone entered |
+| Kindleberger Mania Model | **Stage 4 onset confirmed** | Fire-sale signal triggered April 2–10; forced deleveraging documented |
 | Legal Fraud Lifecycle | Phase 3 → 4 | Identity integration complete; rational override failing |
-| Minsky Debt Cycle | Phase 2 → 3 | Peak leverage; small shocks can trigger cascading deleveraging |
-| Armed Conflict (Hormuz) | Active — Scenario B | Prolonged closure / bilateral patchwork (~45% probability) |
+| Minsky Debt Cycle | **Phase 3 onset** | Blue Owl redemption gates active at scale; forced deleveraging beginning |
+| Armed Conflict (Hormuz) | Scenario B / C boundary | Dual chokepoint activation; Pakistan talks stalled; Scenario C floor rising |
 
 ---
 
@@ -38,7 +38,7 @@ The project frameworks converge on a consistent reading as of April 2026:
 
 ## Market Behavior
 
-**Position:** Kindleberger Stage 3 → 4 transition. P/E at 29.9x vs. 16.8x historical average; top 7 stocks are 30%+ of S&P 500; AI narrative sustaining "this time is different" framing. Distress signals beginning to appear at the margin.
+**Position:** Kindleberger **Stage 4 onset confirmed** (2026-04-11). Gold and Brent fell simultaneously April 2–10 — the explicit fire-sale signal indicating margin calls propagating across asset classes. P/E at 29.9x; AI narrative still holding but institutional liquidation of liquid positions now documented.
 
 **Late-stage signals to watch:**
 
@@ -54,7 +54,7 @@ The project frameworks converge on a consistent reading as of April 2026:
 
 ## Global Debt
 
-**Position:** Minsky Phase 2 (Peak Leverage). G7 debt >100% GDP simultaneously — unprecedented in peacetime. Derivatives notional >$700T. Credit-to-GDP gaps exceeding BIS warning thresholds. A sustained oil shock above $95/bbl compounds debt service costs directly.
+**Position:** Minsky **Phase 3 onset** (2026-04-11). Blue Owl OCIC and OTIC funds received 21.9% and 40.7% redemption requests in Q1 2026; both gated at 5%. Goldman Sachs private credit fund narrowly avoided comparable gate. Forced deleveraging is now visible at scale in private credit — the market holding the highest concentration of corporate zombie debt. G7 sovereign debt >100% GDP; oil shock above $95/bbl compounding debt service costs.
 
 **Late-stage signals to watch:**
 
@@ -71,7 +71,7 @@ The project frameworks converge on a consistent reading as of April 2026:
 
 ## Armed Conflict
 
-**Position:** Active. Scenario B (Prolonged Closure / Bilateral Patchwork) most probable at ~45%. Last pre-blockade tanker arrived Rotterdam April 9 — physical buffer period over. Food price inflation for H2 2026 is now structurally locked in regardless of resolution timeline.
+**Position:** Active — Scenario B/C boundary (2026-04-11). Pakistan talks produced no agreement after round one; indefinite extension pattern emerging. Iran directing Houthis to prepare renewed Bab al-Mandab campaign — dual chokepoint scenario now active preparation, not hypothesis. Scenario B remains base case but Scenario C floor has risen materially. Physical buffer period ended April 9; food inflation H2 2026 locked in regardless of resolution.
 
 **Indicator table (from *The Empty Pipeline*):**
 

@@ -30,6 +30,7 @@ website:
       - section: "News"
         contents:
           - news/index.md
+          - news/april-2026-convergence.md
           - news/log.md
 format:
   html:
