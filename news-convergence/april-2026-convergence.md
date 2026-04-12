@@ -108,10 +108,10 @@ This is the structural interaction the project's framework is designed to detect
 ## References
 
 *Project files:*
-- *Debt & Leverage as Crisis Catalysts* (Aug 2025) — Minsky framework, Blue Owl parallel to S&L moral hazard
-- *Kindleberger's Manic Model* (Aug 2025) — Stage 4 definition and fire-sale mechanism
-- *The Empty Pipeline* (Apr 2026) — Hormuz scenario table, gold/oil correlation indicator
-- *The Three-Body Problem* (Apr 2026) — Israel-Iran-US geometry; Vance nuclear statement
-- *The Cost-Asymmetry Problem* (Apr 2026) — Houthi chokepoint denial strategy and precedent
-- *Regulatory Cycle Phases* (Aug 2025) — Phase 4/5 transition mechanics
-- Signal Log entries, April 11, 2026
+- [Debt & Leverage as Crisis Catalysts](../global-debt/debt-crisis-catalysts.md) (Aug 2025) — Minsky framework, Blue Owl parallel to S&L moral hazard
+- [Kindleberger Mania Model](../market-behavior/kindleberger-mania-model.md) (Aug 2025) — Stage 4 definition and fire-sale mechanism
+- [The Empty Pipeline](../armed-conflict/empty-pipeline.md) (Apr 2026) — Hormuz scenario table, gold/oil correlation indicator
+- [The Three-Body Problem](../armed-conflict/three-body-problem.md) (Apr 2026) — Israel-Iran-US geometry; Vance nuclear statement
+- [Ordnance Cost Asymmetry](../armed-conflict/ordnance-cost-asymmetry.md) (Apr 2026) — Houthi chokepoint denial strategy and precedent
+- [Regulatory Cycle Phases](../theory/regulatory-cycle-phases.md) (Aug 2025) — Phase 4/5 transition mechanics
+- [Signal Log](../news/signal-log.md), April 11, 2026
