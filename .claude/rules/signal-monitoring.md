@@ -65,5 +65,5 @@ Agent context is file-based and version-controlled. Changes take effect on the n
 ## 4. Open Questions
 
 - **Automated vs. manual cadence:** Signal Monitor can run on a schedule or be invoked manually. Daily automated search is the target state; until then, invoke when user flags a relevant event.
-- **Source quality standards:** Currently no formal source tier list. Prioritize primary sources (government statements, central bank releases, shipping AIS data, official exchange data) over commentary.
+- **Source quality standards:** Defined in `.claude/rules/standards/source-quality.md`.
 - **Log archiving:** Once `news/signal-log.md` exceeds ~100 entries, consider splitting into dated archive files (e.g., `news/signal-log-2026-q2.md`) and starting a fresh current log.
