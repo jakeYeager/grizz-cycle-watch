@@ -20,10 +20,15 @@ Add new entries at the top of `news/log.md`, under a `## YYYY-MM-DD` date headin
 
 ```markdown
 ### [Short title]
+
 **Indicators:** [watch list indicator(s) moved — exact language from news/index.md]
+
 **Sections:** [Regulatory Cycle / Market Behavior / Global Debt / Armed Conflict]
+
 **Scenario impact:** [probability shift, phase implication, or "confirms existing"]
+
 **Source:** [outlet or source, date]
+
 **Note:** [1–3 sentences — what this changes in the framework, not just what happened]
 ```
 
