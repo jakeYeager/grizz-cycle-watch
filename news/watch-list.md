@@ -23,6 +23,8 @@ status: "living-document"
 
 ## Regulatory Cycle
 
+*Source: [Regulatory Cycle Phases](../theory/regulatory-cycle-phases.md)*
+
 **Position:** Late Phase 4 (Active Deregulation). CFPB dismantled, Dodd-Frank eroded, 401(k) private equity and crypto access opened. The financial system's shock absorbers are at their thinnest since the 2008 pre-crisis period. Phase 5 (Crisis and System Breakdown) is the next transition.
 
 **Late-stage signals to watch:**
@@ -37,6 +39,8 @@ status: "living-document"
 ---
 
 ## Market Behavior
+
+*Sources: [Kindleberger Mania Model](../market-behavior/kindleberger-mania-model.md) · [Legal Fraud Psychology](../market-behavior/legal-fraud-psychology.md)*
 
 **Position:** Kindleberger Stage 4 signals present (2026-04-11). Gold and Brent fell simultaneously April 2–10, matching the fire-sale pattern, but signal quality is degraded — Trump administration tariff and trade messaging has generated aggressive position unwinding that mimics the correlation signature without necessarily indicating structural propagation. The Blue Owl redemption gates are the cleaner Stage 4 indicator: Q1 structural redemption pressure independent of the news cycle. Confirm Stage 4 with sustained correlated moves during quiet messaging periods, or second-order credit effects (spread widening, prime broker stress).
 
@@ -54,6 +58,8 @@ status: "living-document"
 
 ## Global Debt
 
+*Source: [Debt & Leverage as Crisis Catalysts](../global-debt/debt-crisis-catalysts.md)*
+
 **Position:** Minsky **Phase 3 onset** (2026-04-11). Blue Owl OCIC and OTIC funds received 21.9% and 40.7% redemption requests in Q1 2026; both gated at 5%. Goldman Sachs private credit fund narrowly avoided comparable gate. Forced deleveraging is now visible at scale in private credit — the market holding the highest concentration of corporate zombie debt. G7 sovereign debt >100% GDP; oil shock above $95/bbl compounding debt service costs.
 
 **Late-stage signals to watch:**
@@ -70,6 +76,8 @@ status: "living-document"
 ---
 
 ## Armed Conflict
+
+*Sources: [Market Cycles & Armed Conflict](../armed-conflict/market-conflict-cycles.md) · [The Three Blockade Problem](../armed-conflict/three-blockade-problem.md) · [The Three Body Problem](../armed-conflict/three-body-problem.md) · [The Empty Pipeline](../armed-conflict/empty-pipeline.md) · [Ordnance Cost Asymmetry](../armed-conflict/ordnance-cost-asymmetry.md)*
 
 **Position:** Active — Scenarios B/C/D (2026-04-12). Islamabad talks collapsed after 21 hours; Trump declared an immediate US naval blockade of the Strait of Hormuz. The strait is now subject to three simultaneous closure mechanisms: US Navy interdiction, Iranian ordnance, and an uncharted minefield that Iran has reportedly lost track of. Diplomatic off-ramp closed. Physical clearance is a prerequisite for reopening regardless of any future agreement. Scenario A probability collapsed to ~10%; Scenario D (great-power incident via US interdiction of Chinese/Indian vessels) now modeled at ~10%. See [The Three Blockade Problem](../armed-conflict/three-blockade-problem.md).
 
