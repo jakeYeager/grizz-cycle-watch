@@ -25,16 +25,18 @@ Updated by `scripts/fetch_prices.py`. Append-only — new rows added on each run
 export FRED_API_KEY=your_key_here
 
 # Initial full history pull (from 2020-01-01):
-python3 scripts/fetch_prices.py --full
+uv run scripts/fetch_prices.py --full
 
 # Daily update (last 30 days, skips existing dates):
-python3 scripts/fetch_prices.py
+uv run scripts/fetch_prices.py
 ```
+
+`uv` handles the `requests` dependency automatically — no install step needed.
 
 ## Adding to cron
 
 ```
-0 7 * * 1-5 cd /path/to/grizz-cycle-watch && FRED_API_KEY=your_key python3 scripts/fetch_prices.py >> logs/prices.log 2>&1
+0 7 * * 1-5 cd /path/to/grizz-cycle-watch && FRED_API_KEY=your_key uv run scripts/fetch_prices.py >> logs/prices.log 2>&1
 ```
 
 Runs weekdays at 7am, before the monitor pass at 8am.

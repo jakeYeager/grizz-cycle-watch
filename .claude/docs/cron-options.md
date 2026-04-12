@@ -17,7 +17,7 @@ crontab -e
 Add the two-step daily sequence — price fetch first, then monitor pass:
 ```
 # Fetch FRED price data (Brent, gold, Treasury yield, VIX, HY spread)
-0 7 * * 1-5 cd /Users/jake/Projects/Code/prod/grizz-cycle-watch && FRED_API_KEY=your_key python3 scripts/fetch_prices.py >> logs/prices.log 2>&1
+0 7 * * 1-5 cd /Users/jake/Projects/Code/prod/grizz-cycle-watch && FRED_API_KEY=your_key uv run scripts/fetch_prices.py >> logs/prices.log 2>&1
 
 # Run signal monitor (reads prices.csv before web searches)
 0 8 * * 1-5 cd /Users/jake/Projects/Code/prod/grizz-cycle-watch && ./scripts/monitor.sh >> logs/monitor.log 2>&1
@@ -29,7 +29,7 @@ Price fetch runs at 7am Mon–Fri; monitor runs at 8am. The monitor reads `data/
 ```bash
 # Seed full price history before first automated run
 export FRED_API_KEY=your_key_here
-python3 scripts/fetch_prices.py --full
+uv run scripts/fetch_prices.py --full
 ```
 
 **Tradeoffs:**

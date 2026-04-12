@@ -1,4 +1,8 @@
-#!/usr/bin/env python3
+#!/usr/bin/env -S uv run --script
+# /// script
+# requires-python = ">=3.11"
+# dependencies = ["requests"]
+# ///
 """
 fetch_prices.py — Pull key price series from FRED into data/prices.csv.
 
@@ -15,15 +19,15 @@ making it useful for distinguishing structural deleveraging from
 policy-messaging whiplash.
 
 Usage:
-  python3 scripts/fetch_prices.py              # last 30 days (default)
-  python3 scripts/fetch_prices.py --days 90
-  python3 scripts/fetch_prices.py --full       # from 2020-01-01
+  uv run scripts/fetch_prices.py              # last 30 days (default)
+  uv run scripts/fetch_prices.py --days 90
+  uv run scripts/fetch_prices.py --full       # from 2020-01-01
 
 Requires:
   FRED_API_KEY environment variable
   Register free at: https://fred.stlouisfed.org/docs/api/api_key.html
 
-  pip install requests
+  uv handles the requests dependency automatically via inline metadata.
 """
 
 import argparse
@@ -33,11 +37,7 @@ import sys
 from datetime import date, timedelta
 from pathlib import Path
 
-try:
-    import requests
-except ImportError:
-    print("Error: requests not installed. Run: pip install requests", file=sys.stderr)
-    sys.exit(1)
+import requests
 
 
 # ---------------------------------------------------------------------------
