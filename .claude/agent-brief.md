@@ -23,6 +23,22 @@ As of 2026-04-11:
 
 ---
 
+## Price Reference Data
+
+`data/prices.csv` contains daily observations for five key series updated by `scripts/fetch_prices.py`. Read the last 14 rows for current levels before running web searches — use these as ground truth rather than searching for prices separately.
+
+| Column | What it measures | Watch list threshold |
+|---|---|---|
+| `brent_usd` | Brent crude spot (USD/bbl) | WARN >$95 / ALERT >$130 |
+| `gold_usd` | Gold price (USD/troy oz) | Use in correlation with brent |
+| `treasury_10yr` | 10-Year Treasury yield (%) | WARN >4.75% / ALERT >5.0% |
+| `vix` | CBOE VIX | WARN >25 / ALERT >40 |
+| `hy_spread` | ICE BofA US HY credit spread (%) | WARN >5.0% / ALERT >7.0% |
+
+**`hy_spread` is the signal quality test for gold/oil correlation moves:** if both gold and oil fall but HY spread does not widen, the move is likely policy-messaging whiplash rather than structural deleveraging. Rising HY spread alongside the correlation confirms Stage 4 / Minsky Phase 3.
+
+---
+
 ## Required Context Files
 
 Read these before acting. They contain the indicators, current positions, log format, and escalation rules.

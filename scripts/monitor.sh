@@ -31,6 +31,7 @@ echo ""
 
 claude -p "Read .claude/agent-brief.md for project orientation and search query patterns.
 Read news/log.md to see what has already been logged — do not duplicate entries from the last 48 hours.
+If data/prices.csv exists, read the last 14 rows for current price levels and threshold flags before searching — use these as ground truth rather than searching for prices separately.
 
 Run a monitoring pass covering: $SECTION
 Lookback window: $SINCE
