@@ -1,17 +1,22 @@
 #!/usr/bin/env -S uv run --script
 # /// script
 # requires-python = ">=3.11"
-# dependencies = ["requests"]
+# dependencies = ["requests", "yfinance"]
 # ///
 """
-fetch_prices.py — Pull key price series from FRED into data/prices.csv.
+fetch_prices.py — Pull key price series from FRED + Yahoo Finance into data/prices.csv.
 
 Series:
-  brent_usd       Brent crude spot price (USD/bbl)         DCOILBRENTEU
-  gold_usd        Gold price, London AM fix (USD/troy oz)  GOLDAMGBD228NLBM
-  treasury_10yr   10-Year Treasury yield (%)               DGS10
-  vix             CBOE VIX volatility index                VIXCLS
-  hy_spread       ICE BofA US HY OA spread (%)             BAMLH0A0HYM2
+  brent_usd       Brent crude spot price (USD/bbl)         FRED: DCOILBRENTEU
+  gold_usd        Gold futures front month (USD/troy oz)   Yahoo Finance: GC=F
+  treasury_10yr   10-Year Treasury yield (%)               FRED: DGS10
+  vix             CBOE VIX volatility index                FRED: VIXCLS
+  hy_spread       ICE BofA US HY OA spread (%)             FRED: BAMLH0A0HYM2
+
+Note on gold_usd: sourced from GC=F (COMEX gold futures front month) via
+Yahoo Finance because LBMA fixing series are not available via the FRED API
+(LBMA licensing restricts redistribution). GC=F is a futures price, not a
+spot fix, but tracks spot closely for daily monitoring purposes.
 
 The HY spread (hy_spread) is the cleanest Minsky Phase 3 indicator —
 it does not react to tariff tweets the way equity and commodity prices do,
@@ -27,7 +32,7 @@ Requires:
   FRED_API_KEY environment variable
   Register free at: https://fred.stlouisfed.org/docs/api/api_key.html
 
-  uv handles the requests dependency automatically via inline metadata.
+  uv handles all dependencies automatically via inline metadata.
 """
 
 import argparse
@@ -38,6 +43,7 @@ from datetime import date, timedelta
 from pathlib import Path
 
 import requests
+import yfinance as yf
 
 
 # ---------------------------------------------------------------------------
@@ -46,13 +52,12 @@ import requests
 
 SERIES = {
     "brent_usd":     ("DCOILBRENTEU",  "Brent crude spot (USD/bbl)"),
-    # gold_usd: LBMA gold fixing series not available via FRED API.
-    # Import manually from LBMA CSV download (lbma.org.uk/prices/gold)
-    # and merge into data/prices.csv using scripts/merge_gold.py (TODO).
     "treasury_10yr": ("DGS10",         "10-Year Treasury yield (%)"),
     "vix":           ("VIXCLS",        "CBOE VIX"),
     "hy_spread":     ("BAMLH0A0HYM2",  "ICE BofA US HY spread (%)"),
 }
+
+GOLD_LABEL = "Gold futures GC=F (USD/troy oz)"
 
 # Threshold levels printed as flags on latest values.
 # Each entry: (value, direction, label)
@@ -81,7 +86,6 @@ THRESHOLDS = {
 
 FRED_BASE = "https://api.stlouisfed.org/fred/series/observations"
 CSV_PATH  = Path(__file__).parent.parent / "data" / "prices.csv"
-# gold_usd kept in FIELDNAMES so manually-merged rows survive round-trips
 FIELDNAMES = ["date", "brent_usd", "gold_usd", "treasury_10yr", "vix", "hy_spread"]
 
 
@@ -122,11 +126,15 @@ def fetch_series(api_key: str, series_id: str, start: str, end: str) -> dict:
     }
 
 
-def load_existing_dates(path: Path) -> set:
-    if not path.exists():
-        return set()
-    with open(path, newline="") as f:
-        return {row["date"] for row in csv.DictReader(f)}
+def fetch_gold(start: str, end: str) -> dict:
+    """Fetch GC=F (COMEX gold futures front month) daily closes via yfinance."""
+    df = yf.Ticker("GC=F").history(start=start, end=end)
+    if df.empty:
+        return {}
+    return {
+        idx.date().isoformat(): f"{row['Close']:.2f}"
+        for idx, row in df.iterrows()
+    }
 
 
 def threshold_flag(col: str, value: str) -> str:
@@ -170,9 +178,9 @@ def main():
     start_date = date(2020, 1, 1) if args.full else end_date - timedelta(days=args.days)
 
     print(f"▶ fetch_prices.py — {start_date} → {end_date}")
-    print(f"  Series: {', '.join(SERIES)}\n")
+    print(f"  Series: {', '.join(SERIES)}, gold_usd\n")
 
-    # Fetch all series
+    # Fetch FRED series
     all_data: dict[str, dict] = {}
     for col, (sid, label) in SERIES.items():
         print(f"  {sid:<25} {label}...", end=" ", flush=True)
@@ -188,6 +196,16 @@ def main():
                 print(f"HTTP error: {e}")
         except Exception as e:
             print(f"FAILED: {e}")
+
+    # Fetch gold via yfinance
+    print(f"  {'GC=F':<25} {GOLD_LABEL}...", end=" ", flush=True)
+    try:
+        gold_obs = fetch_gold(start_date.isoformat(), end_date.isoformat())
+        for d, v in gold_obs.items():
+            all_data.setdefault(d, {})["gold_usd"] = v
+        print(f"{len(gold_obs)} observations")
+    except Exception as e:
+        print(f"FAILED: {e}")
 
     if not all_data:
         print("\nNo data fetched. Check API key and network connection.")
@@ -226,7 +244,10 @@ def main():
     # most recent date because some series (e.g. Brent) lag others by days.
     if all_data:
         print("\nLatest values:")
-        for col, (sid, label) in SERIES.items():
+        display = {col: (label, sid) for col, (sid, label) in SERIES.items()}
+        display["gold_usd"] = (GOLD_LABEL, "GC=F")
+        for col in FIELDNAMES[1:]:  # preserve column order, skip "date"
+            label, _ = display[col]
             dated = [(d, v[col]) for d, v in all_data.items() if col in v]
             if dated:
                 latest_d, val = max(dated)

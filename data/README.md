@@ -9,10 +9,12 @@ Updated by `scripts/fetch_prices.py`. Append-only — new rows added on each run
 | Column | Series | Source | Watch List Threshold |
 |---|---|---|---|
 | `brent_usd` | Brent crude spot (USD/bbl) | FRED: DCOILBRENTEU | WARN >$95 / ALERT >$130 |
-| `gold_usd` | Gold price, London PM fix (USD/troy oz) | FRED: GOLDPMGBD228NLBM | — (use in correlation with brent) |
+| `gold_usd` | Gold futures front month (USD/troy oz) | Yahoo Finance: GC=F | — (use in correlation with brent) |
 | `treasury_10yr` | 10-Year Treasury yield (%) | FRED: DGS10 | WARN >4.75% / ALERT >5.0% |
 | `vix` | CBOE VIX volatility index | FRED: VIXCLS | WARN >25 / ALERT >40 |
 | `hy_spread` | ICE BofA US HY OA spread (%) | FRED: BAMLH0A0HYM2 | WARN >5.0% / ALERT >7.0% |
+
+**Note on `gold_usd`:** Sourced from GC=F (COMEX gold futures front month) via Yahoo Finance. LBMA fixing series are not available through the FRED API due to licensing restrictions. GC=F is a futures price rather than a spot fix but tracks spot closely for daily monitoring purposes.
 
 **Note on `hy_spread`:** The high-yield credit spread is the cleanest signal for distinguishing structural deleveraging from policy-messaging whiplash. Credit spreads do not react to tariff announcements the way equity and commodity prices do. Rising HY spread alongside gold/oil correlation strengthens a Stage 4 Kindleberger / Minsky Phase 3 call; divergence (gold/oil moving without spread widening) suggests noise.
 
