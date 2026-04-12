@@ -64,4 +64,34 @@ Claude Code's built-in scheduling system runs agents on a cron schedule in the c
 
 ---
 
-*Noted: 2026-04-11. Revisit when ready to push repo to remote.*
+## Version control in automated runs
+
+The scripts currently make no git commits — agent edits land as uncommitted working tree changes and require manual `git add / commit`.
+
+### Local cron
+
+Add `git add` and `git commit` at the end of each script, scoped to the files that agent is expected to touch. Changes become local commits that accumulate until you push. Low risk — you see everything before it leaves the machine.
+
+### Remote schedule skill
+
+The agent must commit **and push** or the changes evaporate when the run ends. The question is where it pushes:
+
+| Pattern | How it works | Best for |
+|---|---|---|
+| Push to `main` directly | Lowest friction; changes are immediately canonical | Housekeeping (structural fixes only) |
+| Push to `agent/` branch | Changes queue for periodic human merge | Signal log entries |
+| Commit to branch + open PR | Full review gate before merging | Analysis reports, convergence reports |
+
+### Suggested strategy by agent
+
+| Agent | Commit strategy | Rationale |
+|---|---|---|
+| Housekeeping | Push to `main` | Structural fixes (frontmatter, link repairs) are low-risk and don't need review |
+| Signal Monitor | Push to `agent/signal-log` branch | Log entries are research artifacts; weekly merge gives a light review pass |
+| Report Writer | Open PR to `main` | Analysis files are substantive — warrant human sign-off before becoming canonical |
+
+*Not yet wired up. Revisit when ready to push repo to remote and configure schedule skill.*
+
+---
+
+*Noted: 2026-04-11. Updated: 2026-04-12.*
