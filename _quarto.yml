@@ -1,37 +1,38 @@
 project:
-  type: book
-  output-dir: _book
+  type: website
+  output-dir: _site
 
-book:
+website:
   title: "Grizz Cycle Watch"
-  subtitle: "Regulation / Deregulation Cycles in News Events and Market Patterns"
-  date: today
-  chapters:
-    - index.qmd
-    - part: regulation/index.qmd
-      chapters:
-        - regulation/cycles.qmd
-        - regulation/regulatory-cycle-phases.qmd
-        - regulation/legal-fraud-psychology.qmd
-    - part: deregulation/index.qmd
-      chapters:
-        - deregulation/patterns.qmd
-    - part: markets/index.qmd
-      chapters:
-        - markets/patterns.qmd
-        - markets/kindleberger-mania-model.qmd
-        - markets/debt-crisis-catalysts.qmd
-        - markets/market-conflict-cycles.qmd
-    - part: news/index.qmd
-      chapters:
-        - news/events.qmd
-        - news/empty-pipeline.qmd
-        - news/three-body-problem.qmd
-        - news/ordnance-cost-asymmetry.qmd
-    - references.qmd
-
-bibliography: references.bib
-
+  description: "Regulation / Deregulation Cycles in News Events and Market Patterns"
+  search: true
+  sidebar:
+    style: docked
+    search: true
+    contents:
+      - index.md
+      - section: "Theory"
+        contents:
+          - theory/regulatory-cycle-phases.md
+      - section: "Market Behavior"
+        contents:
+          - market-behavior/kindleberger-mania-model.md
+          - market-behavior/legal-fraud-psychology.md
+      - section: "Global Debt"
+        contents:
+          - global-debt/debt-crisis-catalysts.md
+      - section: "Armed Conflict"
+        contents:
+          - armed-conflict/market-conflict-cycles.md
+          - armed-conflict/empty-pipeline.md
+          - armed-conflict/three-body-problem.md
+          - armed-conflict/ordnance-cost-asymmetry.md
+          - armed-conflict/three-blockade-problem.md
+      - section: "News"
+        contents:
+          - news/index.md
+          - news/april-2026-convergence.md
+          - news/log.md
 format:
   html:
     theme: cosmo

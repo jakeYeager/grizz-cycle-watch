@@ -1,8 +1,8 @@
 ---
-title: Preface
+title: Overview
 ---
 
-This book centralizes research on regulation and deregulation cycles — how shifts in regulatory policy propagate through news events and leave patterns in market behavior.
+This site centralizes research on regulation and deregulation cycles — how shifts in regulatory policy propagate through news events and leave patterns in market behavior.
 
 ## Scope
 
@@ -13,9 +13,9 @@ The project is organized into four topic areas:
 - **Markets** — price action, volatility, and positioning around regulatory events
 - **News** — media cycles, narrative formation, and event tracking
 
-## How to use this book
+## Navigation
 
-Each part opens with a topic overview followed by focused chapters. Cross-references link related material across topics. Citations are collected in the [References] section.
+Use the sidebar to browse by topic. Each section opens with an overview page followed by focused articles. Cross-references link related material across topics. Citations appear inline within each article.
 
 ## Contributing
 

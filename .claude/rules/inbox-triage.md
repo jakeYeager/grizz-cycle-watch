@@ -42,13 +42,13 @@ addendum-to: "Title (YYYY-MM-DD)"  # for companion/addendum documents
 
 ## 3. File Naming and Extension
 
-- **Extension:** always `.qmd` (not `.md`) — enables Quarto executable code blocks
+- **Extension:** always `.md` — pure prose content; use `.md` only if a specific page needs executable code cells
 - **Slug:** kebab-case, derived from the document title; omit version suffixes
 - **Examples:**
-  - `regulatory_cycle_phases_cited_v1.md` → `regulatory-cycle-phases.qmd`
-  - `debt_crisis_analysis_v2.md` → `debt-crisis-catalysts.qmd`
-  - `Kindleberger_mania.md` → `kindleberger-mania-model.qmd`
-  - `empty_pipeline_report.md` → `empty-pipeline.qmd`
+  - `regulatory_cycle_phases_cited_v1.md` → `regulatory-cycle-phases.md`
+  - `debt_crisis_analysis_v2.md` → `debt-crisis-catalysts.md`
+  - `Kindleberger_mania.md` → `kindleberger-mania-model.md`
+  - `empty_pipeline_report.md` → `empty-pipeline.md`
 
 Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 
@@ -58,14 +58,15 @@ Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 
 | Content type | Target directory |
 |---|---|
-| Regulatory framework, rule-making cycles, post-crisis reform | `regulation/` |
-| Behavioral finance applied to regulatory capture / fraud cycles | `regulation/` |
-| Financial theory, crisis models, leverage/debt analysis | `markets/` |
-| Market-conflict nexus, geopolitical market impact | `markets/` |
+| Regulatory framework, rule-making cycles, post-crisis reform | `theory/` |
+| Mania/bubble psychology, fraud cycles, behavioral finance | `market-behavior/` |
+| Financial theory, crisis models, leverage/debt analysis | `market-behavior/` |
+| Debt cycles, leverage crises, sovereign and corporate debt dynamics | `global-debt/` |
+| Market-conflict nexus, geopolitical market impact | `armed-conflict/` |
+| Armed conflict situation reports, ordnance/defense economics, active conflict analysis | `armed-conflict/` |
 | Ongoing world events, live situation reports, current-date analyses | `news/` |
-| Deregulation rollbacks, exemptions, regulatory capture mechanisms | `deregulation/` |
 
-**Routing ambiguity:** if a document spans two areas, prefer the directory whose *index.qmd* description is the better fit. Note the secondary category in frontmatter `categories`.
+**Routing ambiguity:** if a document spans two areas, prefer the directory whose *index.md* description is the better fit. Note the secondary category in frontmatter `categories`.
 
 **`news/` overloading:** the `news/` directory is expected to grow fastest. When the project adds sub-directories or renames topic areas, update this routing table accordingly before triaging new batches.
 
@@ -83,7 +84,7 @@ Version numbers belong in frontmatter (`version: "2.0"`), not in filenames.
 - In-text: `(Author, Year)` or `Author (Year)` narrative form
 - Reference list entries: `**Author, A. B.** (Year). Title. *Journal*, *vol*(issue), pages.`
 - Do **not** use MLA, Chicago, or numbered footnote styles
-- The `references.bib` file is the eventual home for all citations; migration is a separate task
+- Reference lists stay inline within each article; `references.bib` is available for future BibTeX migration on a per-page basis
 
 ### Version footers
 Remove lines of the form:
@@ -130,19 +131,18 @@ PDF-to-Markdown and Word-to-Markdown conversions often introduce artifacts. Befo
 
 ## 7. Updating `_quarto.yml`
 
-After moving files, register each new chapter under its part in `_quarto.yml`:
+The project uses `project: type: website` with a docked sidebar. After moving files, register each new page under its section in the `website.sidebar.contents` list:
 
 ```yaml
-- part: regulation/index.qmd
-  chapters:
-    - regulation/cycles.qmd          # existing placeholder — keep
-    - regulation/regulatory-cycle-phases.qmd   # new
+- section: "Theory"
+  contents:
+    - theory/regulatory-cycle-phases.md       # existing
+    - theory/new-article.md                   # new
 ```
 
-- Preserve existing placeholder stubs — they are intentional
-- Add new chapters **after** existing entries within each part
+- Add new entries **after** existing entries within each section
 - Do not re-order existing entries
-- The `deregulation/` part should remain in position between `regulation/` and `markets/`
+- Current section order: Theory → Market Behavior → Global Debt → Armed Conflict → News
 
 ---
 
@@ -155,13 +155,13 @@ Issues found:
 - Version footer in body: `Version 1.0 | Generated on August 17, 2025 | …`
 - No title casing issues; H1 present
 
-**Output:** `regulation/regulatory-cycle-phases.qmd`
+**Output:** `theory/regulatory-cycle-phases.md`
 
 Changes made:
 1. Added frontmatter (`title`, `date: "2025-08-17"`, `version: "1.0"`, `description`, `categories: [regulation, theory]`)
 2. Removed version footer
-3. Moved file, renamed to kebab-case `.qmd`
-4. Registered in `_quarto.yml` under `regulation/`
+3. Moved file, renamed to kebab-case `.md`
+4. Registered in `_quarto.yml` under the `"Theory"` sidebar section
 
 ---
 
@@ -169,7 +169,7 @@ Changes made:
 
 1. Read all inbox files before touching any of them
 2. For each file: add frontmatter → fix formatting → fix encoding → convert references to APA
-3. Move and rename all files to target directories (kebab-case `.qmd`)
+3. Move and rename all files to target directories (kebab-case `.md`)
 4. Update `_quarto.yml`
 5. Commit with a message summarising the batch (see commit format below)
 
@@ -188,6 +188,6 @@ Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
 ## 10. Open Questions for Future Revision
 
 - **`news/` taxonomy:** `news/` will overload as the project scales. Possible sub-directories or renamed parts (e.g., `events/`, `reports/`, `analysis/`) should be decided before the next large batch and this routing table updated.
-- **File naming for dated reports:** weekly/periodic reports may warrant a `YYYY-MM-DD-slug.qmd` convention rather than pure slug naming.
-- **`references.bib` migration:** inline APA reference lists should eventually become BibTeX entries with `@key` citations. When that migration runs, the formatting standards here will need a companion rule for citation key conventions.
+- **File naming for dated reports:** weekly/periodic reports may warrant a `YYYY-MM-DD-slug.md` convention rather than pure slug naming.
+- **Per-page citations:** when inline APA reference lists are converted to BibTeX, add `bibliography: references.bib` to each page's frontmatter rather than relying on a global `bibliography:` key. A companion rule for citation key conventions will be needed at that point.
 - **Quarto listings:** once `news/` or `reports/` grows past ~10 entries, the index should switch to a `listing:` block rather than manual `_quarto.yml` chapter registration.
