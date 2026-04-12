@@ -1,4 +1,5 @@
 _book/
+_site/
 _freeze/
 .quarto/
 .DS_Store
