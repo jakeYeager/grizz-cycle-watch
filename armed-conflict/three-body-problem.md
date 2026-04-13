@@ -4,7 +4,6 @@ subtitle: "An Updated Risk Assessment for the Empty Pipeline Framework"
 date: "2026-04-09"
 description: "Revised scenario analysis showing why a three-actor geometry — with Israel's Lebanon objectives structurally incompatible with any Iran deal — materially lowers the probability of clean resolution."
 categories: [news, geopolitics]
-status: "working-document"
 addendum-to: "The Empty Pipeline (2026-04-09)"
 ---
 

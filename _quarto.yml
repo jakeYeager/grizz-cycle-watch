@@ -17,7 +17,8 @@ website:
           - news/signal-log.md
       - section: "Convergence Reports"
         contents:
-          - news-convergence/april-2026-convergence.md
+          - news-convergence/2026-04-11-phase-transition.md
+          - news-convergence/2026-04-13-retail-capital-channel.md
       - section: "Theory"
         contents:
           - theory/regulatory-cycle-phases.md

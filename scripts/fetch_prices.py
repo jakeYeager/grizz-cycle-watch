@@ -190,8 +190,11 @@ def main():
                 all_data.setdefault(d, {})[col] = v
             print(f"{len(obs)} observations")
         except requests.HTTPError as e:
-            if e.response is not None and e.response.status_code == 400:
+            code = e.response.status_code if e.response is not None else None
+            if code == 400:
                 print("series not found on FRED — check ID or source")
+            elif code == 500:
+                print("FRED server error (500) — skipped, try again later")
             else:
                 print(f"HTTP error: {e}")
         except Exception as e:

@@ -8,6 +8,106 @@ categories: [news]
 
 # Signal Log
 
+## 2026-04-13
+
+### IRGC launches drone toward US mine-clearance destroyers during April 11 strait transit
+
+**Indicators:** IRGC drone boats active near US mine-clearance destroyers
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Named escalation indicator now active; kinetic confrontation between US and IRGC naval forces is no longer a contingency but an ongoing operational condition
+
+**Source:** Fortune, Navy Times, CNN, GlobalSecurity.org/PressTV, April 11–13, 2026
+
+**Note:** During the April 11 transit of USS Frank E. Petersen and USS Michael Murphy, the IRGC challenged the destroyers by radio and launched a drone in their direction. Iran subsequently denied any US vessels successfully transited the strait. The IRGC then issued a formal written warning on April 12: any military vessel approaching the Strait "will be regarded as a violation of the ceasefire and will be met with a severe response." The watch list explicitly names IRGC drone activity near mine-clearance destroyers as an escalation signal; it has now occurred, establishing that the US mine-clearance operation and IRGC interdiction posture are already in active friction — before any ship has been cleared or a safe corridor declared. No countermeasures or US fire reported as of April 13.
+
+---
+
+### Netanyahu declares Litani River as Israel's permanent border with Lebanon
+
+**Indicators:** Coalition calls for Litani as permanent border; Lebanon ops intensify
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Named escalation indicator confirmed; Lebanon second front is now a stated coalition objective, not a far-right demand — materially increases the three-body problem complexity logged April 12
+
+**Source:** Times of Israel, Al Jazeera, Axios, Washington Post, April 8–13, 2026
+
+**Note:** Following "Operation Eternal Darkness" (April 8 — 50 jets, ~160 munitions, 357+ killed), Netanyahu publicly stated "the Litani must become our new border with the State of Lebanon." Finance Minister Smotrich and National Security Minister Ben-Gvir have separately called for annexation and full occupation respectively; 18 coalition lawmakers formalized the demand. Netanyahu initially agreed to Lebanon talks under US pressure but did not retract the Litani statement. The watch list names this exact development — coalition doctrine rather than faction pressure — as the escalation signal. The Lebanon front now introduces a fourth active military vector alongside Hormuz mines, the US blockade, and Iranian ordnance, compounding the armed conflict geometry that the Three Blockade Problem analysis modeled as Scenario D territory.
+
+---
+
+### US FY2027 budget requests 1,200% Tomahawk increase and 225% SM-6 increase amid wartime drawdown
+
+**Indicators:** US Navy SM-2/SM-6 inventory disclosures or procurement emergency requests — indicates production constraint stress
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Confirms production constraint stress as a structural military capacity problem; ordnance inventory is the binding constraint on US combat operations in the strait theater
+
+**Source:** Army Recognition, Interesting Engineering, AEI Senior Fellow Todd Harrison, 2026
+
+**Note:** The FY2027 Navy budget submission requests 785 Tomahawks (~$3bn, vs. 55 funded in FY2026) and 540 SM-6 missiles (~$4.33bn, vs. 166 in FY2026). Sustained Houthi operations alone consumed approximately 200 SM-2 and SM-6 interceptors; SM-6 production lead time exceeds 36 months. THAAD and SM-3 inventories are described as "critically low." AEI's Todd Harrison assessed the procurement targets as necessary but noted "not a chance" the industrial base can support the plan at current scale. The ordnance cost asymmetry framework logged this dynamic as the structural limit on extended US naval operations; the FY2027 submission confirms the constraint is no longer theoretical — the military is now formally requesting emergency-scale procurement to replace what was expended.
+
+---
+
+### China calls for restraint on April 13 — partial de-escalation signal; PLA fleet already in theater
+
+**Indicators:** US-China diplomatic signaling (de-escalation: Beijing publicly calls for restraint); PLA Navy deployment orders (escalation signal, prior period)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Rhetoric aligns with de-escalation column of watch list; PLA naval presence in theater since March creates ambiguity — verbal restraint while maintaining military positioning
+
+**Source:** Bloomberg, South China Morning Post, Modern Diplomacy (March 8 PLA fleet dispatch), April 13, 2026
+
+**Note:** Chinese Foreign Ministry spokesperson Guo Jiakun called for "calm and restraint" on April 13, stating the open strait is in the "common interests of the international community" and that China is ready to "play a positive and constructive role." This partially satisfies the watch list's de-escalation signal — Beijing calling for restraint — but falls short of the full signal, which requires backing the mine-clearance framework specifically; China has not done so. Separately, China's 48th fleet (destroyer Tangshan, frigate Daqing, supply ship Taihu) has been in the region since March 8, conducting "Maritime Security Belt 2026" exercises with Russian and Iranian forces; the stated PLA objective is deterring US/Israeli attacks on Iran. The de-escalation rhetoric and the military presence point in opposite directions. The watch list escalation signal for PLA Navy deployment orders is met on the military side; the de-escalation rhetoric is verbal only. This ambiguity is itself the signal: China is preserving maximum optionality as the US blockade takes effect.
+
+---
+
+### Japan 10-year JGB yield reaches highest level since 1997 at ~2.4%
+
+**Indicators:** Sovereign credit spread widening in high-debt G7 members (Japan, Italy, France, US)
+
+**Sections:** Global Debt
+
+**Scenario impact:** Named G7 sovereign spread indicator advancing; Japan is the highest-debt-to-GDP G7 member and the most exposed to yield normalization — adds to Minsky Phase 3 debt service stress signal
+
+**Source:** Bloomberg, WolfStreet, April 6–12, 2026
+
+**Note:** Japan's 10-year JGB yield climbed to approximately 2.4% on April 12, the highest level since 1997, driven by Middle East tension escalation and Bank of Japan rate hike expectations. The yen is at 160 with BOJ intervention threats described as largely ineffective. Japan carries the highest debt-to-GDP ratio of any G7 member; yield normalization at this rate translates directly into debt service cost escalation across the world's third-largest sovereign bond market. This is a named indicator in the Global Debt section, not a background observation — the framework identifies JGB yield normalization as a second-order propagation mechanism by which a Hormuz energy shock compounds existing G7 sovereign debt stress. The combined dynamic (oil shock compressing growth + bond yields rising via inflation expectations) is the exact Minsky Phase 3 amplification pathway modeled in the debt catalysts analysis.
+
+---
+
+### DOL proposes 401(k) safe harbor rule for private equity, crypto, and alternative assets — March 30, 2026
+
+**Indicators:** Regulatory arbitrage products appearing in 401(k) menus — private credit, tokenized assets, interval funds; agency rulemaking using "innovation" or "competitiveness" to exempt new asset classes from oversight
+
+**Sections:** Regulatory Cycle
+
+**Scenario impact:** Named Phase 4 deregulatory indicator active; creates the institutional channel through which retail retirement capital flows into the most stressed segment of the credit market — private credit — at the moment of Minsky Phase 3 onset
+
+**Source:** U.S. Department of Labor (official release), CNBC, Bloomberg Law, CNN Business, March 30, 2026
+
+**Note:** The Department of Labor published a proposed rule on March 30 establishing a six-factor ERISA "safe harbor" for plan fiduciaries selecting alternative investments — including cryptocurrency, private equity, real estate, and commodities — in 401(k) and defined-contribution plans. Comment period closes June 1. The rule directly implements the watch list indicator for regulatory arbitrage products entering retirement accounts, and does so at the moment when all three major private credit platforms (Blue Owl, Blackstone, BlackRock) are in simultaneous gate mode. The regulatory cycle framework identifies this pattern — new retail capital channels opened at peak mania — as the mechanism that maximizes retail exposure at the inflection point. The Supreme Court is separately set to hear Anderson v. Intel Corp. (cert granted January 16), which will adjudicate the fiduciary prudence standard for alternative assets in defined-contribution plans; the outcome will determine whether the safe harbor survives legal challenge.
+
+---
+
+### Apollo private credit gate and Fitch 5.8% default rate: zombie refinancing failures confirmed in Q1
+
+**Indicators:** Private equity NAV markdowns or redemption gates at major funds; corporate zombie refinancing failures as rates stay elevated — particularly in private credit markets
+
+**Sections:** Market Behavior, Global Debt
+
+**Scenario impact:** Extends and deepens the private credit gate series beyond the three funds logged April 12; Fitch's 5.8% default rate is the first institutional confirmation that zombie refinancing failures are occurring at scale, not at the margin
+
+**Source:** Bloomberg, CNBC, Fitch Ratings, Q1 2026
+
+**Note:** Apollo Global Management's flagship private credit BDC capped Q1 redemptions at 5% of outstanding shares after receiving requests equal to 11% of assets (~$1.5 billion); investors received only 45 cents per dollar requested in terms of honored redemptions ($730m of $1.5bn). Simultaneously, Fitch Ratings reported the US private credit default rate reached 5.8% in Q1 — its highest level in years — with confirmed corporate bankruptcies including auto lender Tricolor and parts manufacturer Firstbrands in late 2025. Apollo's gate, combined with the Blue Owl, Blackstone BCRED, and BlackRock HPS gates already logged (April 11–12), now means all major alternative asset managers are simultaneously in gate mode with a confirmed, rising default rate as the underlying cause. The watch list distinguishes between liquidity stress (gates without defaults) and zombie refinancing failure (gates with confirmed defaults at the borrower level); Fitch's data confirms the latter, which is a more severe and less reversible signal.
+
+---
+
 ## 2026-04-12
 
 ### US declares naval blockade of Strait of Hormuz after Pakistan talks collapse

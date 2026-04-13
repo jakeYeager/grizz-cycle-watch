@@ -3,7 +3,6 @@ title: "The Cost-Asymmetry Problem: Cheap Ordnance vs. Expensive Defenses in the
 date: "2026-04-10"
 description: "How drone cost-asymmetry in the 2026 Iran conflict structurally amplifies the debt and regulatory cycle vulnerabilities documented in companion analyses — and why the U.S. entered without a termination strategy."
 categories: [news, geopolitics, defense]
-status: "working-document"
 ---
 
 # The Cost-Asymmetry Problem

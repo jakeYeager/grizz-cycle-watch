@@ -4,7 +4,6 @@ subtitle: "Status Report & Scenario Analysis"
 date: "2026-04-09"
 description: "Buffer exhaustion confirmed April 9, 2026 — the last pre-blockade Persian Gulf shipment arrives in Rotterdam. Sector-by-sector cascade analysis and three-scenario framework."
 categories: [news, geopolitics, energy]
-status: "working-document"
 ---
 
 # The Empty Pipeline

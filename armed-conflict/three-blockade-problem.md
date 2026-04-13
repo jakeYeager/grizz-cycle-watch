@@ -4,7 +4,7 @@ subtitle: "Strait of Hormuz: Compounding Closure Under US Navy, Iranian Ordnance
 date: "2026-04-12"
 description: "Islamabad talks collapse April 12; US naval blockade declared. The strait is now subject to three simultaneous closure mechanisms — US interdiction, Iranian ordnance, and an uncharted minefield — that must all be resolved before commercial transit can resume. Supersedes The Empty Pipeline (April 9, 2026)."
 categories: [geopolitics, energy, news]
-status: "working-document"
+status: "active"
 supersedes: "The Empty Pipeline (2026-04-09)"
 ---
 

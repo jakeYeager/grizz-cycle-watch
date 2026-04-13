@@ -45,7 +45,14 @@ Do not add `author`, generation metadata, or AI tool version strings.
 
 ### 5. Stale working-documents (review pre-flight findings)
 
-For each file flagged as `status: working-document` and not updated in 30+ days: report it with the last-modified date and a one-line summary of what the document covers. Do not change the status — that requires human judgment about whether the situation is resolved.
+The project uses two live-document statuses:
+
+- `status: working-document` — incomplete draft; expected to be finished and graduated
+- `status: active` — complete analysis tied to an ongoing situation; addenda expected as events develop
+
+For each file flagged as `status: working-document` and not updated in 30+ days: report it with the last-modified date and a one-line summary of what the document covers. Do not change the status — that requires human judgment about whether the situation is resolved or the draft should be retired.
+
+Do **not** flag `status: active` files for staleness. Their update cadence is driven by events, not by a time threshold.
 
 ---
 

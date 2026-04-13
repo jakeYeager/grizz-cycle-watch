@@ -10,15 +10,15 @@ categories: [news]
 
 ## Current Cycle Position
 
-*Last updated: 2026-04-12 — Islamabad talks collapsed; US naval blockade declared; see [The Three Blockade Problem](../armed-conflict/three-blockade-problem.md)*
+*Last updated: 2026-04-13 — DOL 401(k) safe harbor rule logged; Apollo gate confirms sector-wide Minsky Phase 3; IRGC drone incident active; see [April 2026 Framework Convergence](../news-convergence/2026-04-13-retail-capital-channel.md)*
 
 | Framework | Phase | Position |
 |---|---|---|
-| Regulatory Cycle (20–30yr) | Phase 4 / 5 boundary | Judicial resistance to deregulation now material; transition zone entered |
-| Kindleberger Mania Model | Stage 4 signals present | Gold/oil correlation degraded by Trump messaging noise; Blue Owl gates are the cleaner indicator |
+| Regulatory Cycle (20–30yr) | Phase 4 / 5 boundary | DOL 401(k) safe harbor rule (March 30) now a named triggered indicator — retail capital channel into private credit opened at Phase 3 onset; judicial resistance continues (CFPB courts); Anderson v. Intel Corp. at Supreme Court |
+| Kindleberger Mania Model | **Stage 4 confirmed across sector** | Apollo gate + Fitch 5.8% Q1 default rate confirm Stage 4 is sector-wide, not isolated to Blue Owl; zombie refinancing failure column now active |
 | Legal Fraud Lifecycle | Phase 3 → 4 | Identity integration complete; rational override failing |
-| Minsky Debt Cycle | **Phase 3 onset** | Blue Owl redemption gates active at scale; forced deleveraging beginning |
-| Armed Conflict (Hormuz) | **Active — Scenarios B/C/D** | Islamabad talks collapsed April 12; US naval blockade declared; three simultaneous closure mechanisms active; Scenario D (great-power incident) now modeled at 10% |
+| Minsky Debt Cycle | **Phase 3 — deepening** | All four major alt-asset platforms in simultaneous gate mode (Blue Owl, Blackstone BCRED, BlackRock HPS, Apollo); Fitch 5.8% Q1 default rate confirms zombie refinancing failures at scale |
+| Armed Conflict (Hormuz) | **Active — Scenarios B/C/D** | Scenario C approaching upper band (~33%); Scenario D non-trivial (~12%) given PLA fleet in theater despite verbal de-escalation; IRGC drone incident April 11 now an ongoing operational condition |
 
 ---
 
@@ -26,7 +26,7 @@ categories: [news]
 
 *Source: [Regulatory Cycle Phases](../theory/regulatory-cycle-phases.md)*
 
-**Position:** Late Phase 4 (Active Deregulation). CFPB dismantled, Dodd-Frank eroded, 401(k) private equity and crypto access opened. The financial system's shock absorbers are at their thinnest since the 2008 pre-crisis period. Phase 5 (Crisis and System Breakdown) is the next transition.
+**Position:** Late Phase 4 / Phase 5 transition zone. CFPB dismantled, Dodd-Frank eroded, 401(k) private equity and crypto access opened. The DOL proposed rule (March 30, 2026) establishing an ERISA safe harbor for alternative investments in defined-contribution plans is a named triggered indicator — it operationalizes the retail capital channel into private credit at Minsky Phase 3 onset. Supreme Court will adjudicate the fiduciary prudence standard for DC plan alternatives in *Anderson v. Intel Corp.* (cert granted January 16). Judicial resistance to Phase 4 deregulation remains material (CFPB courts). Phase 5 is the next transition.
 
 **Late-stage signals to watch:**
 
@@ -43,7 +43,7 @@ categories: [news]
 
 *Sources: [Kindleberger Mania Model](../market-behavior/kindleberger-mania-model.md) · [Legal Fraud Psychology](../market-behavior/legal-fraud-psychology.md)*
 
-**Position:** Kindleberger Stage 4 signals present (2026-04-11). Gold and Brent fell simultaneously April 2–10, matching the fire-sale pattern, but signal quality is degraded — Trump administration tariff and trade messaging has generated aggressive position unwinding that mimics the correlation signature without necessarily indicating structural propagation. The Blue Owl redemption gates are the cleaner Stage 4 indicator: Q1 structural redemption pressure independent of the news cycle. Confirm Stage 4 with sustained correlated moves during quiet messaging periods, or second-order credit effects (spread widening, prime broker stress).
+**Position:** Kindleberger Stage 4 confirmed across sector (2026-04-13). The April 11 assessment noted Blue Owl gates as the cleaner Stage 4 indicator pending confirmation from second-order credit effects. Apollo's Q1 gate — with Fitch's 5.8% private credit default rate confirming zombie refinancing failures as the underlying cause, not a liquidity mismatch — provides that confirmation. Stage 4 is now sector-wide across all four major alternative credit platforms (Blue Owl, Blackstone BCRED, BlackRock HPS, Apollo). The zombie refinancing failure column is active; this is a more severe and less reversible signal than gate mechanics alone.
 
 **Late-stage signals to watch:**
 
@@ -80,7 +80,16 @@ categories: [news]
 
 *Sources: [Market Cycles & Armed Conflict](../armed-conflict/market-conflict-cycles.md) · [The Three Blockade Problem](../armed-conflict/three-blockade-problem.md) · [The Three Body Problem](../armed-conflict/three-body-problem.md) · [The Empty Pipeline](../armed-conflict/empty-pipeline.md) · [Ordnance Cost Asymmetry](../armed-conflict/ordnance-cost-asymmetry.md)*
 
-**Position:** Active — Scenarios B/C/D (2026-04-12). Islamabad talks collapsed after 21 hours; Trump declared an immediate US naval blockade of the Strait of Hormuz. The strait is now subject to three simultaneous closure mechanisms: US Navy interdiction, Iranian ordnance, and an uncharted minefield that Iran has reportedly lost track of. Diplomatic off-ramp closed. Physical clearance is a prerequisite for reopening regardless of any future agreement. Scenario A probability collapsed to ~10%; Scenario D (great-power incident via US interdiction of Chinese/Indian vessels) now modeled at ~10%. See [The Three Blockade Problem](../armed-conflict/three-blockade-problem.md).
+**Position:** Active — Scenarios B/C/D (2026-04-13). Islamabad talks collapsed after 21 hours; Trump declared an immediate US naval blockade. Three simultaneous closure mechanisms active. IRGC drone launched toward mine-clearance destroyers April 11 — named escalation indicator now an ongoing operational condition. Netanyahu declared Litani River as permanent border — Lebanon front converts from faction pressure to stated coalition doctrine (fourth active military vector). Scenario C approaching upper band; Scenario D non-trivial given PLA fleet in theater despite April 13 verbal de-escalation. China has not backed the mine-clearance framework.
+
+| Scenario | April 12 | April 13 |
+|---|---|---|
+| A: Rapid Resolution | 10% | 8% |
+| B: Managed Naval Standoff | 50% | 47% |
+| C: Mine or Naval Incident | 30% | 33% |
+| D: Great-Power Incident | 10% | 12% |
+
+See [The Three Blockade Problem](../armed-conflict/three-blockade-problem.md) and [April 2026 Framework Convergence](../news-convergence/2026-04-13-retail-capital-channel.md).
 
 **Indicator table (from *The Three Blockade Problem*, April 12):**
 
