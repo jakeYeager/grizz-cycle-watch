@@ -12,14 +12,14 @@ Research wiki tracking how regulation/deregulation cycles propagate through news
 
 ## Current Cycle Position
 
-As of 2026-04-11:
+As of 2026-04-14:
 
 | Framework | Phase | Status |
 |---|---|---|
-| Regulatory Cycle (20–30yr) | Phase 4 → 5 | Active deregulation since 2017; crisis window 2025–2029 |
-| Kindleberger Mania | Stage 3 → 4 | Peak mania; early distress signals present |
-| Minsky Debt | Phase 2 → 3 | G7 debt >100% GDP; derivatives $700T notional |
-| Hormuz / Armed Conflict | Active | Scenario B most probable (~45%); buffer period ended April 9 |
+| Regulatory Cycle (20–30yr) | Phase 4 / 5 boundary | DOL 401(k) safe harbor rule triggered; retail capital channel into private credit opened; judicial resistance active (CFPB courts, Anderson v. Intel Corp.) |
+| Kindleberger Mania | **Stage 4 confirmed** | Both escalation-tree trigger conditions met: Goldman prime brokerage equity exit (7.6:1 short-to-long) + five-platform simultaneous private credit gates |
+| Minsky Debt | **Phase 3 deepening** | $20.8bn Q1 withdrawal requests across five platforms; Fitch 5.8% default rate confirms zombie refinancing failures |
+| Hormuz / Armed Conflict | Active — Scenarios B/C/D | Scenario B 43%, C 32%, D 15%; China escalation column fully met; India as near-term Scenario D actor; April 21 ceasefire expiry is next hard binary |
 
 ---
 
@@ -60,9 +60,12 @@ Read when a signal touches that section.
 | `market-behavior/legal-fraud-psychology.md` | Market Behavior |
 | `global-debt/debt-crisis-catalysts.md` | Global Debt |
 | `armed-conflict/market-conflict-cycles.md` | Armed Conflict (framework) |
-| `armed-conflict/empty-pipeline.md` | Armed Conflict (current; Hormuz crisis) |
+| `armed-conflict/three-blockade-problem.md` | Armed Conflict (current active situation; three simultaneous closure mechanisms) |
 | `armed-conflict/three-body-problem.md` | Armed Conflict (Israel-Iran-US geometry) |
 | `armed-conflict/ordnance-cost-asymmetry.md` | Armed Conflict (cost curve / defense economics) |
+| `armed-conflict/empty-pipeline.md` | Armed Conflict (supply shock reference; superseded by three-blockade-problem) |
+| `news-convergence/2026-04-13-retail-capital-channel.md` | Cross-section convergence (DOL rule, Apollo gate, retail capital channel) |
+| `news-convergence/2026-04-14-kindleberger-confirmed-india-scenario-d.md` | Cross-section convergence (Stage 4 confirmed, China resolved, India Scenario D) |
 
 ---
 
@@ -73,37 +76,43 @@ Use these as starting points. Vary phrasing — the goal is to surface signals t
 ### Regulatory Cycle
 - `CFPB enforcement 2026` / `CFPB reinstatement`
 - `Dodd-Frank reversal 2026` / `Dodd-Frank challenge`
-- `401k private equity` / `401k cryptocurrency 2026`
+- `DOL 401k safe harbor rule 2026` / `ERISA alternative investments fiduciary`
+- `Anderson v Intel Corp Supreme Court` / `401k fiduciary prudence ruling`
 - `SEC enforcement action 2026` / `OCC regulatory`
-- `regulatory capture financial 2026`
-- `financial fraud disclosure 2026`
+- `financial fraud disclosure 2026` / `regulatory capture financial 2026`
 
 ### Market Behavior
-- `S&P 500 P/E ratio warning 2026` / `CAPE ratio overvalued`
+- `hedge fund short interest 2026` / `Goldman prime brokerage flows`
+- `institutional equity positioning April 2026` / `hedge fund drawdown 2026`
 - `margin calls 2026` / `forced selling equities`
 - `private equity NAV markdown` / `redemption gate 2026`
-- `institutional selling AI stocks` / `smart money exit tech`
-- `AI bubble valuation warning bank`
+- `private credit default rate Fitch Moody 2026`
+- `Dimon JPMorgan private credit 2026` / `Apollo Carlyle Ares gate 2026`
 - `crypto sell-off risk-off 2026`
 
 ### Global Debt
 - `10-year Treasury yield 2026` / `Treasury yield 5 percent`
+- `Japan JGB yield 2026` / `BOJ rate hike normalization`
 - `BIS credit-to-GDP warning` / `BIS quarterly review 2026`
 - `shadow banking stress 2026` / `money market fund`
 - `repo market disruption 2026`
 - `derivatives counterparty failure` / `systemic risk bank 2026`
 - `G7 sovereign debt rating` / `sovereign credit downgrade 2026`
-- `flash crash 2026` / `ETF liquidity crisis`
+- `India GDP energy shock 2026` / `India current account deficit Hormuz`
 
 ### Armed Conflict
 - `Strait of Hormuz tanker 2026` / `AIS Hormuz transits`
-- `Brent crude Iran war 2026`
-- `Iran nuclear deal 2026` / `Iran nuclear program talks`
-- `Pakistan Iran ceasefire talks`
+- `US Iran ceasefire talks 2026` / `Iran nuclear talks second round`
+- `US Iran ceasefire April 21` / `Iran ceasefire expiry`
+- `IRGC drone Hormuz 2026` / `IRGC naval incident`
+- `China Hormuz transit 2026` / `PLA fleet Hormuz`
+- `India Hormuz bilateral deal` / `India Iran oil transit 2026`
+- `India LPG shortage 2026` / `India energy crisis fuel`
 - `Houthi Bab al-Mandab 2026`
+- `Brent crude Iran war 2026`
 - `EU aviation fuel shortage 2026` / `European jet fuel`
-- `fertilizer prices 2026` / `urea ammonia shortage`
-- `Iran IRGC shipping ban`
+- `fertilizer prices 2026` / `urea ammonia shortage` / `sulfur shortage 2026`
+- `Ireland fuel shortage 2026` / `Australia fuel shortage 2026`
 
 ---
 
