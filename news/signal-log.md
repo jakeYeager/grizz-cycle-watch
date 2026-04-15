@@ -8,6 +8,36 @@ categories: [news]
 
 # Signal Log
 
+## 2026-04-15
+
+### Trump threatens to fire Powell from Fed board; DOJ prosecutors turned away from Eccles Building in active probe
+
+**Indicators:** Congressional or judicial reversal of any major 2025 deregulatory measure (inverse — executive-branch escalation against institutional counterweight); agency rulemaking using "innovation" or "competitiveness" to exempt new asset classes from oversight (regulatory-cycle phase-shift pattern, Phase 4→5 — political capture of independent agencies); currency war signals / dollar weaponization complaints; 10-year Treasury yield sustained above 4.75%
+
+**Sections:** Regulatory Cycle, Global Debt, Market Behavior
+
+**Scenario impact:** Direct assault on the single remaining independent institutional counterweight inside the federal financial architecture; a confirmed firing-for-cause attempt or a Powell refusal-plus-removal would convert the Phase 4/5 regulatory boundary into a named Phase 5 signal (political reversal of the post-2008 central-bank independence norm); the timing is the signal — the threat arrives into Kindleberger Stage 4 + Minsky Phase 3 + active Hormuz blockade, i.e. the exact point at which the Fed is the marginal buyer of sovereign credibility
+
+**Source:** Bloomberg (April 15, Tier 1–2); CNBC (April 15, Tier 2); CNN Business (April 15, Tier 3); Washington Post (April 15, Tier 3); NPR/STLPR (April 15, Tier 3); Fox Business (Trump/Bartiromo interview, April 15, Tier 3 — primary statement); Baltimore Sun/ClickOnDetroit (prosecutors-turned-away reporting, April 15, Tier 3)
+
+**Note:** Trump stated on Fox Business (Bartiromo) on April 15 that if Powell does not vacate his separate Board of Governors seat when his chairmanship ends May 15, "Well then I'll have to fire him, OK?" Separately, two federal prosecutors and an investigator from U.S. Attorney Jeanine Pirro's office were turned away on Tuesday April 14 by a building contractor at the Eccles renovation site; the DOJ probe Powell has described as a "pretext" remains active despite Judge Boasberg's March 13 ruling that the government "produced essentially zero evidence to suspect Chair Powell of a crime." The regulatory-cycle framework treats central-bank independence as the principal institutional counterweight that survives late Phase 4 deregulation; a firing-for-cause attempt at this timing — Powell's chairmanship ends May 15, Warsh's confirmation hearing is April 21, Sen. Tillis (R-NC) is blocking Warsh's confirmation until the DOJ drops the Powell probe, and Pirro has said she will press the investigation even if that costs Warsh the job — converts political pressure into a confrontation over the Federal Reserve Act §10 "for cause" standard itself. Three converging mechanisms make this a Level 2 candidate and potentially Level 3: (1) the April 21 Warsh hearing falls on the same day as the US-Iran ceasefire expiry, (2) the precedent from the January 2026 DOJ-subpoena episode was a "sell America" move — dollar, equities, and Treasuries falling together, 10-year surging to 4.20%, gold to $4,642; (3) fed funds futures currently price zero cuts and a 10.3% probability of a hike at the April 28–29 FOMC, meaning a Trump-installed chair would face markets actively pricing against political accommodation. The market signature on April 15 is still being tracked — dollar index at a six-week low, gold near $4,830, 10-year Treasury at ~4.30% per project price data (April 13 observation; April 14–15 incomplete in data/prices.csv) — inconclusive as a "sell America" repeat but consistent with Fed-independence discount reappearing. Tier 1 primary-source confirmation (Fed official response, Treasury auction data, or a documented 10-year move) still pending.
+
+---
+
+### Sanctioned tankers transit Hormuz on blockade day one; Chinese Defense Minister declares strait "open to us"
+
+**Indicators:** Chinese/Indian vessel behavior (escalation signal: vessels attempt transit under bilateral deal; US interdiction orders tested); US-China diplomatic signaling (escalation: PLA Navy deployment orders; Chinese state media escalates rhetoric); AIS tanker transits in Hormuz (continued near-zero, or vessel strikes resume)
+
+**Sections:** Armed Conflict, Global Debt
+
+**Scenario impact:** Scenario D probability should increase — the US interdiction line is being tested from day one of the blockade, not weeks or months later as a managed standoff (Scenario B) would imply; the Chinese military's explicit transit declaration transforms this from a diplomatic dispute into a stated intent to defy US naval enforcement
+
+**Source:** Al Jazeera (April 14, Tier 2); CNBC (April 15, Tier 2); Democracy Now (April 14, Tier 3); Pentagon/CENTCOM statements (April 14, Tier 1); Reuters (April 14, Tier 1–2)
+
+**Note:** The Pentagon stated no ships "made it past" the US blockade in its first 24 hours and six merchant ships were turned back. However, Al Jazeera and Reuters separately reported at least three vessels transited the strait during the same period — none heading to Iranian ports, exploiting CENTCOM's clarification that the blockade applies only to ships entering or leaving Iranian ports. By April 15, at least four Iran-linked ships had crossed. Separately, Chinese Defense Minister Dong Jun stated: "We have trade and energy agreements with Iran; we expect others not to interfere in our affairs. The Strait of Hormuz is open to us." This is a material escalation beyond the Foreign Ministry's April 14 "dangerous and irresponsible" statement already logged — the transit declaration now comes from the military channel, not the diplomatic channel. The watch list indicator table specifies "vessels attempt transit under bilateral deal; US interdiction orders tested" as the escalation signal for Chinese/Indian vessel behavior. That signal is now active: China has publicly declared intent to transit, Iran-linked ships are already transiting, and the gap between the Pentagon's "no ships passed" and Reuters' "at least three transited" suggests the interdiction line is ambiguous from the start — exactly the condition under which a miscalculation-driven Scenario D event is most likely. Brent rose 2.13% to $96.80 on April 15, remaining in the WARN zone (>$95).
+
+---
+
 ## 2026-04-14
 
 ### China escalates from "restraint" to "dangerous and irresponsible" as blockade takes hold
