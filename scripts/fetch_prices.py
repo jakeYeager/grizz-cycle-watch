@@ -228,12 +228,11 @@ def main():
         if d not in existing_rows:
             existing_rows[d] = {"date": d}
             new_count += 1
-        else:
-            # Fill in any columns that were previously missing (empty string)
-            for col, val in values.items():
-                if not existing_rows[d].get(col):
-                    existing_rows[d][col] = val
-                    updated_count += 1
+        # Fill in any columns that were previously missing (empty string)
+        for col, val in values.items():
+            if not existing_rows[d].get(col):
+                existing_rows[d][col] = val
+                updated_count += 1
 
     with open(CSV_PATH, "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=FIELDNAMES, extrasaction="ignore")
