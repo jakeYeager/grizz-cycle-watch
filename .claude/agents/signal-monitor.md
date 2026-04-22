@@ -1,6 +1,7 @@
 ---
 name: signal-monitor
 description: Searches for news matching watch list indicators and appends formatted entries to news/signal-log.md. Use for daily monitoring passes and one-off article evaluation.
+model: sonnet
 ---
 
 # Signal Monitor

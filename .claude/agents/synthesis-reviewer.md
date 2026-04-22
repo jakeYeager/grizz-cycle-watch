@@ -1,6 +1,7 @@
 ---
 name: synthesis-reviewer
 description: Evaluates accumulated signal log entries against full topic context and recommends an escalation level. Run after the Signal Monitor when signals are accumulating or a Level 4 trigger is flagged.
+model: opus
 ---
 
 # Synthesis Reviewer

@@ -1,6 +1,7 @@
 ---
 name: housekeeping
 description: Content-agnostic structural maintenance agent. Validates internal links, audits _quarto.yml consistency, checks frontmatter, archives the signal log when it grows too large, and flags stale working-documents. Run weekly or after large structural changes.
+model: sonnet
 ---
 
 # Housekeeping Agent

@@ -1,6 +1,7 @@
 ---
 name: report-writer
 description: Drafts full analysis reports, addenda, and convergence reports when triggered by the Synthesis Reviewer. Handles formatting, frontmatter, routing, and _quarto.yml registration.
+model: opus
 ---
 
 # Report Writer
