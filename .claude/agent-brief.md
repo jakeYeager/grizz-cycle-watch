@@ -39,6 +39,28 @@ As of 2026-04-14:
 
 ---
 
+## Macro Aggregate Data
+
+`data/aggregates.csv` contains slower-cadence structural macro series — monthly, weekly, and quarterly official statistics — updated by `scripts/fetch_aggregates.py`. It is the companion to `prices.csv`: where prices are fast and sentiment-driven, these series move on a release schedule. Read the most recent populated value of each column for current macro levels before running web searches. The file is a ragged grid — each series populates only on its own release dates — so "last N rows" does not apply; scan upward per column for the latest non-empty value.
+
+| Column | What it measures | Threshold (flag basis) |
+|---|---|---|
+| `home_sales` | Existing home sales, units SAAR | WARN < −10% YoY |
+| `case_shiller` | Case-Shiller US National home price index | NOTE < 0% YoY (prices falling) |
+| `months_supply` | Months' supply of new houses | WARN > 9 |
+| `mortgage_30yr` | 30-Year fixed mortgage rate (%) | WARN > 7.5% |
+| `cpi` | CPI-U all items | WARN > 3% / ALERT > 4% YoY |
+| `cpi_core` | CPI-U core (ex food & energy) | WARN > 3% / ALERT > 4% YoY |
+| `unemployment` | Unemployment rate (%) | WARN > 4.5% / ALERT > 5.0% |
+| `sloos_tightening` | SLOOS net % banks tightening C&I loans | WARN > 20% / ALERT > 40% |
+| `mortgage_delinquency` | Single-family mortgage delinquency rate (%) | WARN > 3% / ALERT > 5% |
+
+`sloos_tightening` is the quantified form of the Kindleberger Stage 4 "simultaneous credit tightening" trigger condition. `cpi`, `cpi_core`, `case_shiller`, and `home_sales` are index or count series whose meaningful read is the year-over-year change, not the raw level — the CSV stores the raw value and the fetch script reports YoY.
+
+**Staleness check:** these series release on a monthly/quarterly schedule, so `aggregates.csv` does not need daily refreshing — but it can fall behind a release. If the latest populated value of a column predates a release known to have landed since the last fetch (e.g. a new CPI print), note it in the run summary and recommend the user run `uv run scripts/fetch_aggregates.py`.
+
+---
+
 ## Required Context Files
 
 Read these before acting. They contain the indicators, current positions, log format, and escalation rules.

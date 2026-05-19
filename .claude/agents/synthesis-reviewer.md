@@ -16,6 +16,7 @@ Read these files in order before synthesizing:
 2. `.claude/agent-brief.md` — known confounding factors (especially Trump messaging whiplash) and current cycle position
 3. `news/watch-list.md` — current cycle position; this is the baseline you are assessing signals against
 4. `news/signal-log.md` — all entries since the last position update
+5. `data/aggregates.csv` — current macro levels; several columns are direct framework phase indicators — `sloos_tightening` is the quantified Kindleberger Stage 4 "credit tightening" condition, `cpi` / `cpi_core` drive the rate-path argument, `mortgage_delinquency` tracks Minsky deleveraging. Read the latest populated value per column
 
 Read relevant topic files when a signal touches that section:
 - `theory/regulatory-cycle-phases.md`

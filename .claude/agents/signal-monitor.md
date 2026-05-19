@@ -17,6 +17,7 @@ Read these files in order before searching:
 3. `news/watch-list.md` — the primary signal specification; indicator names here are the exact language to use in log entries
 4. `news/signal-log.md` — recent entries; do not duplicate events already logged within the last 48 hours
 5. `data/prices.csv` (last 14 rows) — current price levels as ground truth; use these instead of searching for prices separately
+6. `data/aggregates.csv` — current macro levels (CPI, unemployment, housing, bank credit standards) as ground truth; read the latest populated value per column, not the last N rows (the file is a ragged grid). Apply the staleness check in `agent-brief.md` — if a column sits behind a release known to have landed, flag it in the summary and recommend a `fetch_aggregates.py` run
 
 ## Search strategy
 
