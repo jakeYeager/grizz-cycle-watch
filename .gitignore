@@ -8,3 +8,4 @@ _freeze/
 **/*.quarto_ipynb
 .env*
 data/prices.csv
+data/aggregates.csv
