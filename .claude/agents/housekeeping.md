@@ -55,6 +55,16 @@ For each file flagged as `status: working-document` and not updated in 30+ days:
 
 Do **not** flag `status: active` files for staleness. Their update cadence is driven by events, not by a time threshold.
 
+### 6. Orphaned directory pruning (review pre-flight findings)
+
+The pre-flight script removes empty directory trees — directories whose entire subtree contains no regular files. These are almost always stale Quarto `<name>_files/` render artifacts left behind when a source file is renamed or moved, or directories emptied by a reorganization. In `--dry-run` the script reports them without removing.
+
+A `.gitkeep` counts as a regular file, so any tree intentionally kept empty (e.g. `assets/`) is exempt automatically — a tree containing a `.gitkeep` is never pruned. Quarto build outputs (`_site/`, `_book/`, `_freeze/`, `.quarto/`) are excluded.
+
+Review the `[EMPTY DIRECTORY TREES — pruned]` section of the pre-flight report:
+- List each pruned directory under **Fixed**
+- If a pruned directory looks like it should have held content — a former content section rather than a `_files/` render artifact — flag it under **Needs review**; an emptied content directory can mean files were moved or lost without their directory being cleaned up, which warrants a human check
+
 ---
 
 ## Output

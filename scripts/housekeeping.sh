@@ -118,6 +118,46 @@ else
   echo "  Working-documents: none stale"
 fi
 
+# ─── 6. Orphaned / empty directory trees ────────────────────────────────────
+# A directory whose entire subtree contains no regular files is cruft — usually
+# a stale Quarto <name>_files/ render artifact left behind when a source file
+# was renamed or moved. A .gitkeep counts as a regular file, so a tree kept
+# intentionally (e.g. assets/) is exempt automatically. Quarto build outputs
+# (_site, _book, _freeze, .quarto) are excluded. In --dry-run trees are
+# reported but not removed.
+
+EMPTY_TREES=""
+LAST_TREE=""
+while IFS= read -r d; do
+  [[ -z "$d" ]] && continue
+  # skip anything nested under a tree already collected
+  [[ -n "$LAST_TREE" && "$d" == "$LAST_TREE/"* ]] && continue
+  if [[ -z "$(find "$d" -type f 2>/dev/null)" ]]; then
+    EMPTY_TREES="${EMPTY_TREES}${d}\n"
+    LAST_TREE="$d"
+  fi
+done < <(find . -mindepth 1 \
+           \( -name .git -o -name _site -o -name _book -o -name _freeze -o -name .quarto \) -prune \
+           -o -type d -print | sort)
+
+if [[ -n "$EMPTY_TREES" ]]; then
+  TREE_REPORT=""
+  while IFS= read -r d; do
+    [[ -z "$d" ]] && continue
+    if ! $DRY_RUN && [[ -d "$d" ]]; then
+      rm -rf "$d"
+    fi
+    TREE_REPORT="${TREE_REPORT}    ${d}\n"
+  done < <(printf '%b' "$EMPTY_TREES")
+  if $DRY_RUN; then
+    FINDINGS="${FINDINGS}\n[EMPTY DIRECTORY TREES — would prune]\n${TREE_REPORT}"
+  else
+    FINDINGS="${FINDINGS}\n[EMPTY DIRECTORY TREES — pruned]\n${TREE_REPORT}"
+  fi
+else
+  echo "  Directory trees: no empty/orphaned trees found"
+fi
+
 # ─── Summary ─────────────────────────────────────────────────────────────────
 
 echo ""
