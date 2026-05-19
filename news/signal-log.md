@@ -8,6 +8,22 @@ categories: [news]
 
 # Signal Log
 
+## 2026-05-19
+
+### FRED aggregates.csv data review: SLOOS Q1 2026 at 8.1% — below the 20% WARN threshold; corroborates "no credit-market transmission" conclusion against established Stage 4 framing
+
+**Indicators:** Corporate zombie refinancing failures as rates stay elevated (named watch list indicator — SLOOS at 8.1% net tightening is directionally consistent with credit conditions tightening but well below the levels historically associated with systemic credit contraction; it neither confirms nor undermines the zombie-refinancing failure thesis, which operates through rate levels rather than bank lending standards); Margin call cascades following any volatility spike (adjacent — SLOOS is the quantified form of the Kindleberger Stage 4 "simultaneous credit tightening" trigger condition per agent-brief.md; 8.1% is below the WARN threshold of 20% and far below the ALERT threshold of 40%)
+
+**Sections:** Market Behavior, Global Debt
+
+**Scenario impact:** Confirms existing — specifically confirms the "no credit-market transmission" conclusion embedded in the bond-vigilante entries (May 5–18). The escalation-tree Stage 4 phase-shift trigger names "documented smart money exit + simultaneous credit tightening." The April 14 entry confirmed Stage 4 on both dimensions using private credit gate cascade (credit tightening) and Goldman prime brokerage equity data (smart money exit). The SLOOS reading now provides a second, independent Tier 1 data point on the credit-tightening dimension: Q1 2026 net tightening at 8.1% — up from 5.3% in Q1 2026 (January read) and 6.5% in Q4 2025, but still in the low-single-digit range that historically characterizes mild precautionary tightening rather than crisis-driven contraction. For comparison: Q2 2020 peaked at 71.2%, Q3 2023 reached 50.8%, and the 2022–2023 tightening cycle peaked at 46.0%. The current 8.1% reading sits well below even the mildest WARN threshold (20%) and is inconsistent with the kind of broad-based credit contraction that would independently validate a Kindleberger Stage 5 read. The HY spread at 2.76–2.80% (prices.csv, May 14–15) and SLOOS at 8.1% are now corroborating each other: both say the financial system has not yet transmitted the energy-shock and private-credit-gate stress into broad credit tightening. This is the same "no credit-market transmission" finding as the HY spread analysis, now confirmed in a survey-based Tier 1 instrument measuring actual bank lending behavior rather than market pricing.
+
+**Source:** FRED / Federal Reserve Senior Loan Officer Opinion Survey on Bank Lending Practices (SLOOS), Q1 2026 release — data in data/aggregates.csv (Tier 1 primary). SLOOS is published quarterly by the Federal Reserve Board.
+
+**Note:** The SLOOS reading does not change the Stage 4 assessment. The Stage 4 trigger was met on April 14 using private credit gate data (a non-bank credit-tightening signal) alongside the Goldman prime brokerage equity exit data. SLOOS measures commercial bank C&I lending standards — a different segment than the private credit market where the gate cascade occurred. The two can diverge: private credit tightening (gates, redemption queues, NAV markdowns) can be severe while bank C&I standards remain mild, which is exactly what the data shows. The Stage 4 "simultaneous credit tightening" condition is satisfied by the private credit data already logged; the SLOOS at 8.1% is additive context confirming that the tightening has not yet spread to the commercial banking channel. The next reading that would change the Stage 4 assessment is: SLOOS moving above the 20% WARN threshold in the Q2 release (due approximately August 2026), which would indicate the energy-shock stress is now propagating into bank lending behavior, or SLOOS declining back toward zero, which would cut against the credit-tightening leg of the Stage 4 diagnosis.
+
+---
+
 ## 2026-05-18
 
 ### Warsh bond-market bind: two-sided rate pressure confirmed — bond market pricing hike risk while White House pushes cuts; Axios documents the inverse-scenario geometry
