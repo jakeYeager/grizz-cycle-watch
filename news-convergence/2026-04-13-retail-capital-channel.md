@@ -27,7 +27,7 @@ This is not a further confirmation of the April 11 convergence picture. It is a 
 | Netanyahu declares Litani as permanent border | Lebanon front converts from faction pressure to stated coalition doctrine | Watch list trigger: coalition calls for Litani as permanent border |
 | FY2027 Tomahawk/SM-6 emergency procurement (+1,200%/+225%) | Ordnance production constraint confirmed as structural military capacity ceiling | Watch list: SM-6 inventory disclosures indicating production constraint stress |
 
-The cross-section convergence trigger is met: armed conflict signal, debt signal, and regulatory signal all advancing simultaneously within a seven-day window (April 11–13), per the [Escalation Decision Tree](../.claude/rules/escalation-tree.md).
+The cross-section convergence trigger is met: armed conflict signal, debt signal, and regulatory signal all advancing simultaneously within a seven-day window (April 11–13), per the escalation decision tree in `.claude/rules/escalation-tree.md`.
 
 ---
 
