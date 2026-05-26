@@ -10,7 +10,9 @@ categories: [news]
 
 ## Current Cycle Position
 
-*Last updated: 2026-05-22 — Synthesis Reviewer pass against the May 16–22 signal cluster. Three sub-decisions: (1) The Khamenei HEU directive (May 21, supreme-leader order that Iran's enriched-uranium stockpile must not leave the country) and the Iran-Oman permanent Hormuz toll regime (May 22, with Rubio publicly calling any deal "unfeasible" and Trump rejecting) are two structurally distinct armed-conflict blockers, but the implied Scenario A compression (~7–9pp) does not clear the 15pp Level 2 threshold; Tier 2 sourcing (Al-Arabiya) limits weight pending Tier 1 Iranian-official confirmation. (2) Q1 2026 non-traded BDC net outflow (~$7B redemptions vs. ~$5B raised — first net-outflow quarter in the asset class's history, Bloomberg / Stanger & Co., May 14) is structural confirmation that the Stage 4 gate-cascade transmission is operational rather than forecast; Market Behavior and Global Debt position paragraphs updated below, no probability table change. HY spread at 2.78% (below 3.5% break) and SLOOS at 8.1% (below 20% WARN) explicitly cut against any Minsky Phase 3→4 forced-deleveraging read on this milestone. (3) Level 4 cross-section convergence trigger evaluated and does NOT fire: signals are present in all three sections within the 7-day window, but the armed-conflict cluster is counter-directional (US-Iran 14-point MOU framework, UK/France Hormuz coalition, Al-Arabiya "final draft" leak vs. Khamenei HEU directive, Iran-Oman toll formalization, LCC contraction wave) — breadth without co-direction is disqualifying per the May 18 precedent. Break conditions on all three open `news-convergence/` working documents remain unmet (HY 2.78% < 3.5%, 10-yr 4.57% < 4.75% WARN / 5.0% ALERT, no aviation-lessor material impairment, no third DOJ-procedural instrument within 14 days of Warsh). Next inflection: Tuesday 2026-05-27 — Case-Shiller March print, first post-Memorial-Day Treasury auctions, BCRED Q1 10-Q expected late May / early June, and Tier 1 confirmation potential on the Khamenei HEU directive. The Friday-before-Memorial-Day Brent −6% weekly move and long-end Treasury rally are discounted for thin holiday liquidity.*
+*Last updated: 2026-05-26 — Synthesis Reviewer pass against the May 22–26 signal cluster. Five sub-decisions: (1) **July 9 IEA emergency-release-window end-date is identified as a second time-domain forcing-function reconfiguration of the same structural class as the April 21 pressure-clock reconfiguration.** The April 21 move was political-expiry → buffer-statement clock (Birol "six weeks"); the May 13 IEA May OMR (logged May 26) converts the buffer-statement clock to a buffer-arithmetic clock with a quantified release-window end-date (July 9) and a quantified hard-exhaustion arithmetic (~late July at sustained 4.1 mb/d global draw rate against 236 mb of unreleased emergency authorization). This is the second reconfiguration of the binding clock in 75 days. It is the structural justification for the DTC composite added today and is the binding constraint behind the late-July DTC × NDI convergence window flagged forward. (2) The Armed Conflict section has 5+ entries in the May 22–26 7-day window but is internally counter-directional: the Iran-US 60-day MOU framework (May 26, unsigned, Tier 2 only, partial Khamenei walk-back via US official) and Brent weekly -6% pull toward Scenarios A/B resolution; the Iran-Oman permanent toll system (May 22), Khamenei HEU directive (May 22), PGSA crypto rails Tier 1 confirmation (May 23), Italy Brindisi zero on-site jet fuel (May 26), IEA 246 mb record draw (May 26), Singapore nine-month distillate low (May 26), and NWE jet-Brent crack at $88–91/bbl (May 26) pull toward escalation. Per the May 22 precedent (breadth without co-direction is disqualifying), the section as a whole does NOT meet the Level 2 3+ entries/7 days same-direction trigger. However, the buffer-depletion sub-cluster (IEA OMR + Singapore + EIA + NWE crack + Italy Brindisi) is internally co-directional and is the analytical content of the July 9 reconfiguration above. (3) **Level 4 cross-section convergence trigger evaluated and does NOT fire.** Signals are present in Armed Conflict + Global Debt (LCC $2.5B AVA backstop request + BCRED non-standard absorption) + Regulatory (Warsh swearing-in + FOMC April minutes hike-bias) + Market Behavior (BCRED Q1 no-gate-via-employee-capital) within the 7-day window — meeting breadth. But the Armed Conflict component is internally counter-directional, and the Global Debt / Regulatory / Market Behavior signals are confirmatory of existing positions (LCC sector-level confirmation of the May 19 bifurcation addendum's medium-severity path; BCRED a no-gate-with-asterisk confirming the May 22 framing rather than advancing it; Warsh swearing-in is the operational completion of the May 13 confirmation, not a new Phase 5 marker; FOMC minutes sharpen the June 16–17 binary already on the watch list). Co-direction toward a single scenario is not satisfied. (4) **Composite indices added to the watch list.** Delay-Tactics Composite (DTC) and Narrative-Divergence Index (NDI) consolidate previously scattered signals into recomputable composite readings. Current DTC: YELLOW (axis A breached: ~44 days to July 9 buffer wall; B at ~$550–800M below the $1B threshold; C 5 days since Khamenei HEU). Current NDI: RED on structural sub-indices (N1 cap-weight spread at record, N2 hyperscaler capex >2× historical, N4 four named principals on Stage 4 exit, N5 argument-rebuttal pattern visible) but not CRITICAL (N3 sell-side power-cost flag has not fired; no Mag-7 guidance miss attributed to input costs or power). The DTC + NDI alignment in the late-July Q2 earnings × IEA buffer wall window is flagged as a forward-looking inflection point — itself a new analytical artifact warranting a forward-looking pass next cadence if neither index resolves before then. (5) **PGSA crypto rails Tier 1 confirmation (FinCEN Alert FIN-2026-Alert002, May 11; OFAC + Tether $344M CBI freeze, April 24)** materially advances the Armed Conflict framing — Iran's regime survival now has a sovereign crypto reserve channel confirmed at the US-government enforcement-designation level — but transaction-level on-chain matching of specific toll payments remains a Tier 2 forensic gap. This does not on its own advance a framework phase: the toll-revenue channel is a structural strengthening of Scenario B (Iran can sustain managed standoff with a financial incentive) rather than a phase transition. Next inflection points: **June 16–17 Warsh FOMC** (discrete Phase 5 binary, sharpened by April-minutes hike-bias); **late May / early June BCRED Q1 10-Q** (single-fund-gate next-discrete-tell against a Q1 net-outflow asset class baseline); **July 9 IEA emergency release window expiry** (buffer-arithmetic clock binding date if MOU is not signed and operationalized in the interim); **late-July Q2 earnings × IEA buffer wall** (DTC + NDI convergence window). Recommendation: **Level 2** position update — paragraph addition only, no framework phase advance, no scenario table change. Level 3 not warranted because the July 9 reconfiguration extends the April 21 addendum's framing rather than introducing new geometry, and the Stage 4 / Minsky Phase 3 / Phase 4/5 boundary positions all hold.*
+
+*2026-05-22 — Synthesis Reviewer pass against the May 16–22 signal cluster. Three sub-decisions: (1) The Khamenei HEU directive (May 21, supreme-leader order that Iran's enriched-uranium stockpile must not leave the country) and the Iran-Oman permanent Hormuz toll regime (May 22, with Rubio publicly calling any deal "unfeasible" and Trump rejecting) are two structurally distinct armed-conflict blockers, but the implied Scenario A compression (~7–9pp) does not clear the 15pp Level 2 threshold; Tier 2 sourcing (Al-Arabiya) limits weight pending Tier 1 Iranian-official confirmation. (2) Q1 2026 non-traded BDC net outflow (~$7B redemptions vs. ~$5B raised — first net-outflow quarter in the asset class's history, Bloomberg / Stanger & Co., May 14) is structural confirmation that the Stage 4 gate-cascade transmission is operational rather than forecast; Market Behavior and Global Debt position paragraphs updated below, no probability table change. HY spread at 2.78% (below 3.5% break) and SLOOS at 8.1% (below 20% WARN) explicitly cut against any Minsky Phase 3→4 forced-deleveraging read on this milestone. (3) Level 4 cross-section convergence trigger evaluated and does NOT fire: signals are present in all three sections within the 7-day window, but the armed-conflict cluster is counter-directional (US-Iran 14-point MOU framework, UK/France Hormuz coalition, Al-Arabiya "final draft" leak vs. Khamenei HEU directive, Iran-Oman toll formalization, LCC contraction wave) — breadth without co-direction is disqualifying per the May 18 precedent. Break conditions on all three open `news-convergence/` working documents remain unmet (HY 2.78% < 3.5%, 10-yr 4.57% < 4.75% WARN / 5.0% ALERT, no aviation-lessor material impairment, no third DOJ-procedural instrument within 14 days of Warsh). Next inflection: Tuesday 2026-05-27 — Case-Shiller March print, first post-Memorial-Day Treasury auctions, BCRED Q1 10-Q expected late May / early June, and Tier 1 confirmation potential on the Khamenei HEU directive. The Friday-before-Memorial-Day Brent −6% weekly move and long-end Treasury rally are discounted for thin holiday liquidity.*
 
 *2026-05-19 — Two monitoring indicators added to the watch list after a data-review pass over the new `data/aggregates.csv` macro series (housing, CPI, unemployment, bank credit standards). The review found the data confirms established positions and advances no framework phase: residential housing reads as post-2022-correction stagnation rather than Minsky Phase 3 onset (months' supply 8.5, Case-Shiller +0.7% YoY, mortgage delinquency 1.89% — all below threshold), and SLOOS net tightening at 8.1% corroborates the May 5–18 "no credit-market transmission" conclusion, confirming the Stage 4 credit-tightening leg is live in non-bank private credit but not the commercial banking channel. New indicators: a residential housing stress line under Global Debt and a SLOOS net-tightening line under Market Behavior — both currently below threshold. No scenario probability or framework phase changes.*
 
@@ -155,3 +157,81 @@ The Chinese axis moves from "untested" to "partially resolved" (May 13–14): Ch
 - Futures curve vs. industry-expected Hormuz normalization timeline — exec-vs-curve divergence as de-escalation-signal falsification
 - Xi mediation framework — does a formal Chinese diplomatic proposal emerge, and does Washington engage it? (new, May 14 — Xi offered to broker peace between the US/Israel and Iran during the Trump–Xi Beijing summit; a utilized mediation channel could be a face-saving Scenario B off-ramp)
 - US blockade enforcement against China-flagged tonnage — untested residual: May 13–14 Chinese transits occurred under Iran's PGSA toll framework, not US escort; whether the US enforces against China-flagged vessels remains the open enforcement question
+
+---
+
+## Composite Indices
+
+*Introduced 2026-05-26 to consolidate scattered watch-list signals into composite readings. Recomputed on Synthesis Reviewer cadence rather than daily.*
+
+### Delay-Tactics Composite (DTC)
+
+A three-axis indicator measuring how much runway the parties stalling Hormuz resolution still have. Bridges Armed Conflict + Global Debt + Regulatory.
+
+**Components:**
+
+| Axis | Reads | Source priority |
+|---|---|---|
+| **A. External buffer-days remaining** | Days to next binding fuel-buffer wall (currently July 9, 2026 IEA emergency release window); hard physical exhaustion projected ~Sept 5 at sustained 4.1 mb/d draw rate per IEA May OMR | IEA Monthly Oil Market Report, EIA weekly petroleum status, ACI Europe, EU Commission energy dashboard |
+| **B. Iran toll-revenue cumulative since PGSA inception (USD)** | Cumulative PGSA toll revenue since regime go-live (~April 22, 2026); rolling 30-day inflow rate maintained as sub-watch | OFAC, FinCEN, TRM Labs, Chainalysis on-chain forensics |
+| **C. Days since last substantive diplomatic movement** | Days since last Tier 1 confirmed substantive move on the 14-point MOU framework (signing, partial signing, named-actor public concession or walk-back) | State Dept, IAEA, MFA Oman/UK/France, Iranian state media |
+
+**Zone logic:**
+
+| Zone | Condition |
+|---|---|
+| GREEN | A > 90 days AND B < $1B AND C < 14 days |
+| YELLOW | Any one axis breached |
+| ORANGE | Any two axes breached |
+| RED | All three breached — *smokescreen collapse moment* |
+
+**Current reading (2026-05-26): YELLOW.**
+
+- **A**: ~44 days to July 9 buffer wall; ~101 days to hard exhaustion at sustained draw rate. Birol six-week clock (April 16 → ~May 28) observably expiring this week per IEA May OMR — 246 mb global inventory draw across March–April at the fastest rate on record; OECD on-land stocks down 146 mb. The clock is replaced, not extended, by the buffer-arithmetic-to-July-9 read.
+- **B**: ~$550–800M estimated cumulative — revised down from the May 23 entry's $600–800M/month framing because the May 26 monitor confirmed China-Iran crude offtake fell ~20% YoY to ~1.1 mb/d (Shandong port enforcement, teapot refinery shutdowns). Below the $1B threshold; axis not breached.
+- **C**: 5 days since Khamenei HEU directive (May 21). Below 14-day threshold; axis not breached.
+
+**Escalation hooks:**
+- Flip to ORANGE → Level 2 position update (cross-section confirmation of stalemate exhaustion)
+- Flip to RED → Level 4 convergence candidate (forced re-alignment imminent)
+- Asymmetric reading note (2026-05-26): China's commercial enforcement of US secondary sanctions is *reducing* Iran's toll runway (axis B) while *accelerating* European buffer drawdown (axis A) — the two clocks are non-linearly coupled rather than independent.
+
+### Narrative-Divergence Index (NDI)
+
+A late-Kindleberger-Stage-4 diagnostic. Measures how much load the AI / neo-space-race "this time is different" narrative is carrying versus broad-market and physical-economy reality. Sits under Market Behavior.
+
+**Components:**
+
+| Sub-index | Reads | Source |
+|---|---|---|
+| **N1. Cap-weighted / equal-weight S&P 500 spread** | 30-day rolling spread between cap-weighted SPX return and SPX equal-weight return (positive = narrative concentration) | FRED, SPGI, `data/aggregates.csv` |
+| **N2. AI/space capex-to-revenue ratio** | Trailing 4Q capex divided by trailing 4Q revenue for Mag-7 + AI/space pure-plays (PLTR, ANET, RKLB, ANDR, comparable cohort) | 10-Q/10-K filings |
+| **N3. Sell-side power-cost flag** | Binary trigger: first major Tier 1/2 sell-side note explicitly flagging data center power constraint as a Mag-7 earnings risk | Goldman / J.P. Morgan / Morgan Stanley / BofA tech research desks |
+| **N4. Smart-money exit principal count** | Number of separately identifiable named principals on documented Stage 4 exit (baseline 4: Burry, Berkshire, Einhorn, Grantham as of 2026-04-21) | 13F filings, deregistration notices, GP letters |
+| **N5. Argument-rebuttal frequency** | Tier 2-3 outlets publishing "this time is different" argument alongside its rebuttal in the same outlet, rolling 30d | Bloomberg, Fortune, WSJ, FT, CNBC, Barron's |
+
+**Zone logic:**
+
+| Zone | Condition |
+|---|---|
+| GREEN | N1 spread within ±1 std dev of 5y mean; N2 within historical industry range; N4 ≤ 2 |
+| YELLOW | N1 > +1 std dev; N2 elevated (>1.5× historical); N4 = 3 |
+| RED | N1 > +2 std dev; N2 > 2× historical; N4 ≥ 4; N5 pattern visible |
+| CRITICAL | First Mag-7 guidance miss attributed to input costs or power *OR* N1 spread blows out while EW rolls over — *Stage 5 onset signature* |
+
+**Current reading (2026-05-26): RED on structural sub-indices; not yet CRITICAL.**
+
+- **N1**: at or near record (Buffett Indicator 226–232% per the April 21 watch-list update); explicit 30-day cap-weight vs. equal-weight spread number flagged for the next `aggregates.csv` refresh.
+- **N2**: hyperscaler capex committing >$50B/yr each (Meta, MSFT, GOOG) against revenue not growing at that rate → >2× historical → red.
+- **N3**: no Tier 1/2 sell-side note flagging hyperscaler power-cost risk identified in the Q1 2026 earnings cycle. Green-but-uncertain (no trigger fired).
+- **N4**: 4 named principals (Burry, Berkshire, Einhorn, Grantham) → red threshold met.
+- **N5**: confirmed (Fortune April 19 piece published argument and rebuttal in the same outlet; Stage-4 diagnostic pattern visible).
+
+**Escalation hooks:**
+- N3 binary fires (first sell-side power-cost flag) → Level 2 (narrative cracking)
+- Mag-7 guidance miss attributed to input costs or power → Level 4 (Stage 5 onset)
+- N1 spread sustained > +2 std dev with EW rolling over → Level 4 (Stage 5 onset)
+
+### Convergence window
+
+The DTC and NDI converge in time during the Q2 2026 earnings cycle (late July), which overlaps with the July 9 IEA buffer wall (DTC axis A) and the next plausible Mag-7 guidance event (NDI CRITICAL trigger). Alignment force on both indices within the same ~14-day period — marked for forward-looking Synthesis Reviewer attention.
