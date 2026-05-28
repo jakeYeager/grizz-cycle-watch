@@ -12,14 +12,9 @@ Research wiki tracking how regulation/deregulation cycles propagate through news
 
 ## Current Cycle Position
 
-As of 2026-04-14:
+**Read `news/watch-list.md` for current cycle position — the framework phase table and scenario probability table there are the single authoritative source and always reflect the most recent Synthesis Reviewer pass.** Do not assume cycle position from this brief; it does not get updated on Reviewer cadence.
 
-| Framework | Phase | Status |
-|---|---|---|
-| Regulatory Cycle (20–30yr) | Phase 4 / 5 boundary | DOL 401(k) safe harbor rule triggered; retail capital channel into private credit opened; judicial resistance active (CFPB courts, Anderson v. Intel Corp.) |
-| Kindleberger Mania | **Stage 4 confirmed** | Both escalation-tree trigger conditions met: Goldman prime brokerage equity exit (7.6:1 short-to-long) + five-platform simultaneous private credit gates |
-| Minsky Debt | **Phase 3 deepening** | $20.8bn Q1 withdrawal requests across five platforms; Fitch 5.8% default rate confirms zombie refinancing failures |
-| Hormuz / Armed Conflict | Active — Scenarios B/C/D | Scenario B 43%, C 32%, D 15%; China escalation column fully met; India as near-term Scenario D actor; April 21 ceasefire expiry is next hard binary |
+Quick orientation: all four frameworks are in late-stage positions. Regulatory sits at the Phase 4/5 boundary with the first Phase 5 candidate signal *operational* (not just candidate). Kindleberger is Stage 4 confirmed on both trigger conditions, with the gate cascade now transmitting through multiple distinct channels (asset-class aggregate, marquee-fund non-standard absorption, individual-fund actually-gated). Minsky is Phase 3 deepening — the next discrete phase advance requires SIFI collateral-call propagation, not yet observed. Armed Conflict remains active across Scenarios B/C/D with direct kinetic enforcement on both sides. Specifics, dated revisions, and named indicator status live in the watch list.
 
 ---
 
@@ -61,6 +56,37 @@ As of 2026-04-14:
 
 ---
 
+## Composite Indices
+
+Two composite indices were introduced 2026-05-26 to consolidate scattered watch-list signals into recomputable readings. **Read the "Composite Indices" section of `news/watch-list.md` for current zone readings, axis-level detail, and escalation hooks.**
+
+| Index | Tracks | Sections bridged |
+|---|---|---|
+| **DTC — Delay-Tactics Composite** | Runway remaining for parties stalling Hormuz resolution: external buffer-days (axis A), Iran toll-revenue cumulative since PGSA inception (axis B), days since last substantive diplomatic move (axis C) | Armed Conflict + Global Debt + Regulatory |
+| **NDI — Narrative-Divergence Index** | Load the AI / neo-space-race "this time is different" narrative is carrying vs. broad-market and physical-economy reality: cap-weighted/equal-weight S&P spread (N1), AI/space capex-to-revenue (N2), sell-side power-cost flag (N3), smart-money exit principal count (N4), argument-rebuttal frequency (N5) | Market Behavior |
+
+Both have explicit escalation hooks (zone flips → Level 2; CRITICAL trigger → Level 4). Recomputed on Synthesis Reviewer cadence rather than daily.
+
+---
+
+## Active Clocks
+
+Named upcoming binaries that bind framework reads. Each warrants pre-position search activity in the 24–48 hours leading up to the date.
+
+| Date | Clock | What it binds |
+|---|---|---|
+| 2026-05-29 | BCRED Q2 tender expiry | Highest-information Market Behavior data point — gate vs. no-gate; a gate without the Q1 $400M employee-capital one-off mechanism would be a stronger Stage 4 cascade signal than Vista's May 27 single-LP gate |
+| 2026-06-03 | DTC axis C breach date (day 14 since Khamenei HEU directive) | If MOU remains unsigned, DTC flips YELLOW→ORANGE per the escalation hook in `news/watch-list.md` |
+| 2026-06-03/04 | Armed Conflict 7d ageing-out window | May 26–27 counter-directional entries roll out of the 7-day window; one additional escalation entry would flip the section directionally clean |
+| 2026-06-16/17 | Warsh first FOMC meeting | Discrete Phase 5 binary — a rate cut against the 3.8% April CPI print would be a hard Phase 5 confirmation (political capture overriding the price-stability mandate) |
+| Late June 2026 | MSACSR May 2026 print | Sustained-crossing confirmation of the >9.0 housing-supply threshold first breached 2026-04 at 9.4 |
+| 2026-07-09 | IEA emergency-release window expiry | DTC axis A binding; hard physical exhaustion projected ~Sept 5 at sustained 4.1 mb/d draw rate per IEA May OMR |
+| Late July 2026 | DTC × NDI × EOPL three-clock convergence | IEA buffer wall + EOPL shadow-pipeline drain (Jan–Apr 2026 Iranian loads arriving on a 2–4 mo transit lag) + Q2 earnings cycle (NDI CRITICAL trigger window) all constrain the same ~14-day period |
+
+Pre-position search activity should escalate as each binary approaches.
+
+---
+
 ## Required Context Files
 
 Read these before acting. They contain the indicators, current positions, log format, and escalation rules.
@@ -88,6 +114,8 @@ Read when a signal touches that section.
 | `armed-conflict/empty-pipeline.md` | Armed Conflict (supply shock reference; superseded by three-blockade-problem) |
 | `news-convergence/2026-04-13-retail-capital-channel.md` | Cross-section convergence (DOL rule, Apollo gate, retail capital channel) |
 | `news-convergence/2026-04-14-kindleberger-confirmed-india-scenario-d.md` | Cross-section convergence (Stage 4 confirmed, China resolved, India Scenario D) |
+| `news-convergence/2026-04-21-pressure-clock-reconfiguration.md` | Cross-section convergence (pressure clock window closes without rupture; political expiry → buffer-statement clock reframing; first time-domain forcing-function reconfiguration) |
+| `news-convergence/2026-05-18-stage4-confirmation-warsh-operational.md` | Cross-section convergence (Tier 1 data axis Stage 4 confirmation; Warsh Phase 5 candidate signal operational via DOJ-probe-as-lever precedent; Spirit Airlines first US corporate failure attributed to fuel shock) |
 
 ---
 
@@ -102,6 +130,8 @@ Use these as starting points. Vary phrasing — the goal is to surface signals t
 - `Anderson v Intel Corp Supreme Court` / `401k fiduciary prudence ruling`
 - `SEC enforcement action 2026` / `OCC regulatory`
 - `financial fraud disclosure 2026` / `regulatory capture financial 2026`
+- `Warsh FOMC June 2026` / `Kevin Warsh first meeting` / `Fed rate decision Warsh`
+- `Powell Fed Board 2026` / `Powell-Warsh tension` / `DOJ Powell probe Fed`
 
 ### Market Behavior
 - `hedge fund short interest 2026` / `Goldman prime brokerage flows`
@@ -110,7 +140,12 @@ Use these as starting points. Vary phrasing — the goal is to surface signals t
 - `private equity NAV markdown` / `redemption gate 2026`
 - `private credit default rate Fitch Moody 2026`
 - `Dimon JPMorgan private credit 2026` / `Apollo Carlyle Ares gate 2026`
+- `BCRED Q2 tender 2026` / `Blackstone Private Credit tender offer`
+- `Vista Credit BDC gate 2026` / `Vista Credit limited redemptions`
+- `non-traded BDC net outflow 2026` / `Stanger BDC redemptions`
 - `crypto sell-off risk-off 2026`
+- `Mag-7 capex Q2 2026` / `hyperscaler capex revenue ratio` / `data center power constraint Mag-7`
+- `Buffett indicator 2026` / `market cap to GDP 2026` / `Burry Berkshire Einhorn Grantham`
 
 ### Global Debt
 - `10-year Treasury yield 2026` / `Treasury yield 5 percent`
@@ -121,18 +156,28 @@ Use these as starting points. Vary phrasing — the goal is to surface signals t
 - `derivatives counterparty failure` / `systemic risk bank 2026`
 - `G7 sovereign debt rating` / `sovereign credit downgrade 2026`
 - `India GDP energy shock 2026` / `India current account deficit Hormuz`
+- `MSACSR housing months supply 2026` / `Census new residential sales 2026`
+- `Case-Shiller April May 2026` / `MBA mortgage delinquency Q1 Q2 2026`
 
 ### Armed Conflict
 - `Strait of Hormuz tanker 2026` / `AIS Hormuz transits`
 - `US Iran ceasefire talks 2026` / `Iran nuclear talks second round`
-- `US Iran ceasefire April 21` / `Iran ceasefire expiry`
+- `US Iran 14-point MOU` / `Iran US framework agreement 2026`
+- `Khamenei HEU directive` / `Iran enriched uranium stockpile 2026`
 - `IRGC drone Hormuz 2026` / `IRGC naval incident`
+- `Bandar Abbas strike 2026` / `US Iran direct strike 2026`
 - `China Hormuz transit 2026` / `PLA fleet Hormuz`
+- `PGSA Persian Gulf Strait Authority` / `Iran toll regime Hormuz 2026`
+- `EOPL Eastern Outer Port Limit` / `STS ship-to-ship Malaysia Iran 2026` / `dark fleet Iran China 2026`
+- `Hengli teapot refinery sanctions 2026` / `Shandong refinery Iranian crude`
+- `Iranian crude Malaysian blend laundering` / `FinCEN Iran crypto advisory`
+- `Tether CBI freeze Iran 2026` / `OFAC Iran shadow fleet`
 - `India Hormuz bilateral deal` / `India Iran oil transit 2026`
 - `India LPG shortage 2026` / `India energy crisis fuel`
 - `Houthi Bab al-Mandab 2026`
 - `Brent crude Iran war 2026`
-- `EU aviation fuel shortage 2026` / `European jet fuel`
+- `EU aviation fuel shortage 2026` / `European jet fuel` / `ACI Europe paraffin`
+- `IEA emergency release window` / `IEA Monthly Oil Market Report 2026`
 - `fertilizer prices 2026` / `urea ammonia shortage` / `sulfur shortage 2026`
 - `Ireland fuel shortage 2026` / `Australia fuel shortage 2026`
 
@@ -154,7 +199,9 @@ Any of these warrant a Level 4 full report regardless of other signals:
 
 ## Known Confounding Factors
 
-**Trump administration messaging volatility (active as of 2026-04-11):** Frequent tariff announcements, reversals, and trade war escalation/de-escalation cycles are generating aggressive position unwinding that mimics structural fire-sale signatures. When logging gold/oil correlation moves or broad asset sell-offs, note whether the timing aligns with a specific policy statement or trade headline. Moves that reverse within 24–48 hours of a messaging shift are likely whiplash, not structural. As log history accumulates, cross-reference new correlation signals against prior entries to assess whether the pattern is sustained or episodic.
+**Trump administration messaging volatility (persistent through 2026-05):** Frequent tariff, ceasefire-status, and deal-narrative reversals generate aggressive position unwinding that mimics structural fire-sale signatures. When logging asset moves, note whether the timing aligns with a specific policy statement or deal headline. Moves that reverse within 24–48 hours of a messaging shift are whiplash, not structural. Cross-reference new signals against prior entries to assess whether the pattern is sustained or episodic.
+
+**Worked example (2026-05-23 → 2026-05-28):** Trump "largely negotiated" (May 23) → Brent rallies from $116 to $97 in 9 sessions, crossing the $105 de-escalation threshold on May 27 → Trump "not rushing into a deal" + Shamkhani publicly calls the MOU "fantasy" (May 27) → US strikes near Bandar Abbas Airport + IRGC retaliatory strike on US air base (May 28) → Brent reverts to $97.51, holding. The full sequence — narrative pump → threshold cross → kinetic reset — closed inside 5 calendar days. The May 27 Brent de-escalation print is the kind of signal that looks structural at the moment of logging but is whiplash in retrospect; the 2026-05-28 Synthesis Reviewer pass explicitly downweighted it. When a narrative-driven price move arrives, log it but flag the deal-headline correlation and check whether the move holds 48+ hours past the next reversal opportunity.
 
 ---
 
