@@ -58,7 +58,7 @@ Quick orientation: all four frameworks are in late-stage positions. Regulatory s
 
 ## Composite Indices
 
-Two composite indices were introduced 2026-05-26 to consolidate scattered watch-list signals into recomputable readings. **Read the "Composite Indices" section of `news/watch-list.md` for current zone readings, axis-level detail, and escalation hooks.**
+Two composite indices were introduced 2026-05-26 to consolidate scattered watch-list signals into recomputable readings. **Read `news/composite-indices.md` for rubric definitions, sub-index detail, current zone readings, escalation hooks, and the convergence-window analysis.** The watch list (`news/watch-list.md`) references these composites by name and zone state but does not duplicate the rubric.
 
 | Index | Tracks | Sections bridged |
 |---|---|---|

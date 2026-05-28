@@ -14,6 +14,7 @@ website:
       - section: "News"
         contents:
           - news/watch-list.md
+          - news/composite-indices.md
           - news/signal-log.md
       - section: "Convergence Reports"
         contents:
