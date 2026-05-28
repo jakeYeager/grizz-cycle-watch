@@ -216,16 +216,17 @@ A late-Kindleberger-Stage-4 diagnostic. Measures how much load the AI / neo-spac
 | **N2. AI/space capex-to-revenue ratio** | Trailing 4Q capex divided by trailing 4Q revenue for Mag-7 + AI/space pure-plays (PLTR, ANET, RKLB, ANDR, comparable cohort) | 10-Q/10-K filings |
 | **N3. Sell-side power-cost flag** | Binary trigger: first major Tier 1/2 sell-side note explicitly flagging data center power constraint as a Mag-7 earnings risk | Goldman / J.P. Morgan / Morgan Stanley / BofA tech research desks |
 | **N4. Smart-money exit principal count** | Number of separately identifiable named principals on documented Stage 4 exit (baseline 4: Burry, Berkshire, Einhorn, Grantham as of 2026-04-21) | 13F filings, deregistration notices, GP letters |
-| **N5. Argument-rebuttal frequency** | Tier 2-3 outlets publishing "this time is different" argument alongside its rebuttal in the same outlet, rolling 30d | Bloomberg, Fortune, WSJ, FT, CNBC, Barron's |
+| **N5. Argument-rebuttal frequency** | Tier 2-3 outlets publishing "this time is different" argument alongside its rebuttal in the same outlet, rolling 60d. Quantified trigger: ≥3 distinct outlets within window | Bloomberg, Fortune, WSJ, FT, CNBC, Barron's, Axios |
+| **N6. Fed-model equity risk premium compression** | Forward S&P 500 12-mo earnings yield minus 10-yr UST yield (basis: Axios / Bloomberg "Fed-model" methodology, distinct from Damodaran DCF-implied ERP which uses long-run growth assumptions and currently sits at long-run average ~4.2%). Quantitative N5-companion: when the Fed-model reading compresses sharply, the divergence vs. DCF-implied ERP is itself an N1-adjacent narrative-vs-fundamentals signal | FRED earnings yield + DGS10; Axios / Bloomberg compilations; Damodaran NYU Stern for DCF cross-check |
 
 **Zone logic:**
 
 | Zone | Condition |
 |---|---|
-| GREEN | N1 spread within ±1 std dev of 5y mean; N2 within historical industry range; N4 ≤ 2 |
-| YELLOW | N1 > +1 std dev; N2 elevated (>1.5× historical); N4 = 3 |
-| RED | N1 > +2 std dev; N2 > 2× historical; N4 ≥ 4; N5 pattern visible |
-| CRITICAL | First Mag-7 guidance miss attributed to input costs or power *OR* N1 spread blows out while EW rolls over — *Stage 5 onset signature* |
+| GREEN | N1 spread within ±1 std dev of 5y mean; N2 within historical industry range; N4 ≤ 2; N6 > 1.0 pp |
+| YELLOW | N1 > +1 std dev; N2 elevated (>1.5× historical); N4 = 3; N6 0.5–1.0 pp |
+| RED | N1 > +2 std dev; N2 > 2× historical; N4 ≥ 4; N5 ≥3 distinct outlets within rolling 60d; N6 < 0.5 pp |
+| CRITICAL | First Mag-7 guidance miss attributed to input costs or power *OR* N1 spread blows out while EW rolls over *OR* N6 < 0.0 pp (Fed-model ERP turns negative — equity yields below UST) — *Stage 5 onset signature* |
 
 **Current reading (2026-05-26): RED on structural sub-indices; not yet CRITICAL.**
 
@@ -233,12 +234,15 @@ A late-Kindleberger-Stage-4 diagnostic. Measures how much load the AI / neo-spac
 - **N2**: hyperscaler capex committing >$50B/yr each (Meta, MSFT, GOOG) against revenue not growing at that rate → >2× historical → red.
 - **N3**: no Tier 1/2 sell-side note flagging hyperscaler power-cost risk identified in the Q1 2026 earnings cycle. Green-but-uncertain (no trigger fired).
 - **N4**: 4 named principals (Burry, Berkshire, Einhorn, Grantham) → red threshold met.
-- **N5**: confirmed (Fortune April 19 piece published argument and rebuttal in the same outlet; Stage-4 diagnostic pattern visible).
+- **N5**: confirmed and sustained as of 2026-05-28 — Bloomberg "TINA effectively over" / "Stagflation Era Flashbacks" cluster (April 7–9) + Fortune "dizzying new high" argument-rebuttal piece (April 19) + Axios "The disappearing premium to own stocks" (May 25) = 3 distinct Tier 2 outlets within rolling 60d window. Quantified threshold met; pattern is multi-outlet, multi-month, not a one-off Fortune piece.
+- **N6**: **0.17 pp as of 2026-05-25** (Axios / Tier 2 — S&P 500 forward earnings yield 4.73% minus 10-yr UST 4.56%). RED threshold met (<0.5 pp). Second-tightest Fed-model ERP reading since the late-1990s dot-com peak (historical context: Dec 1999 trough was negative; Dec 2007 pre-GFC was ~3.4%; post-GFC peak was 8.17%). Damodaran's DCF-implied ERP cross-check at 4.23% (Jan 1, 2026, Tier 1) is at long-run average — divergence between the two methodologies is itself an N1-adjacent signal: forward-growth assumptions are doing the load-bearing work for valuations.
 
 **Escalation hooks:**
 - N3 binary fires (first sell-side power-cost flag) → Level 2 (narrative cracking)
+- N6 sustained < 0.5 pp for 30d AND a Tier 1/2 sell-side note explicitly flagging the compression as a risk → Level 2 (narrative cracking, quantified)
 - Mag-7 guidance miss attributed to input costs or power → Level 4 (Stage 5 onset)
 - N1 spread sustained > +2 std dev with EW rolling over → Level 4 (Stage 5 onset)
+- N6 < 0.0 pp (Fed-model ERP turns negative — equity yields below UST) → Level 4 (Stage 5 onset signature)
 
 ### Convergence window
 
