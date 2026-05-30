@@ -24,6 +24,7 @@ Series (all FRED — no Yahoo Finance leg, so no yfinance dependency):
   cc_delinquency        Credit-card delinquency, all comm. banks  FRED: DRCCLACBS      quarterly
   cc_chargeoff          Credit-card charge-off, all comm. banks   FRED: CORCCACBS      quarterly
   loans_ndfi            Loans to nondepository financial insts.   FRED: LNFACBM027SBOG monthly
+  total_loans           Loans & leases in bank credit (denom.)    FRED: LOANS          monthly
 
 Bank->nonbank-financial channel note: loans_ndfi is the H.8 "Loans to Nondepository
 Financial Institutions, All Commercial Banks" series (monthly SA, $bn) — the bank->private-
@@ -35,6 +36,15 @@ SUBSET of this ~$2.0T aggregate; this series is the trackable upper-bound proxy 
 channel, not the PC-specific figure. The meaningful read is the YoY growth rate (the watch
 list's ~21%/yr Level-2 hook), so it is in YOY_COLUMNS — recent prints run hotter (~26% YoY
 April 2026, ~52-58% late 2025) than the long-run pace.
+
+Normalization denominator: total_loans is the H.8 "Loans and Leases in Bank Credit, All
+Commercial Banks" series (FRED LOANS, monthly SA, $bn) — the monthly twin of weekly TOTLL,
+chosen because it shares loans_ndfi's month-start dates, so the normalized share
+(loans_ndfi / total_loans) is a clean same-row division with no nearest-date matching. It is
+a pure reference denominator: not in YOY_COLUMNS and carries no threshold (total bank loans
+always grows; the signal is the RATIO, not the level). As of Apr 2026 the share is ~14.4%,
+up from ~4.3% in 2015 — the normalized form of the watch-list bank->private-credit indicator
+that survives the nominal-growth caveat on loans_ndfi.
 
 Consumer-credit note: cc_delinquency and cc_chargeoff are the system/commercial-bank
 read on the consumer revolving-credit indicator added to the Global Debt watch list
@@ -93,6 +103,7 @@ SERIES = {
     "cc_delinquency":       ("DRCCLACBS",     "Credit-card delinquency, all comm. banks (%)"),
     "cc_chargeoff":         ("CORCCACBS",     "Credit-card charge-off, all comm. banks (%)"),
     "loans_ndfi":           ("LNFACBM027SBOG", "Loans to nondepository financial insts., all comm. banks ($B)"),
+    "total_loans":          ("LOANS",          "Loans & leases in bank credit, all comm. banks ($B) — NDFI-share denom."),
 }
 
 # Index/count series — displayed and threshold-checked as year-over-year % change.
