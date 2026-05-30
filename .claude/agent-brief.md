@@ -94,8 +94,10 @@ Read these before acting. They contain the indicators, current positions, log fo
 | File | Purpose |
 |---|---|
 | `news/watch-list.md` | Watch list — specific indicators per section |
-| `news/signal-log.md` | Recent signal entries — do not duplicate |
+| `news/signal-log.md` | Active signal log (current month) — recent entries; do not duplicate. New signals always append here |
 | `.claude/rules/signal-monitoring.md` | Log format and escalation decision tree |
+
+**Signal-log archiving:** the active `news/signal-log.md` holds the current month only. Older entries roll off monthly to `news/signal-log-archive/<YYYY-MM>.md` (cold storage — never write there; all new signals append to the active log). For deduplication and 7-day accumulation checks the active log is sufficient on its own. Consult the archive **only** when cross-referencing a pattern older than the current month — e.g. the confounding-factors sustained-vs-episodic test below, or an indicator whose prior movement predates the active month.
 
 ## Deep Context Files
 
