@@ -75,13 +75,13 @@ Named upcoming binaries that bind framework reads. Each warrants pre-position se
 
 | Date | Clock | What it binds |
 |---|---|---|
-| 2026-05-29 | BCRED Q2 tender expiry | Highest-information Market Behavior data point — gate vs. no-gate; a gate without the Q1 $400M employee-capital one-off mechanism would be a stronger Stage 4 cascade signal than Vista's May 27 single-LP gate |
 | 2026-06-03 | DTC axis C breach date (day 14 since Khamenei HEU directive) | If MOU remains unsigned, DTC flips YELLOW→ORANGE per the escalation hook in `news/watch-list.md` |
 | 2026-06-03/04 | Armed Conflict 7d ageing-out window | May 26–27 counter-directional entries roll out of the 7-day window; one additional escalation entry would flip the section directionally clean |
 | 2026-06-16/17 | Warsh first FOMC meeting | Discrete Phase 5 binary — a rate cut against the 3.8% April CPI print would be a hard Phase 5 confirmation (political capture overriding the price-stability mandate) |
 | Late June 2026 | MSACSR May 2026 print | Sustained-crossing confirmation of the >9.0 housing-supply threshold first breached 2026-04 at 9.4 |
 | 2026-07-09 | IEA emergency-release window expiry | DTC axis A binding; hard physical exhaustion projected ~Sept 5 at sustained 4.1 mb/d draw rate per IEA May OMR |
 | Late July 2026 | DTC × NDI × EOPL three-clock convergence | IEA buffer wall + EOPL shadow-pipeline drain (Jan–Apr 2026 Iranian loads arriving on a 2–4 mo transit lag) + Q2 earnings cycle (NDI CRITICAL trigger window) all constrain the same ~14-day period |
+| ~2026-08-01 | BCRED Q3 tender filing (expiry ~Aug 29) | Highest-information Market Behavior data point. Q2 (May 29) was absorbed for the second consecutive quarter via the 7% upsize + ~$400M Blackstone employee/firm capital mechanism — now a structural operating mode, not a one-off. Q3 is the first test of whether Blackstone can/will absorb a third consecutive quarter; a gate *without* the proprietary-capital mechanism would be the strongest Stage 4 cascade signal yet |
 
 Pre-position search activity should escalate as each binary approaches.
 
