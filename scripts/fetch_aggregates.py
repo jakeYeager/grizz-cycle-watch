@@ -23,6 +23,18 @@ Series (all FRED — no Yahoo Finance leg, so no yfinance dependency):
   mortgage_delinquency  Single-family mortgage delinquency (%)    FRED: DRSFRMACBS     quarterly
   cc_delinquency        Credit-card delinquency, all comm. banks  FRED: DRCCLACBS      quarterly
   cc_chargeoff          Credit-card charge-off, all comm. banks   FRED: CORCCACBS      quarterly
+  loans_ndfi            Loans to nondepository financial insts.   FRED: LNFACBM027SBOG monthly
+
+Bank->nonbank-financial channel note: loans_ndfi is the H.8 "Loans to Nondepository
+Financial Institutions, All Commercial Banks" series (monthly SA, $bn) — the bank->private-
+credit direct-lending exposure indicator added to the Global Debt watch list (2026-05-29).
+IMPORTANT scope nuance: NDFI is BROADER than private credit — it captures banks' lending to
+all nondepository financials (PE/private-credit funds, mortgage REITs, broker-dealers,
+consumer lenders, BDCs). The FSB's ~$220B "bank credit lines to private credit funds" is a
+SUBSET of this ~$2.0T aggregate; this series is the trackable upper-bound proxy for the
+channel, not the PC-specific figure. The meaningful read is the YoY growth rate (the watch
+list's ~21%/yr Level-2 hook), so it is in YOY_COLUMNS — recent prints run hotter (~26% YoY
+April 2026, ~52-58% late 2025) than the long-run pace.
 
 Consumer-credit note: cc_delinquency and cc_chargeoff are the system/commercial-bank
 read on the consumer revolving-credit indicator added to the Global Debt watch list
@@ -80,11 +92,13 @@ SERIES = {
     "mortgage_delinquency": ("DRSFRMACBS",    "Single-family mortgage delinquency (%)"),
     "cc_delinquency":       ("DRCCLACBS",     "Credit-card delinquency, all comm. banks (%)"),
     "cc_chargeoff":         ("CORCCACBS",     "Credit-card charge-off, all comm. banks (%)"),
+    "loans_ndfi":           ("LNFACBM027SBOG", "Loans to nondepository financial insts., all comm. banks ($B)"),
 }
 
 # Index/count series — displayed and threshold-checked as year-over-year % change.
-# Everything else is read as a level.
-YOY_COLUMNS = {"home_sales", "case_shiller", "cpi", "cpi_core"}
+# Everything else is read as a level. loans_ndfi is a $-level series but its
+# meaningful read is the YoY growth rate (the watch list's ~21%/yr channel-expansion hook).
+YOY_COLUMNS = {"home_sales", "case_shiller", "cpi", "cpi_core", "loans_ndfi"}
 
 # Threshold levels printed as flags on latest values.
 # Each entry: (value, direction, label)
@@ -137,6 +151,12 @@ THRESHOLDS = {
     "cc_chargeoff": [
         (6.0, "above", "ALERT — crisis-level card charge-offs"),
         (4.5, "above", "WARN  — card charge-offs back above 2024 cycle peak"),
+    ],
+    # Checked against YoY % growth (loans_ndfi is in YOY_COLUMNS). The watch-list hook
+    # is the ~21%/yr structural pace; recent prints run ~26% (Apr 2026), ~52-58% (late 2025).
+    "loans_ndfi": [
+        (35.0, "above", "ALERT — NDFI lending growth accelerating sharply (bank→nonbank-financial channel)"),
+        (20.0, "above", "WARN  — NDFI lending sustaining >~21%/yr pace — bank→private-credit channel expanding"),
     ],
 }
 
