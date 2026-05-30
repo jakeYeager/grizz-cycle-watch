@@ -165,9 +165,20 @@ THRESHOLDS = {
     ],
     # Checked against YoY % growth (loans_ndfi is in YOY_COLUMNS). The watch-list hook
     # is the ~21%/yr structural pace; recent prints run ~26% (Apr 2026), ~52-58% (late 2025).
+    #
+    # RECLASSIFICATION CAVEAT (read before trusting a WARN/ALERT here): ~$400B was
+    # reclassified INTO the NDFI bucket from C&I/consumer across 2025 (Jan 1 2025 alone
+    # = $243B; source: Fed H.8 technical notes, Tier 1). So YoY readings from ~early-2025
+    # through ~mid-2026 are DEFINITIONAL, not new lending — they overstate organic growth,
+    # which is ~15-20%/yr reclassification-adjusted (FDIC 2010-2024 CAGR 21.9%). A WARN/ALERT
+    # fired in that window is likely reclassification noise, NOT a genuine channel-expansion
+    # signal — discount accordingly. The reclassification engine is spent (Dec 2025 event
+    # = $2.3B), so from ~mid-2026 the YoY cleans up and the threshold regains its meaning.
+    # The precise PC channel (Call Report "business credit intermediaries" ~$219B) is NOT on
+    # FRED — manual pull; loans_ndfi is a broad upper-bound proxy (PC is only ~23% of NDFI).
     "loans_ndfi": [
-        (35.0, "above", "ALERT — NDFI lending growth accelerating sharply (bank→nonbank-financial channel)"),
-        (20.0, "above", "WARN  — NDFI lending sustaining >~21%/yr pace — bank→private-credit channel expanding"),
+        (35.0, "above", "ALERT — NDFI lending growth accelerating sharply (check reclassification caveat)"),
+        (20.0, "above", "WARN  — NDFI lending growth elevated (reclassification-inflated through ~mid-2026)"),
     ],
 }
 
