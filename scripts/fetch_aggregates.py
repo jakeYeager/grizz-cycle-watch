@@ -21,6 +21,17 @@ Series (all FRED — no Yahoo Finance leg, so no yfinance dependency):
   unemployment          Unemployment rate (%)                     FRED: UNRATE         monthly
   sloos_tightening      SLOOS net % banks tightening C&I loans    FRED: DRTSCILM       quarterly
   mortgage_delinquency  Single-family mortgage delinquency (%)    FRED: DRSFRMACBS     quarterly
+  cc_delinquency        Credit-card delinquency, all comm. banks  FRED: DRCCLACBS      quarterly
+  cc_chargeoff          Credit-card charge-off, all comm. banks   FRED: CORCCACBS      quarterly
+
+Consumer-credit note: cc_delinquency and cc_chargeoff are the system/commercial-bank
+read on the consumer revolving-credit indicator added to the Global Debt watch list
+(2026-05-29). They are the FRED-automatable half of that indicator. The headline NY Fed
+CCP balance-weighted 90+ DPD *stock* rate (~13.12%, approaching the 13.7% 2010 peak) is
+NOT on the FRED API — it is a quarterly Household Debt & Credit Report (Consumer Credit
+Panel/Equifax) PDF/Excel release and remains a manual pull. The bifurcation between the
+two is the signal: a re-acceleration in these bank-level series toward their thresholds
+would mark below-prime stress turning systemic.
 
 Cadence note: this file is a ragged grid by design — most rows are sparse and
 each series populates only on its own release dates. The merge logic handles
@@ -67,6 +78,8 @@ SERIES = {
     "unemployment":         ("UNRATE",        "Unemployment rate (%)"),
     "sloos_tightening":     ("DRTSCILM",      "SLOOS net % banks tightening C&I"),
     "mortgage_delinquency": ("DRSFRMACBS",    "Single-family mortgage delinquency (%)"),
+    "cc_delinquency":       ("DRCCLACBS",     "Credit-card delinquency, all comm. banks (%)"),
+    "cc_chargeoff":         ("CORCCACBS",     "Credit-card charge-off, all comm. banks (%)"),
 }
 
 # Index/count series — displayed and threshold-checked as year-over-year % change.
@@ -112,6 +125,18 @@ THRESHOLDS = {
     "mortgage_delinquency": [
         (5.0, "above", "ALERT — distress-level mortgage delinquency"),
         (3.0, "above", "WARN  — rising mortgage delinquency"),
+    ],
+    # Currently 2.92% and falling from the 3.2% 2024 cycle peak (pre-pandemic ~2.5%,
+    # 2010 crisis peak ~6.8%). A re-acceleration past the prior peak is the tell that
+    # below-prime card stress is turning systemic.
+    "cc_delinquency": [
+        (5.0, "above", "ALERT — distress-level card delinquency (systemic)"),
+        (3.5, "above", "WARN  — card delinquency re-accelerating past 2024 peak"),
+    ],
+    # Currently ~3.8%; 2024 cycle peak 4.6%, pre-pandemic baseline ~3.7%.
+    "cc_chargeoff": [
+        (6.0, "above", "ALERT — crisis-level card charge-offs"),
+        (4.5, "above", "WARN  — card charge-offs back above 2024 cycle peak"),
     ],
 }
 
