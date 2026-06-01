@@ -39,6 +39,7 @@ import argparse
 import csv
 import os
 import sys
+import time
 from datetime import date, timedelta
 from pathlib import Path
 
@@ -106,24 +107,50 @@ def load_dotenv(path: Path = Path(__file__).parent.parent / ".env") -> None:
         pass
 
 
-def fetch_series(api_key: str, series_id: str, start: str, end: str) -> dict:
-    r = requests.get(
-        FRED_BASE,
-        params={
-            "series_id": series_id,
-            "api_key": api_key,
-            "file_type": "json",
-            "observation_start": start,
-            "observation_end": end,
-        },
-        timeout=15,
-    )
-    r.raise_for_status()
-    return {
-        obs["date"]: obs["value"]
-        for obs in r.json().get("observations", [])
-        if obs["value"] != "."  # FRED uses "." for missing values
+def fetch_series(api_key: str, series_id: str, start: str, end: str,
+                 max_retries: int = 4) -> dict:
+    """Fetch one FRED series, retrying transient failures with exponential backoff.
+
+    FRED rate-limits bursts: several requests in the same second can draw a 429
+    even when well under the ~120/min ceiling. We retry 429 and 5xx (and transient
+    network errors), honoring the Retry-After header when FRED supplies one. A
+    non-retryable error (e.g. 400 bad series) raises on the first try so the
+    caller's per-status-code handling still fires.
+    """
+    params = {
+        "series_id": series_id,
+        "api_key": api_key,
+        "file_type": "json",
+        "observation_start": start,
+        "observation_end": end,
     }
+    backoff = 1.0  # seconds; doubles each retry
+    for attempt in range(max_retries + 1):
+        try:
+            r = requests.get(FRED_BASE, params=params, timeout=15)
+        except (requests.ConnectionError, requests.Timeout):
+            if attempt >= max_retries:
+                raise
+            print(f"[net error, retry in {backoff:.0f}s]", end=" ", flush=True)
+            time.sleep(backoff)
+            backoff *= 2
+            continue
+        if r.status_code in (429, 500, 502, 503, 504) and attempt < max_retries:
+            hdr = r.headers.get("Retry-After", "")
+            delay = float(hdr) if hdr.isdigit() else backoff
+            print(f"[HTTP {r.status_code}, retry in {delay:.0f}s]", end=" ", flush=True)
+            time.sleep(delay)
+            backoff *= 2
+            continue
+        r.raise_for_status()
+        return {
+            obs["date"]: obs["value"]
+            for obs in r.json().get("observations", [])
+            if obs["value"] != "."  # FRED uses "." for missing values
+        }
+    # Retries exhausted on a retryable status — surface the final error.
+    r.raise_for_status()
+    return {}
 
 
 def fetch_gold(start: str, end: str) -> dict:
