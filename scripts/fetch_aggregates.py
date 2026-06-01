@@ -22,6 +22,7 @@ Series (all FRED — no Yahoo Finance leg, so no yfinance dependency):
   sloos_tightening      SLOOS net % banks tightening C&I loans    FRED: DRTSCILM       quarterly
   mortgage_delinquency  Single-family mortgage delinquency (%)    FRED: DRSFRMACBS     quarterly
   cc_delinquency        Credit-card delinquency, all comm. banks  FRED: DRCCLACBS      quarterly
+  cc_delinquency_small  Credit-card delinquency, small banks      FRED: DRCCLOBS       quarterly
   cc_chargeoff          Credit-card charge-off, all comm. banks   FRED: CORCCACBS      quarterly
   loans_ndfi            Loans to nondepository financial insts.   FRED: LNFACBM027SBOG monthly
   total_loans           Loans & leases in bank credit (denom.)    FRED: LOANS          monthly
@@ -46,14 +47,17 @@ always grows; the signal is the RATIO, not the level). As of Apr 2026 the share 
 up from ~4.3% in 2015 — the normalized form of the watch-list bank->private-credit indicator
 that survives the nominal-growth caveat on loans_ndfi.
 
-Consumer-credit note: cc_delinquency and cc_chargeoff are the system/commercial-bank
-read on the consumer revolving-credit indicator added to the Global Debt watch list
-(2026-05-29). They are the FRED-automatable half of that indicator. The headline NY Fed
-CCP balance-weighted 90+ DPD *stock* rate (~13.12%, approaching the 13.7% 2010 peak) is
-NOT on the FRED API — it is a quarterly Household Debt & Credit Report (Consumer Credit
-Panel/Equifax) PDF/Excel release and remains a manual pull. The bifurcation between the
-two is the signal: a re-acceleration in these bank-level series toward their thresholds
-would mark below-prime stress turning systemic.
+Consumer-credit note: cc_delinquency, cc_delinquency_small, and cc_chargeoff are the
+system/commercial-bank read on the consumer revolving-credit indicator added to the Global
+Debt watch list (2026-05-29). They are the FRED-automatable half of that indicator.
+cc_delinquency_small (DRCCLOBS, banks outside the top 100 by assets; added 2026-06-01) is
+the institutional-concentration dimension: it runs structurally ~2x the all-bank rate
+(6.43% vs 2.92% Q1 2026) and isolates below-prime / smaller-lender stress, which leads the
+system. The headline NY Fed CCP balance-weighted 90+ DPD *stock* rate (~13.12%, approaching
+the 13.7% 2010 peak) is NOT on the FRED API — it is a quarterly Household Debt & Credit
+Report (Consumer Credit Panel/Equifax) PDF/Excel release and remains a manual pull. The
+bifurcation across these series is the signal: a re-acceleration in the bank-level rates
+toward their thresholds would mark below-prime stress turning systemic.
 
 Cadence note: this file is a ragged grid by design — most rows are sparse and
 each series populates only on its own release dates. The merge logic handles
@@ -102,6 +106,7 @@ SERIES = {
     "sloos_tightening":     ("DRTSCILM",      "SLOOS net % banks tightening C&I"),
     "mortgage_delinquency": ("DRSFRMACBS",    "Single-family mortgage delinquency (%)"),
     "cc_delinquency":       ("DRCCLACBS",     "Credit-card delinquency, all comm. banks (%)"),
+    "cc_delinquency_small": ("DRCCLOBS",      "Credit-card delinquency, small banks ex-top-100 (%)"),
     "cc_chargeoff":         ("CORCCACBS",     "Credit-card charge-off, all comm. banks (%)"),
     "loans_ndfi":           ("LNFACBM027SBOG", "Loans to nondepository financial insts., all comm. banks ($B)"),
     "total_loans":          ("LOANS",          "Loans & leases in bank credit, all comm. banks ($B) — NDFI-share denom."),
@@ -158,6 +163,17 @@ THRESHOLDS = {
     "cc_delinquency": [
         (5.0, "above", "ALERT — distress-level card delinquency (systemic)"),
         (3.5, "above", "WARN  — card delinquency re-accelerating past 2024 peak"),
+    ],
+    # Small-bank (ex-top-100) card delinquency — runs structurally far above the
+    # all-bank rate and is the cleanest below-prime / institutional-concentration
+    # read on consumer revolving-credit stress (added 2026-06-01). Series back to
+    # 1991: 2015-2019 avg ~4.6%, ALL-TIME record 7.86% (Q4 2023 — above the GFC),
+    # latest 6.43% (Q1 2026) and DECLINING from a 7.18% Q1-2025 local peak. The
+    # signal is therefore RE-ACCELERATION back toward the record, not the current
+    # level — thresholds are set so neither fires at today's 6.43% downtrend.
+    "cc_delinquency_small": [
+        (7.8, "above", "ALERT — small-bank card delinquency at/above the 2023 record high"),
+        (7.0, "above", "WARN  — small-bank card delinquency re-accelerating toward record"),
     ],
     # Currently ~3.8%; 2024 cycle peak 4.6%, pre-pandemic baseline ~3.7%.
     "cc_chargeoff": [
