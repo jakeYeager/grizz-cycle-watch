@@ -75,7 +75,7 @@ Named upcoming binaries that bind framework reads. Each warrants pre-position se
 
 | Date | Clock | What it binds |
 |---|---|---|
-| 2026-06-03 | DTC axis C breach date (day 14 since Khamenei HEU directive) | If MOU remains unsigned, DTC flips YELLOW→ORANGE per the escalation hook in `news/watch-list.md` |
+| 2026-06-04 | DTC axis C breach (day 14 since the May 21 Khamenei HEU directive; May 21 = day 0, so the 14-day threshold lands June 4 — one day *after* the Armed Conflict roll-off below, not the single "June 3" the two were previously merged into) | If MOU remains unsigned, DTC flips YELLOW→ORANGE per the escalation hook in `news/watch-list.md` |
 | 2026-06-03/04 | Armed Conflict 7d ageing-out window | May 26–27 counter-directional entries roll out of the 7-day window; one additional escalation entry would flip the section directionally clean |
 | 2026-06-16/17 | Warsh first FOMC meeting | Discrete Phase 5 binary — a rate cut against the 3.8% April CPI print would be a hard Phase 5 confirmation (political capture overriding the price-stability mandate) |
 | Late June 2026 | MSACSR May 2026 print | Sustained-crossing confirmation of the >9.0 housing-supply threshold first breached 2026-04 at 9.4 |
