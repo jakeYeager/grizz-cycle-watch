@@ -8,6 +8,92 @@ categories: [news]
 
 # Signal Log
 
+## 2026-06-05
+
+### CENTCOM strikes Qeshm Island IRGC C2 (drone ground-control + air defense); IRGC retaliates against US Fifth Fleet HQ (Bahrain, intercepted) and Kuwait's Ali al-Salem air base — drone hits Kuwait Int'l Airport area, 1 killed / 63 injured (June 3)
+
+**Indicators:** IRGC naval activity; AIS mine-clearance progress; Brent crude trajectory (the Qeshm strike is the closest the kinetic exchange has come to the Strait of Hormuz's threshold infrastructure — Qeshm flanks the Strait and houses IRGC denial assets — but the target set was command-and-control and air-defense nodes, not navigation aids, mines, PGSA vessels, or the transit corridor itself)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Confirms existing, escalation-direction. The most significant kinetic event since the May 28 Bandar Abbas exchange and qualitatively distinct on two axes. (1) Geography: Qeshm Island sits at the mouth of the Strait; a US strike on its IRGC drone ground-control station and air-defense systems is the nearest the exchange has come to the Strait's physical-infrastructure threshold. (2) Retaliation target class: the IRGC for the first time targeted the US Fifth Fleet headquarters in Bahrain — the operational command node for the Gulf naval presence — (intercepted by US/Bahraini air defense) and Ali al-Salem air base in Kuwait; an Iranian drone struck the Kuwait International Airport area, killing one and injuring 63. **Level 4 immediate trigger — does NOT fire.** The "Strait of Hormuz physical infrastructure struck, mined, or formally closed under international law" trigger protects the *transit system* (navigation aids, mines, transit corridor, PGSA vessels); a strike on C2/air-defense nodes on a strait-flanking island is the same category as the May 28 Bandar Abbas and June 1 Sirik Island radar/C2 strikes, both correctly logged Level 1. Geographic adjacency to the Strait is not a strike on the corridor; Iran issued no formal closure declaration. Casualty salience (first confirmed mass casualties on Gulf soil in the June cluster) raises Scenario C/D pressure materially but does not cross an L4 line — the tree turns on *what was struck*, not *how bad it was*.
+
+**Source:** US Central Command public statement confirming the Qeshm strikes on IRGC drone ground-control and air-defense systems (Tier 1 — cited across Al Jazeera, RFE/RL); Al Jazeera, "Iranian drone attack kills Indian citizen in Kuwait after US strikes Qeshm," June 3, 2026 (Tier 2 — Kuwait casualty figures); RFE/RL, "Iran, US Exchange Attacks As Tensions In Gulf Rise," June 3, 2026 (Tier 2 — Bahrain Fifth Fleet HQ targeting and intercept). Sourcing split per the June 1 Kuwait-entry convention: CENTCOM (Tier 1) anchors the US strike; the Iranian-retaliation specifics and Kuwait casualty count rest on Tier 2 regional wire at filing time.
+
+**Note:** This entry is the fifth same-direction (escalation) Armed Conflict entry in the June 1–5 rolling 7-day window and the event that completes the directionally-clean cluster — see the Level 2 entry below. It also extends the C2-strike precedent (Bandar Abbas May 28, Sirik Island June 1) one node closer to the Strait; the threshold question warrants continued monitoring, as a follow-on strike on Hormuz navigation infrastructure would fire Level 4 immediately.
+
+---
+
+### Armed Conflict section reaches directionally-clean 7-day cluster (June 1–5): five same-direction escalation entries, May 26–27 de-escalation entries aged out — Level 2 trigger fires
+
+**Indicators:** IRGC naval activity; AIS mine-clearance progress; Brent crude trajectory; Netanyahu coalition stability; DTC axis C
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Level 2 per the escalation tree ("3+ log entries within 7 days pointing in the same direction within a single section"). The June 1–5 rolling window now holds five escalation-direction entries — (1) Iran talks suspension + Bab el-Mandeb threat (June 1), (2) Sirik Island kinetic exchange (June 1), (3) Kuwait air-defense intercept (June 1), (4) Israel–Lebanon Litani crossing / Netanyahu permanent-presence framing (June 1), (5) Qeshm strike + Fifth Fleet/Kuwait retaliation (June 3, above) — with no counter-direction entry remaining: the May 26–27 de-escalation prints (unsigned MOU, Brent $105 de-escalation cross) fully aged out of the 7-day window on June 2–3. This is the condition the May 27/28 and June 1 Synthesis Reviewer passes pre-staged ("if the May 26–27 counter-directional entries roll out and one additional escalation entry lands, the section flips directionally clean"). The section is now clean with five entries, well past the minimum three. The prior cross-section convergence disqualifier (Armed Conflict internally counter-directional) is thereby removed — but convergence still does NOT fire (see the convergence re-run in the watch-list 2026-06-05 position note: Global Debt is flat-to-easing and Regulatory quiescent, so breadth-without-co-direction remains disqualifying).
+
+**Source:** Cumulative from the four June 1 Armed Conflict entries (logged 2026-06-01) plus the Qeshm entry above. No new sourcing beyond those entries.
+
+**Note:** This is one of two Level 2 triggers firing on the same Armed Conflict movement — the section 3+/7d count here, and the DTC YELLOW→ORANGE zone flip below — the "two-trigger date" the May 28 pass forecast. Both are captured in the watch-list 2026-06-05 position update.
+
+---
+
+### DTC axis C breaches at day 14 (June 4): no substantive diplomatic move since the May 21 Khamenei HEU directive — DTC flips YELLOW → ORANGE (two axes breached: A + C)
+
+**Indicators:** DTC axis C (days since last substantive diplomatic move); DTC composite zone
+
+**Sections:** Armed Conflict, Global Debt (secondary — DTC is the cross-section composite bridging the oil-shock transmission path)
+
+**Scenario impact:** Level 2 per the DTC escalation hook ("Flip to ORANGE → Level 2 position update"). Axis C clock-start = May 21 Khamenei HEU directive (day 0); the 14-day threshold lands June 4. No Tier 1-confirmed substantive diplomatic move occurred in the interval — talks were formally suspended June 1, June 3 was the Qeshm kinetic exchange, and Hezbollah rejected the Israel–Lebanon ceasefire June 4; the MOU remains unsigned with no confirmed text exchange. **The flip is a breach-count move, not an axis-C-alone move:** the composite was already YELLOW carried by axis A alone (external buffer-days, ~34 days to the July 9 IEA wall, breached since before the May 26 reading). Axis C joining A makes two axes breached → ORANGE; axis C breaching against an otherwise-clean composite would only have produced YELLOW. Axis B (Iran toll revenue) remains below the $1B threshold and clean. Trump's "deal in a week" optimism is discounted as deal-narrative messaging under the whiplash rule, not a primary diplomatic act that would reset the clock.
+
+**Source:** CNN live blog, June 4, 2026, "Uncertainty surrounds US-Iran talks, Hezbollah rejects Lebanon-Israel ceasefire plan" (Tier 2); Al Jazeera, "Hezbollah rejects Lebanon-Israel ceasefire deal," June 4, 2026 (Tier 2). The axis-C breach is the application of the published DTC rubric (composite-indices.md) against the absence of a confirmed substantive move — a date-clock axis, well-founded on absence-of-event plus Tier 2 confirmation of the suspension. DTC current reading updated to ORANGE in `news/composite-indices.md`.
+
+**Note:** Second of the two Level 2 triggers on the same movement (see the Armed Conflict section entry above). No advance to RED — that requires all three axes breached (axis B still clean).
+
+---
+
+### Hezbollah independently rejects the Israel–Lebanon ceasefire (June 4); Araghchi reaffirms cross-front linkage — Lebanon↔Hormuz coupling confirmed (Level 3 addendum staged)
+
+**Indicators:** Netanyahu coalition stability; AIS mine-clearance progress; IRGC naval activity (Hezbollah's rejection of the Litani-withdrawal ceasefire directly extends the precondition Iran has set for resuming Hormuz talks)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Level 3 — materially updates the geometry of an existing analysis (`armed-conflict/three-body-problem.md`). The June 1 Synthesis Reviewer pass staged a Three-Body addendum on the Lebanon↔Hormuz coupling "to be written only if the coupling confirms rather than reverses." June 3–4 confirms it: (1) Israel and Lebanon agreed a US-brokered conditional ceasefire June 3, contingent on Hezbollah withdrawing south of the Litani; (2) Hezbollah formally rejected the deal June 4 — leader Naim Kassem framing any withdrawal under fire as "surrender, defeat"; (3) Iranian FM Araghchi reaffirmed Lebanon sits inside the ceasefire envelope with the US, any violation "on one front… a violation across all fronts." The new geometry the three-body model (US/Iran/Israel) does not capture: Hezbollah acting as an *independent* veto-holder on the Lebanon front, not a dependent Iranian instrument — even if Tehran wished to decouple Lebanon from Hormuz talks, Hezbollah's autonomous rejection keeps the factual predicate for Iran's precondition alive. This is the L3 "new actor enters the three-body problem" trigger.
+
+**Source:** NPR, "Hezbollah rejects ceasefire deal agreed on by Israel and Lebanon," June 4, 2026 (Tier 3 — event confirmation); Axios, "Israel, Lebanon agree to full ceasefire, but Hezbollah rejects it," June 3–4, 2026 (Tier 2); Washington Times, "Israel, Hezbollah trade attacks despite ceasefire, threatening peace deal between US, Iran," June 4, 2026 (Tier 2 — explicit Lebanon→Hormuz-deal linkage). The coupling is confirmed at Tier 2 across multiple independent outlets; no Tier 1 Hezbollah or Iranian-MFA primary statement yet. **The "independent veto-holder vs. Iran-directed" characterization is interpretive and pending Tier 1 confirmation** — flagged so the addendum does not state independence as settled fact.
+
+**Note:** Addendum staged, NOT yet written (held this pass per user direction). Target: a new file `addendum-to: "The Three-Body Problem: Israel, Iran, and the United States (2026-04-09)"`, framing Hezbollah as an independent fourth veto-holder that the three-body geometry understates. To be drafted by the Report Writer; the original file is not edited.
+
+---
+
+### Brent crude June 1–5: post-Qeshm spike to ~$101 (June 3), back to ~$95 by June 5 on Lebanon-ceasefire headlines — whiplash, not structural; HY OAS flat at 2.74% (no Level 4)
+
+**Indicators:** Brent crude trajectory; HY OAS (confounding-factor cross-check)
+
+**Sections:** Armed Conflict (primary), Global Debt (secondary — oil path feeds June CPI and the UK gilt / fiscal-headroom calculus)
+
+**Scenario impact:** Confirms existing; structurally range-bound. Brent: $98.29 (June 1, prices.csv) → ~$101.4 (June 3, on the Qeshm exchange) → ~$98 (June 4) → ~$95 (June 5, on Israel–Lebanon ceasefire-progress headlines and Trump "deal in a week" messaging). Net direction over the window is mildly *down* — June 5 sits below the June 1 level despite the mid-window kinetic spike. The $130/48h Level 4 threshold is not approached. This is the agent-brief's documented Trump-whiplash signature (cf. May 23 narrative → May 27 Brent cross → reset): a 48-hour narrative round-trip with **HY OAS flat at 2.74% (prices.csv, June 4) and VIX 15.4** — i.e., no credit-spread widening, no structural deleveraging. The HY-flat cross-check is part of *why* Global Debt is not co-directional with Armed Conflict this week, reinforcing the no-convergence call.
+
+**Source:** prices.csv (June 1 Brent $98.29; HY OAS 2.74% and VIX 15.4 through June 4); Fortune daily oil-price articles, June 3–5, 2026 (Tier 2 — intraday Brent levels, citing commodity-exchange data). EIA spot-price page available but specific June 3–5 daily levels not pulled Tier 1-direct (minor Tier 1 gap; the levels are corroborated across the Fortune dailies).
+
+**Note:** No Brent column posts in prices.csv past June 1; the June 3–5 path is web-sourced (Tier 2). Confirms the whiplash pattern remains operative and suppresses any structural read on oil.
+
+---
+
+### Global-debt cross-check (June 5): JGB 40-yr retreats to ~3.76% off the 4.33% May peak; BOJ June 16 hike expected; UK — Burnham formally declares leadership challenge contingent on June 18 Makerfield by-election; Warsh first FOMC June 16–17 priced 98.7% no-change
+
+**Indicators:** Sovereign credit spread widening in high-debt G7 members (Japan + UK legs); 10-year Treasury yield; Regulatory Phase 5 binary (Warsh FOMC)
+
+**Sections:** Global Debt, Regulatory Cycle
+
+**Scenario impact:** Confirms existing; benign-to-easing this week, and the basis for the no-convergence finding on the Global Debt / Regulatory legs. (1) **Japan:** the JGB 40-yr retreated to ~3.76% on June 5 from the 4.33% May 18 record — still historically elevated but the acute stress is partially relieved; the structural $29.6B Q1 UST repatriation story (logged June 1) is unchanged. The BOJ is widely expected to deliver +25bp (0.75%→1.0%) at its June 16 meeting. (2) **UK:** Andy Burnham formally declared June 5 that he would challenge Starmer for the Labour leadership *if he wins the June 18 Makerfield by-election*; 30-yr gilt ~5.60% (June 1, no contradicting print found). The decisive event is the June 18 by-election — a forward binary, not a move this week. (3) **US 10-yr** at 4.47–4.49% (prices.csv June 3; web-corroborated June 4–5), below the 4.75% WARN. (4) **Regulatory:** the June 16–17 Warsh FOMC is priced 98.7% no-change (CME FedWatch via secondary); the hard Phase 5 confirmation (a cut against the 3.8% April CPI print) does not fire on current pricing — the dot-plot and Warsh's inaugural press conference are the higher-information signals. **No Global Debt or Regulatory indicator moves toward the escalation scenario this week; both legs are flat-to-easing, which is why cross-section convergence does not fire even with Armed Conflict now directionally clean.** Small-bank card delinquency (DRCCLOBS) 6.48% (June 4) continues to decline off the 7.86% 2023 record — an explicit counterweight, not stress.
+
+**Source:** ING Think (Tier 2 — BOJ +25bp June-hike expectation); Japan Times, "BOJ will probably raise rates in June, former board member says," May 29, 2026 (Tier 2); Trading Economics / Japan MOF, 40-Year Bond Yield, June 5, 2026 (Tier 2 — 3.76%); The National / LBC, "Andy Burnham declares he would challenge Starmer for Labour leadership if he wins Makerfield," June 5, 2026 (Tier 2); CNBC, "UK assets face underestimated risk event, analysts warn," June 3, 2026 (Tier 2 — Makerfield gilt-binary framing); CFR, "What to Expect From Kevin Warsh's Fed in the First 100 Days" (Tier 2); CME FedWatch via secondary reporting (Tier 2 — 98.7% no-change); prices.csv (US 10-yr, DRCCLOBS). No Tier 1 BOJ / Labour NEC / FOMC primary on the forward events — all are expectations, not resolved outcomes.
+
+**Note:** Forward clocks, NOT fired — BOJ June 16, Warsh FOMC June 16–17, and Makerfield June 18 are pre-positions per the don't-pre-fire discipline. Burnham's June 5 declaration is logged as an event and added to the agent-brief Active Clocks table as the new June 18 binary; the leadership challenge itself is not scored.
+
+---
+
 ## 2026-06-01
 
 ### Japan JGB long-end at record highs: 40-yr 4.33%, 30-yr 3.93%, 10-yr 2.65–2.78%; Japanese institutions sold $29.6B USTs in Q1 2026 — largest quarterly reduction in four years; BOJ holds rates amid June hike debate
