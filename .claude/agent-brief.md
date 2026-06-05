@@ -75,9 +75,11 @@ Named upcoming binaries that bind framework reads. Each warrants pre-position se
 
 | Date | Clock | What it binds |
 |---|---|---|
-| 2026-06-04 | DTC axis C breach (day 14 since the May 21 Khamenei HEU directive; May 21 = day 0, so the 14-day threshold lands June 4 — one day *after* the Armed Conflict roll-off below, not the single "June 3" the two were previously merged into) | If MOU remains unsigned, DTC flips YELLOW→ORANGE per the escalation hook in `news/watch-list.md` |
-| 2026-06-03/04 | Armed Conflict 7d ageing-out window | May 26–27 counter-directional entries roll out of the 7-day window; one additional escalation entry would flip the section directionally clean |
-| 2026-06-16/17 | Warsh first FOMC meeting | Discrete Phase 5 binary — a rate cut against the 3.8% April CPI print would be a hard Phase 5 confirmation (political capture overriding the price-stability mandate) |
+| ~~2026-06-04~~ **FIRED** | DTC axis C breach (day 14 since the May 21 Khamenei HEU directive) | **Resolved 2026-06-04** — no substantive diplomatic move in the 14-day window; MOU unsigned. DTC flipped YELLOW→ORANGE (two axes: A+C). Level 2 logged 2026-06-05. |
+| ~~2026-06-03/04~~ **FIRED** | Armed Conflict 7d ageing-out window | **Resolved 2026-06-03** — May 26–27 counter-directional entries aged out; the June 3 Qeshm strike made the fifth same-direction entry; section now directionally clean. Level 2 logged 2026-06-05. |
+| 2026-06-16 | BOJ June meeting | +25bp (0.75%→1.0%) widely expected; a confirmed hike accelerates yen repatriation + JGB long-end supply pressure on the Japan sovereign leg and the UST repatriation channel — warrants its own pass |
+| 2026-06-16/17 | Warsh first FOMC meeting | Discrete Phase 5 binary — a rate cut against the 3.8% April CPI print would be a hard Phase 5 confirmation (political capture overriding the price-stability mandate); ~98.7% no-change priced as of June 5, so the dot-plot + inaugural press conference are the higher-information signal |
+| 2026-06-18 | UK Makerfield by-election | Gilt-market binary on the UK fiscal-credibility leg — Andy Burnham declared 2026-06-05 he will challenge Starmer for the Labour leadership *if he wins*; a win opens a Labour leadership contest → fiscal-leftward political-risk premium → 30-yr gilt repricing (currently ~5.60%). The challenge is logged as an event, not scored. |
 | Late June 2026 | MSACSR May 2026 print | Sustained-crossing confirmation of the >9.0 housing-supply threshold first breached 2026-04 at 9.4 |
 | 2026-07-09 | IEA emergency-release window expiry | DTC axis A binding; hard physical exhaustion projected ~Sept 5 at sustained 4.1 mb/d draw rate per IEA May OMR |
 | Late July 2026 | DTC × NDI × EOPL three-clock convergence | IEA buffer wall + EOPL shadow-pipeline drain (Jan–Apr 2026 Iranian loads arriving on a 2–4 mo transit lag) + Q2 earnings cycle (NDI CRITICAL trigger window) all constrain the same ~14-day period |
