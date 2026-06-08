@@ -8,6 +8,74 @@ categories: [news]
 
 # Signal Log
 
+## 2026-06-08
+
+### May jobs report: 172,000 payrolls (vs. ~85K consensus), unemployment holds 4.3%; Fed year-end hike odds jump ~30pp to ~56%, 10-year Treasury 4.47% → ~4.57% (June 5)
+
+**Indicators:** 10-year Treasury yield sustained above 4.75% (named indicator — yield rose 4.47% on 06-04 to 4.54% on the 06-05 close and ~4.57% by 06-08; still below the 4.75% WARN but the move is now driven by a labor market that has closed the rate-cut path); Regulatory Phase 5 binary — Warsh first FOMC June 16–17; unemployment rate (4.3%, WARN >4.5% — not breached; level unchanged from April but now Tier 1 confirmed for May)
+
+**Sections:** Global Debt, Regulatory Cycle
+
+**Scenario impact:** Confirms existing; materially sharpens the Warsh FOMC binary. The 172K beat against ~85K consensus removes the residual probability of a 2026 cut and moves market pricing from "hold-with-eventual-cut" toward "hold-with-potential-hike" (~56% year-end hike odds, up ~30pp in a session). This tightens the Minsky Phase 3 zombie-refinancing compression mechanically — elevated rates plus a resilient labor market means no rate-cut escape valve for borrowers carrying debt unserviceable at current yields. **Level 4 — does not fire:** 10-yr at 4.57% is below the 4.75% WARN and far from the 5.0% ALERT. No framework phase advance and no ≥15pp scenario shift, so the entry is Level 1; its weight is in re-loading the June 16–17 binary rather than in a present-pass escalation.
+
+**Source:** BLS Employment Situation Summary, May 2026 (Tier 1, bls.gov); Bloomberg, "US Bonds Slide as Strong Jobs Data Fuels Bets on 2026 Fed Hike," June 5, 2026 (Tier 2); CNBC, "10-year Treasury yield surges above 4.53% as hot jobs report dents hopes for rate cuts," June 5, 2026 (Tier 2); CME FedWatch via Bloomberg/CNBC (Tier 2 — hike-probability figures).
+
+**Note:** The `unemployment` column in `aggregates.csv` is stale by one print (last 2026-05-01 at 4.3%); the level is unchanged so no threshold status changes, but the May print is now a live Tier 1 event — refresh at next fetch. May CPI lands June 10 (Cleveland nowcast ~4.2%, up from April's 3.8%); a print ≥4.0% would be the first ALERT-level CPI and would land six days before Warsh's first FOMC. This entry is one of two driving the June 5 risk-off tape (see the Broadcom entry below); HY OAS flat at 2.76% confirms the move is rate-repricing + tech-narrative, not credit transmission.
+
+---
+
+### Broadcom Q3 AI-chip guidance miss triggers tech-led selloff: AVGO −12.6%, SOX −5.2%, index ~−3%, VIX 15.4 → 21.5; Goldman flags decade-scale Mag-7 de-grossing (June 5)
+
+**Indicators:** NDI sub-index N2 (AI/space capex-to-revenue ratio — Q2 AI revenue strong at $10.8B / +143% YoY, but Q3 AI guidance ~$16B landed below the ~$17.2B consensus and the full-year AI target was held rather than raised; against ~$527B of 2026 hyperscaler capex commitments, the first public miss against elevated expectations is the N2 inflection the rubric flags); NDI sub-index N5 (argument-rebuttal frequency — the miss seeds a fresh round of "AI capex vs. revenue" rebuttal coverage); smart-money exit (Goldman prime brokerage: Mag-7 net sold in 4 of the last 5 sessions, de-grossing "among the largest in the past decade")
+
+**Sections:** Market Behavior
+
+**Scenario impact:** Advances the NDI within its existing RED zone; does **not** flip NDI to CRITICAL. The CRITICAL trigger requires a Mag-7 guidance miss attributed to **input costs or power** (or N1 sustained >+2σ with equal-weight rolling over, or N6 <0.0pp); Broadcom's miss is attributed to AI-chip demand falling slightly short of aggressive forecasts — the wrong cause for CRITICAL, and the N3 sell-side power-cost flag has still not fired. But this is the first named Market Behavior event in which the AI narrative took visible public-market damage from a capex-to-revenue mismatch — exactly the overextension N2 was built to detect — and the Goldman de-grossing note advances the Stage 4 smart-money-exit signal from principal/aggregate evidence to institutional-risk-reduction-as-market-event. **Structural-vs-whiplash test: whiplash.** HY OAS moved only 2.74% → 2.76% (2bp) across the selloff; the brief's test (HY must widen alongside for a structural read) disqualifies this as Minsky/forced-deleveraging. The VIX 21.5 spike is an episodic tech-narrative correction compounded by the same-day jobs-beat rate repricing, not credit stress.
+
+**Source:** Broadcom Inc. SEC Form 8-K, FY2026 Q2 results (Tier 1 — AI revenue $10.8B, Q3 AI guidance ~$16B, full-year AI target unchanged); CNBC, "Broadcom stock plunges on weak software sales, unchanged AI chip forecast," June 3–5, 2026 (Tier 2); CNN Business, "Nasdaq, S&P 500 suffer worst day of year as AI stocks tumble and Fed rate-hike odds rise," June 5, 2026 (Tier 2); Goldman Sachs prime-brokerage de-grossing note (Tier 2, via secondary coverage).
+
+**Note:** The most significant Market Behavior signal since the May Vista Credit gate. N2 now has its first observable public-market validation. NDI remains RED-not-CRITICAL; the next CRITICAL test is whether Warsh's June 16–17 meeting or the Q2 earnings cycle produces the N3 power-cost attribution.
+
+---
+
+### IRGC claims it disabled a tanker transiting Hormuz without PGSA clearance and struck a US-linked vessel in retaliation; tit-for-tat extends into the transit corridor (June 5–6)
+
+**Indicators:** IRGC naval activity; AIS mine-clearance progress (PGSA transit-permit enforcement *at sea* is qualitatively distinct from the prior C2 / air-defense strikes — Iran physically stopping a vessel in the corridor rather than striking military nodes ashore)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Confirms existing, escalation-direction — but **Level 1, with a sourcing caveat that is the binding constraint this pass.** If confirmed at Tier 1, an IRGC tanker-disabling to enforce the PGSA transit-permit regime would be categorically closer to the Hormuz transit-corridor threshold than the Qeshm/Sirik/Bandar Abbas C2 strikes, narrowing the distance to the Level 4 "Strait infrastructure struck/mined/closed" line. **Level 4 immediate trigger — does NOT fire:** the claim is IRGC-only (PressTV/GlobalSecurity.org, Tier 2 at best); no independent Tier 1 CENTCOM or MARAD confirmation found at filing; no navigation aids struck; no formal closure declared under international law.
+
+**Source:** GlobalSecurity.org citing PressTV / IRGC public statement, June 6, 2026 (Tier 2 — Iran state-adjacent media); UANI Iran War Shipping Update, June 4, 2026 (Tier 2). **Sourcing caveat: IRGC-only claim; Tier 1 CENTCOM/MARAD confirmation pending — this is the limiting factor on the entry's weight.**
+
+**Note:** This is the watch-item to escalate fast. A Tier 1 CENTCOM/MARAD confirmation of the tanker-disabling — or any follow-on strike on Hormuz navigation infrastructure — would upgrade this entry immediately and, in the second case, fire Level 4. Distinguish carefully from the routine PGSA transit approvals (e.g. the June 1 IRGC "15 ships approved" notice): enforcement-by-disabling is the escalatory variant.
+
+---
+
+### UK 30-year gilt extends to ~5.83% intra-week high (5.59% on June 8) ahead of the June 18 Makerfield by-election; Burnham candidacy certified (June 8)
+
+**Indicators:** Sovereign credit spread widening in high-debt G7 members — UK (named indicator, added 2026-06-01 — the 30-yr extends from 5.60% in the June 1 capture to a ~5.83% intra-week high, an ~18-year high for the tenor; the Makerfield binary lands in ~10 days unresolved)
+
+**Sections:** Global Debt
+
+**Scenario impact:** Confirms existing; advancing. The ~23bp extension since the June 1 entry is directional advance toward the by-election binary, not a duplicate of the June 1 regime capture. **Level 4 — does not fire:** no G7 rating action, and the escalation tree's 10-yr trigger is US-specific. Per the June 1 Synthesis note, the UK leg is oil-endogenous (fiscal headroom eroded by Iran-war energy inflation), so it is co-directional with Armed Conflict at a mechanical level but does **not** constitute an independent third vector for the L4 convergence test — which is why convergence does not fire this pass despite the broadest section-breadth on record (AC escalating + GD yields rising + Reg hawkish), with HY flat at 2.76% the additional structural disqualifier.
+
+**Source:** Trading Economics / UK DMO 30-Year Gilt Yield (Tier 2 — 5.59% on June 8, ~5.83% intra-week); CNBC, "UK assets face underestimated risk event, analysts warn," June 3, 2026 (Tier 2 — Burnham fiscal-repricing risk, Ebury attribution); Briefs.co, "UK borrowing costs hit an 18-year high on Burnham challenge," June 2026 (Tier 2).
+
+**Note:** The June 18 Makerfield by-election is the discrete resolution event — a Burnham win without a fiscal-rule commitment → further gilt sell-off; a loss or credible fiscal-rules commitment → relief. Active Clock pre-position; not scored until the by-election fires.
+
+---
+
+### Continuation notes (folded — Warsh FOMC pre-position, Lebanon front): no standalone escalation this pass
+
+**Warsh first FOMC, June 16–17 (Active Clock pre-position).** Reports of Warsh signaling possible **dot-plot elimination** (Tier 2, pre-meeting) sit on top of the jobs-beat repricing above to materially raise the meeting's information content over the prior 98.7%-no-change framing. The binary is no longer principally hold-vs-cut: it is (a) whether the dot plot is scrapped (a "regime change in the conduct of policy" the Phase 5 boundary is calibrated to detect), (b) what a new dot plot signals for year-end hikes against a potential ~4.2% May CPI, and (c) the press-conference posture (hawkish-independence vs. politically-accommodative). A hike against a 4%+ CPI = hard Phase 5 confirmation; a hold + dot-plot elimination = soft Phase 5 signal; a cut is now effectively off the table at ~56% hike odds. Don't-pre-fire discipline holds — mandatory follow-on pass June 16–17. *Source: BigGo Finance / Mezha on the dot-plot reports (Tier 2); CME FedWatch via Bloomberg/CNBC (Tier 2).*
+
+**Lebanon front (Three-Body addendum forward watch).** Hezbollah prosecuted 20+ attacks June 4–5 with Israel expanding north of the Litani; Iran-US talks remain formally suspended. This is **continuation, not new geometry** — it confirms the Lebanon↔Hormuz coupling and the permanent-presence doctrine logged June 1/June 5. Critically, **no Tier 1 Hezbollah or Iranian-MFA primary statement** surfaced confirming or refuting the autonomous-actor reading; the operational behavior is *consistent with* independence but is not Tier 1 confirmation. The 2026-06-05 Three-Body addendum's "independence-is-interpretive / Tier-2-only" caveat therefore stands unchanged. *Source: CNN live blog, June 5, 2026 (Tier 2); CrustNews ceasefire-violations tracker, June 4, 2026 (Tier 2).*
+
+**Pass disposition.** Six candidate signals, **Level 1 across the board** — no L2/L3/L4 fires. All seven L4 immediate triggers checked clean (Brent $93–98, 10-yr 4.57%, no SIFI/repo/rating/nuclear/Hormuz-closure event). L4 convergence does **not** fire despite record breadth: HY flat at 2.76% and the GD/Reg moves being jobs-macro-driven rather than conflict-endogenous mean co-direction toward a single scenario is not cleanly established (disqualifier rotated from "AC counter-directional," resolved June 3, to "macro-vs-conflict driver ambiguity + HY flat"). DTC holds **ORANGE** (axis A ~27 days to the July 9 wall, C still breached, B clean — no zone change). Data hygiene flagged: `brent_usd` blank since June 2 (re-run `fetch_prices.py`); run `fetch_aggregates.py` on/after June 10 for the May CPI print. *(A June 13 Israeli nuclear-site strike surfaced in search but is future-dated relative to this 2026-06-08 pass and was correctly not logged.)*
+
+---
+
 ## 2026-06-05
 
 ### CENTCOM strikes Qeshm Island IRGC C2 (drone ground-control + air defense); IRGC retaliates against US Fifth Fleet HQ (Bahrain, intercepted) and Kuwait's Ali al-Salem air base — drone hits Kuwait Int'l Airport area, 1 killed / 63 injured (June 3)
