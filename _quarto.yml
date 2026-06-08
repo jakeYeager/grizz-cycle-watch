@@ -16,6 +16,7 @@ website:
           - news/watch-list.md
           - news/composite-indices.md
           - news/signal-log.md
+          - news/2026-econ-calendar.md
           - section: "Signal Log Archive"
             contents:
               - news/signal-log-archive/2026-04.md
