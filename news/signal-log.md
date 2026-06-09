@@ -8,6 +8,64 @@ categories: [news]
 
 # Signal Log
 
+## 2026-06-09
+
+### BCRED Q2 gate: Blackstone honors only the standard 5% cap against ~10% redemption demand ($2.2B of ~$4.4B), declines to repeat the Q1 proprietary-capital absorption (June 4)
+
+**Indicators:** Individual-fund-gate cascade (named indicator — first BCRED gate enforced at the *standard* 5% quarterly cap with no upsizing and no proprietary-capital injection); Kindleberger Stage 4 smart-money/liquidity-withdrawal signal; Minsky Phase 3 redemption-pressure cascade; bank→private-credit transmission hook (a) — line-draw status
+
+**Sections:** Market Behavior
+
+**Scenario impact:** **Level 2 — Market Behavior position update.** This is the decisive observable the watch list pre-staged on 2026-05-29 ("a gate here without the one-off $400M employee-capital mechanism would be a stronger Stage 4 cascade signal than Vista's single-LP gate"). The mechanism contrast is the whole signal: **Q1 2026** met 100% of demand via a 7% upsize plus ~$400M of proprietary employee capital (*non-standard suppression*); **Q2 2026** received ~10% demand (~$4.4B against a ~$79B fund), honored only the standard 5% cap (~$2.2B), and did **not** repeat the suppression mechanism — leaving ~$2.2B of redemption demand unmet. Blackstone framed it as the program "operating as designed." Trips the Market Behavior **3+/7-day same-direction L2 trigger** (Broadcom N2 miss + Goldman decade-scale de-grossing, both logged 06-08, plus this gate on 06-04 — three co-directional Market Behavior entries inside the rolling 7-day window). **Structural-vs-whiplash test: not forced deleveraging.** HY OAS is flat at 2.75% across the window and no SIFI collateral-call is documented, so this is a marquee-fund Stage 4 *cascade confirmation*, not a Minsky Phase 4 propagation. **Bank→PC hook (a) remains LATENT:** the standard gate documents no bank-line draw — the fund simply did not pay the excess — but Blackstone's choice to conserve firm balance sheet rather than suppress the gate at this volume materially changes the ~Aug 1 Q3 tender baseline.
+
+**Source:** Bloomberg, "Blackstone's BCRED Joins Private Credit Funds Limiting Redemptions," June 4, 2026 (Tier 2); CNBC, "Blackstone restricts flagship fund withdrawals as private asset fears reemerge," June 4, 2026 (Tier 2); Blackstone Private Credit Fund investor update / SEC filing, June 4, 2026 (Tier 1 via EDGAR reference).
+
+**Note:** The most significant Market Behavior signal since the May Vista Credit gate, and categorically stronger because it is the *flagship* BDC gating at the standard cap with the Q1 suppression mechanism explicitly withheld. Forward watch: the ~Aug 1 BCRED Q3 tender is now the highest-information Market Behavior indicator — a third consecutive quarter of redemption pressure, or a bank-line draw to meet unmet demand, would fire hook (a) and advance toward Minsky Phase 4. Refer to the Synthesis Reviewer for the `watch-list.md` position update this L2 requires.
+
+---
+
+### Israel-Iran direct missile exchange June 7–8: ~20–30 Iranian ballistic missiles at three IDF air bases, Israeli counterstrikes hit Iranian petrochemical infrastructure at Mahshahr/Khuzestan; conditional de-escalation by June 9 (June 7–8)
+
+**Indicators:** IRGC naval/missile activity; Brent crude spike above $135 (named indicator — not breached; Brent moved ~$98 → ~$90–94 *on de-escalation*, the opposite direction); Three-Body coupling — Lebanon kinetics → direct Iran-Israel escalation
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Confirms existing, escalation-direction, with new geometry but **Level 1.** First direct Israel-Iran ballistic exchange since April: an Israeli strike on a Hezbollah C2 in Beirut's Dahiyeh precipitated two Iranian missile barrages against three IDF air bases, answered by two Israeli counterstrike waves hitting air-defense, launchers, and UAV production (Isfahan, Kermanshah, Karaj, Tabriz, Mehrabad) plus a second wave on the Karun Petrochemical plant at Mahshahr, Khuzestan (~30–40km from the Hormuz approaches). By June 9 both sides issued *conditional* halts — Iran suspends unless Israeli strikes in southern Lebanon resume; Netanyahu pauses but retains right of response. This is the Three-Body addendum's Lebanon→Iran→Hormuz coupling in observable operation — it confirms the existing framing rather than adding new geometry, so no addendum is warranted. **Level 4 immediate trigger — does NOT fire:** the Mahshahr strike is industrial infrastructure, not Hormuz navigation aids, PGSA enforcement vessels, or transit-corridor infrastructure; no nuclear/radiological event; no formal closure. **Structural-vs-whiplash: whiplash** — the ~$5–8 Brent pullback reverses *within 24 hours* on the de-escalation messaging, and HY OAS is flat at 2.75%.
+
+**Source:** Alma Research Center daily report, June 8, 2026 (Tier 2); The Hill/AP wire, June 8, 2026 (Tier 2); Washington Post, June 8, 2026 (Tier 2); Times of Israel, June 8–9, 2026 (Tier 2); CNN / NPR / PBS live coverage (Tier 3 — event confirmation). Specific battle-damage assessment unconfirmed at Tier 1.
+
+**Note:** The conditional, Lebanon-contingent halt is the live coupling mechanism the Three-Body addendum models — not a resolution. Forward watch unchanged: any Tier 1 Hezbollah or Iranian-MFA primary statement on autonomous decision-making (the "independent fourth body" caveat still holds, no Tier 1 primary found this pass), and any resumed Litani-line kinetics that re-trigger the Iranian halt condition.
+
+---
+
+### Iran-US MOU: tentative ceasefire-extension framework reported, awaiting Trump final determination; Brent ~$90 on deal-narrative messaging — DTC axis C does not reset (June 9)
+
+**Indicators:** Delay-Tactics Composite axis C (days since last substantive diplomatic move — *no reset*); Brent crude (de-escalation-driven, narrative-discounted)
+
+**Sections:** Armed Conflict, Global Debt
+
+**Scenario impact:** **Level 1.** PBS/Al Jazeera report a tentative framework (60-day ceasefire extension + Hormuz reopening + nuclear talks) reached by US-Iranian negotiators ~May 28, still awaiting Trump's "final determination" as of June 9; Trump publicly said both sides seek an "immediate ceasefire." A replay of the May 23/27 "largely negotiated"→"not rushing" whiplash pattern. The MOU remains **unsigned**; per the confounding-factor rule, Trump messaging on deal status is the dominant whiplash driver and Brent at ~$90 against a still-blocked corridor is a narrative-driven move. **DTC axis C does NOT reset** — a reset requires a Tier 1-confirmed substantive act (signing, partial signing, named-actor public concession/walk-back via State Dept or Iranian MFA); public statements do not meet that bar. DTC **ORANGE holds** (axis A ~30 days to the July 9 IEA wall + axis C breached; axis B clean).
+
+**Source:** PBS NewsHour, June 9, 2026 (Tier 3 — citing US and Iranian negotiators); Al Jazeera, June 9, 2026 (Tier 2); CNN, June 9, 2026 (Tier 2). No Tier 1 State Dept or Iranian MFA confirmation of a signed instrument.
+
+**Note:** Logged to document the axis C non-reset explicitly and to distinguish deal-narrative messaging from a primary diplomatic act. The next genuine axis C reset requires a Tier 1 confirmation; absent that, the ~30-day proximity to the July 9 IEA buffer wall is the dominant DTC pressure.
+
+---
+
+### Goldman Sachs flags AI economics "more questionable today than two years ago"; same institutional voice publishes both the $7.6T bull capex case and the returns-gap bear case (June 2)
+
+**Indicators:** NDI sub-index N5 (argument-rebuttal frequency — first named Tier 1/2 institution publishing bull and bear AI theses in a single analytical voice); NDI sub-index N3 (sell-side power-cost flag — *not* fired)
+
+**Sections:** Market Behavior
+
+**Scenario impact:** **Level 1.** Goldman's head of institutional equities (Covello) stated June 2 that enterprise buyers, model companies, and hyperscalers still show no clear AI-spend returns, even as Goldman's own model lifts 2026 hyperscaler capex to ~$527B and projects $7.6T of cumulative AI spend through 2031 against a returns gap it characterizes as spending "outrunning returns." This deepens **N5** at the highest-tier source yet (previously confirmed at Tier 2–3 via Bloomberg/Fortune/Axios), but it is a *returns/economics* critique — **not the N3 power-cost flag** the NDI CRITICAL trigger requires. **NDI RED-not-CRITICAL holds;** CRITICAL still requires a Mag-7 guidance miss attributed specifically to input costs or power (Broadcom's 06-05 miss was a demand miss — wrong cause).
+
+**Source:** Goldman Sachs podcast / institutional commentary, June 2, 2026 (Tier 2 — Goldman primary voice); Fortune, June 2026 (Tier 2). Secondary summaries (Tier 3) corroborate.
+
+**Note:** The watch is for a Goldman (or peer) sell-side note explicitly attributing a Mag-7 *earnings* risk to power or input costs — that would fire N3 and trigger a Level 2 NDI move. Until then this is N5 reinforcement within the existing RED zone.
+
+---
+
 ## 2026-06-08
 
 ### May jobs report: 172,000 payrolls (vs. ~85K consensus), unemployment holds 4.3%; Fed year-end hike odds jump ~30pp to ~56%, 10-year Treasury 4.47% → ~4.57% (June 5)
