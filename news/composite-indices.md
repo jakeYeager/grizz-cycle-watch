@@ -1,7 +1,7 @@
 ---
 title: "Composite Indices"
 date: "2026-05-26"
-description: "Delay-Tactics Composite (DTC) and Narrative-Divergence Index (NDI) — structured rubric definitions, zone logic, current readings, escalation hooks, and convergence-window analysis. Cross-section synthesis tools introduced 2026-05-26."
+description: "Delay-Tactics Composite (DTC), Narrative-Divergence Index (NDI), and the experimental Bezzle Index (BZI) — structured rubric definitions, zone logic, current readings, escalation hooks, and convergence-window analysis. Cross-section synthesis tools introduced 2026-05-26; BZI added 2026-06-10 on trial."
 status: "living-document"
 categories: [news]
 ---
@@ -83,6 +83,46 @@ A late-Kindleberger-Stage-4 diagnostic. Measures how much load the AI / neo-spac
 - Mag-7 guidance miss attributed to input costs or power → Level 4 (Stage 5 onset)
 - N1 spread sustained > +2 std dev with EW rolling over → Level 4 (Stage 5 onset)
 - N6 < 0.0 pp (Fed-model ERP turns negative — equity yields below UST) → Level 4 (Stage 5 onset signature)
+
+## Bezzle Index (BZI)
+
+*Introduced 2026-06-10 (experimental — on trial to determine whether it carries signal or only adds noise/overhead).* A concealment-pressure gauge. Galbraith's *bezzle* is the inventory of undiscovered fraud that **grows in the boom and is revealed in the bust** — invisible by construction, so it is proxied by the red flags that *lead* the reveal. Every other watch-list metric (gates, charge-offs, HY OAS, defaults) measures **realized** stress; the BZI is the orthogonal axis — **concealed** stress, the gap between reported and economic health. Bridges Global Debt + Regulatory + Market Behavior and feeds the otherwise-binary Regulatory **Phase 5 "major fraud disclosure"** trigger with a graduated, leading read. The cycle's concealment vector is private credit — the same Minsky Phase 3 anchor the project already tracks — so the BZI measures what gates do not: how much deterioration is held off the books rather than surfaced. Conceptual lineage: the modern structural echo of the underwriting-deterioration / liar-loan-share signal (Burry, 2005–07).
+
+**Components:**
+
+| Sub-index | Reads | Lead/lag | Source |
+|---|---|---|---|
+| **B1. PIK-income share** | Payment-in-kind interest as % of total investment income, trailing quarter, fixed BDC basket (ARCC, OBDC, BCRED, FSK, BXSL, AINV/MidCap). Rising PIK = income booked without cash received — the direct modern analog to the 2007 liar-loan share. **Load-bearing component.** | Leading | BDC 10-Qs (EDGAR) |
+| **B2. Non-accrual / NAV divergence** | Non-accruals (% of portfolio at fair value) rising *while NAV marks stay flat* — the "amend-and-pretend" tell of Level-3 manager-discretion valuation. **Load-bearing component.** | Leading | 10-Q schedules of investments |
+| **B3. Restatement wave** | Count of 8-K Item 4.02 ("non-reliance on previously issued financial statements"), rolling 90d vs. trailing-3yr baseline | Leading | EDGAR full-text search (free JSON API) |
+| **B4. Auditor flight** | 8-K Item 4.01 auditor resignations/dismissals (weighted to resignations + financial issuers) + first-time going-concern opinions, rolling 90d vs. baseline | Leading | EDGAR |
+| **B5. Activist short cluster** | Distinct credible activist-short reports (Hindenburg / Muddy Waters / Viceroy class) on US-listed financials/credit names, rolling 90d. Tier 2, adversarial — narrative-discounted, requires a second confirming signal | Coincident | Agent web-research |
+| **B6. Enforcement realization** | SEC AAER + DOJ securities-fraud action counts, rolling 12mo vs. baseline — the bezzle being *revealed*; lagging confirmation that earlier B1–B5 leads were real | Lagging | SEC AAER list, DOJ press |
+
+**Zone logic:** The design separates bezzle *growth* (B1–B5 leading) from bezzle *revelation* (B6 + actual disclosures). A high-and-rising index with B6 still quiet is the *dangerous-quiet peak* — concealment maxed, reveal not yet hit.
+
+| Zone | Condition | Meaning |
+|---|---|---|
+| GREEN | B1 in historical range; B2 non-accruals tracking marks; B3/B4/B6 at baseline; B5 ≤ 1 | Bezzle stable |
+| YELLOW | PIK > 1.3× 3yr avg **OR** non-accrual/NAV divergence opening **OR** B3+B4 above baseline | Bezzle accumulating |
+| RED | PIK > 1.5× and rising 3+ quarters **AND** material non-accrual/NAV divergence **AND** (B3 wave **OR** B4 auditor-flight **OR** B5 ≥ 2) | Maximum bezzle — Phase 5 disclosure probability elevated |
+| CRITICAL | A confirmed restatement, gate-with-markdown, or enforcement action at a *tracked* private-credit fund or deregulated institution that retroactively validates the B1–B5 buildup | Bezzle reveal = Phase 5 onset |
+
+**Current reading (2026-06-10): YELLOW (provisional — pending first BDC-basket pull).** Illustrative until B1/B2 are computed from filings. The BCRED Q2 gate (2026-06-09 log) and the May Vista Credit gate put a floor under the index, and rising BDC PIK is a documented 2024–25 trend, so B1/B2 are *likely* elevated — but no restatement wave, no auditor-flight cluster, and no major enforcement at a tracked fund (B3/B4/B6 at baseline). This is a textbook *accumulating-not-yet-revealed* profile: the state where a leading bezzle gauge is most useful and a lagging one says nothing. The reading is not load-bearing on any escalation until the first basket pull replaces the provisional B1/B2 with measured values.
+
+**Escalation hooks:**
+
+- GREEN→YELLOW → Level 1 (log; concealment accumulating)
+- YELLOW→RED → Level 2 position update (maximum-bezzle; pre-position the Phase 5 binary)
+- RED→CRITICAL → Level 4 — *this is the escalation-tree Phase 5 fraud-disclosure trigger firing*, reached by a graduated path instead of a surprise; routes per the Phase 5 line and the convergence-report routing table
+- Inversion note: a sudden B6 spike from a low base *while B1–B5 are already RED* is the highest-information print in the index — the reveal moment, the bezzle converting to disclosure.
+
+**Trial caveats (why this index is on probation):**
+
+1. *Mixed lead/lag — weighting is the whole game.* B3/B6 are lagging (the fraud already happened); only B1/B2/B4/B5 buy lead time. The leading legs (PIK, non-accrual/NAV divergence) are the value **and** the hardest to collect — if the index drifts toward the easy-to-count lagging legs it becomes a coincident indicator mislabeled as leading. B1 and B2 must stay load-bearing.
+2. *Measuring something actively hidden, quarterly.* The bezzle is concealment by design, so the index is adversarial against its own data source; BDC filings are quarterly (no fast-move capture); a fixed public-BDC basket structurally misses private actors (often the worst). It is a slow, directional, strategic read — not a tripwire.
+
+**Data path:** none of this is on FRED. B3/B4/B6 are automatable via EDGAR full-text search + the SEC AAER page (a new fetch script, comparable to `fetch_aggregates.py`); B1/B2 need quarterly agent extraction from 10-Q schedules of investments; B5 is agent web-research. Cadence is quarterly, on Synthesis-Reviewer rhythm. **Kill criterion for the trial:** if after two quarterly pulls B1/B2 fail to move ahead of signals already captured by the gate-cascade and HY-OAS indicators — i.e., the BZI only confirms what realized-stress metrics already showed — the index is redundant and should be retired rather than maintained.
 
 ## Convergence window
 
