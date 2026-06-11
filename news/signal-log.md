@@ -8,6 +8,61 @@ categories: [news]
 
 # Signal Log
 
+## 2026-06-10
+
+### May 2026 CPI: 4.2% headline YoY — first ALERT-level print in the framework — but core holds 2.9% (below WARN); the ALERT is energy-driven, six days before Warsh's first FOMC (June 10)
+
+**Indicators:** CPI-U all items (named indicator — **first crossing of the >4.0% ALERT threshold**; headline 4.2% YoY, raw-index ~4.17% in `aggregates.csv`, BLS seasonally-adjusted 4.2%); CPI core ex-food-and-energy (2.9% YoY — **below the 3.0% core WARN**, the load-bearing distinction this pass); Regulatory Phase 5 binary — Warsh first FOMC June 16–17
+
+**Sections:** Regulatory Cycle, Global Debt
+
+**Scenario impact:** Confirms existing and loads the Warsh binary; **Level 1.** The headline ALERT is the Hormuz oil shock transmitting into headline CPI exactly as the May 18 addendum framing predicted — *not* a broad-based core acceleration, since core at 2.9% sits below its WARN. Headline +0.47% MoM (April→May), core +0.21% MoM. The energy-driven composition is what matters for the FOMC: it gives Warsh cover to treat the print as an oil one-off and hold hawkish rather than respond to it. The Phase 5 binary at June 16–17 is now three-dimensional (dot-plot eliminated/restructured; SEP median hike-lean; press-conference posture); a cut against a 4.2% print would be immediate Phase 5 confirmation but is ~near-zero probability (CME FedWatch ~1.8%). **Level 4 — does not fire:** a single ALERT-level macro print is not an immediate trigger; no framework phase has advanced (the FOMC is the binary event, not this pre-positioning). **L2 co-occurrence check (CPI + Warsh conduct) — not met this pass:** the dot-plot-elimination signal is forward-dated (June 16–17) and the 3+/7d Regulatory rule requires logged, not anticipated, entries. CPI is the second Regulatory entry in the rolling window (after the June 8 jobs report); the June 16–17 FOMC pass is the L2 evaluation window — if dot-plot elimination + an SEP hike-lean land on top of this CPI, the trigger fires there.
+
+**Source:** BLS Consumer Price Index Summary, May 2026, released June 10, 2026 (Tier 1, bls.gov); `data/aggregates.csv` raw-index computation (Tier 1, FRED CPIAUCSL/CPILFESL); FXStreet, Kiplinger, Morningstar (Tier 2 — headline/core confirmation and "energy-driven, contained for now" framing).
+
+**Note:** First ALERT-level CPI in the framework's history, but the core-below-WARN split is the discipline point — do not over-read the headline. The print ties directly to DTC axis A (the same oil shock driving the July 9 buffer-wall pressure), which is part of why convergence does not fire: the macro and conflict legs share one driver rather than moving as independent cross-section co-direction. `aggregates.csv` carries an April 2026 YoY artifact (~6.2% off an anomalously low April-2025 base) — disregard; the May print is BLS-anchored and reliable.
+
+---
+
+### Maritime Security Belt 2026: Iran/Russia/China joint naval drills inside the Strait of Hormuz — IRGC submarines and anti-ship missiles rehearsing offensive strike capability (June 8–10)
+
+**Indicators:** IRGC naval activity; Chinese/Indian vessel behavior (named indicator — advances from PGSA administrative transits to **PLA Navy assets operating inside the strait in a live-fire-adjacent exercise**); US-China diplomatic signaling (PLA deployment into the US carrier strike group's operating area)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Confirms existing, escalation-direction, with new China-axis geometry — but **Level 1, with a Tier 1 sourcing caveat as the binding constraint.** This is qualitatively distinct from the prior Chinese-vessel-transit entries (May 13–14, transits under the Iranian PGSA toll framework): coordinated multilateral naval assets — IRGC submarines + anti-ship cruise missiles + PLA Navy — conducting an exercise that explicitly rehearses offensive strike against a narrow waterway, inside the area the US carrier group operates. It advances the China-axis indicator from "administrative transits, US enforcement untested" to "PLA assets in a live-fire-adjacent posture in the strait." **Level 4 immediate trigger — does NOT fire:** drills are not a strike on navigation infrastructure, mining, or a formal closure declared under international law. The structural significance (if Tier 1 confirmed) exceeds the June 5–6 tanker-disabling claim.
+
+**Source:** The War Zone (Tier 2 — specialist military trade) via Yahoo News attribution; Defence Security Asia, MSN/NewsBreak military reporting (Tier 3). **Sourcing caveat: no Tier 1 CENTCOM or PLA confirmation found at filing; Tier 1 confirmation would upgrade this entry immediately. This is the limiting factor on its weight.**
+
+**Note:** The highest-significance Armed Conflict observable in the lookback for the Three-Body / China-axis framing. Watch for a Tier 1 CENTCOM statement on PLA naval operations in the strait — distinguish carefully from routine PGSA-framework transits.
+
+---
+
+### Private-credit gate breadth: Q1 redemption actuals across the BDC sector (Apollo 11.2%, Ares 11.6%, Blue Owl OCIC 21.9% / OTIC 40.7%), Q2 forecasts worse — sector-wide corroboration of the BCRED cascade (June 8–10)
+
+**Indicators:** Individual-fund-gate cascade (named indicator — breadth confirmation: the gate behavior logged at BCRED on June 9 is now documented across six platforms); Kindleberger Stage 4 liquidity-withdrawal
+
+**Sections:** Market Behavior
+
+**Scenario impact:** Confirms existing, escalation-direction; **Level 1 — does not re-trigger the Market Behavior L2** (the June 9 BCRED entry already actioned the 3+/7d rule and its watch-list position update). The Q1 actuals show the redemption cycle is sector-wide, not BCRED-specific: Apollo Debt Solutions 11.2% requests (5% cap honored), Ares Strategic Income 11.6% (5% cap), Blue Owl OCIC 21.9%, Blue Owl OTIC 40.7%; private-placement BDCs met only 74% of Q1 demand. Q2 forecasts (Apollo ~15%, Ares ~14%) point to the open Q2 window running materially worse than Q1. **Structural-vs-whiplash test: not forced deleveraging** — HY OAS flat at 2.75–2.78%, no SIFI collateral-call; this is the Stage 4 cascade broadening at the marquee-fund level, not Minsky Phase 4 propagation.
+
+**Source:** PitchBook / BofA, "Private credit BDC redemption requests likely to peak in Q2 2026," ~June 8, 2026 (Tier 2); WealthManagement.com (Tier 2); Ferrante Capital Q1 scorecard (Tier 3).
+
+**Note:** Corroborates the June 9 BCRED L2 and the ~Aug 1 BCRED Q3 tender as the highest-information forward Market Behavior indicator. The Q2 forecasts are the key forward data point until that tender — connects directly to the experimental Bezzle Index B2a non-accrual-breadth work on the `experiment/bezzle-index` branch.
+
+---
+
+### Continuation notes (folded — BOJ pre-position, Iran-Israel coupling, IRGC tanker sourcing update, data hygiene): no standalone escalation this pass
+
+**Sections:** Global Debt, Armed Conflict
+
+- **BOJ June 16 pre-position (Global Debt, L1).** Reuters poll of 70 economists now at **94% for a +25bp hike** (0.75%→1.0%) by June 30 (Tier 2), up from ~65% in May — strongest consensus to date; Governor Ueda's prior-week speech "all but cemented" it. JGB 10-yr above ~2.7% (June 9). A confirmed hike accelerates yen repatriation and JGB long-end supply, pressuring the UST demand channel (10-yr currently ~4.53%, below the 4.75% WARN). Folded into the June 16 BOJ outcome rather than logged standalone.
+- **Iran-Israel conditional halt, coupling operationalized (Armed Conflict, L1 continuation).** The June 7–8 exchange (logged June 9) resolved into a Lebanon-contingent halt now observed in a sub-24-hour feedback cycle: Iran halts → Israel strikes Hezbollah in Lebanon → Iran warns of renewed action. Confirms the Three-Body addendum's "independent fourth body" reading at the behavioral level; no new geometry. **DTC axis C does not reset** (bilateral, Lebanon-conditioned, not an MOU substantive act).
+- **IRGC tanker-disabling claim (June 5–6) — sourcing update.** MARAD Advisory 2026-004 (Tier 1, maritime.dot.gov) confirms the *general class* of Iranian commercial-vessel interdiction (missile, armed-UAV, USV attacks across the Gulf / Hormuz / Gulf of Oman); a CENTCOM release (Tier 1, June 5) covers US-side disabling of 6 blockade-running ships — but neither confirms the *specific* June 5–6 IRGC tanker-disabling incident. The June 9 entry's Tier 1-pending caveat stands, now narrowed to the specific incident.
+- **Pass disposition.** L1 across the board. DTC **ORANGE** holds (A+C breached, B clean; **29 days** to the July 9 IEA wall — IEA confirms 411.9mb deployed Mar 11–Jul 9). NDI **RED-not-CRITICAL** holds (N3 power-cost flag unfired; June 10 Nasdaq −0.62% + CPI deepen N5 within zone, no flip). **L4 convergence — non-fire:** three sections escalate (AC + Market Behavior + Regulatory) but Global Debt is flat-to-mildly-pressured; HY OAS flat at 2.75–2.78% is the load-bearing structural disqualifier (no credit transmission). **Data hygiene:** `brent_usd` blank from June 2 (FRED publication lag); the June 10 `prices.csv` row carries only gold ($4,108, −3.6% from June 9's $4,260) with 10yr/VIX/HY not yet populated — re-run `fetch_prices.py` to backfill. **Active Clock cluster (do not pre-fire):** BOJ June 16, Warsh FOMC June 16–17, UK Makerfield June 18 — mandatory follow-on pass at the cluster.
+
+---
+
 ## 2026-06-09
 
 ### BCRED Q2 gate: Blackstone honors only the standard 5% cap against ~10% redemption demand ($2.2B of ~$4.4B), declines to repeat the Q1 proprietary-capital absorption (June 4)
