@@ -8,6 +8,63 @@ categories: [news]
 
 # Signal Log
 
+## 2026-06-15
+
+### IRGC declares the Strait of Hormuz "closed to all vessels under international law" (June 11) — highest-rhetoric closure yet, paired with kinetic escalation — but the L4 closure clause does NOT fire (June 11)
+
+**Indicators:** IRGC naval activity (named indicator — advances to a **new rhetorical ceiling**: a formal de jure closure declaration, above the prior "strict control" / strike-operations posture); AIS safe-corridor / mine-clearance progress (named indicator — transits collapsed to **~13/day** vs. ~153 pre-conflict, 91% reduction, confirming no commercial corridor despite US claims of continued navigation)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Escalation-direction, **Level 1** — and the discipline point of the pass. On June 11, IRGC / Khatam al-Anbiya Central HQ formally declared Hormuz "closed to all vessels, including oil tankers and commercial ships," threatening to target any transit. It was paired with real kinetic activity: fresh US strikes on IRGC coastal/island nodes (Bandar Abbas, Sirik, Qeshm, Hengam), the Palau-flagged M/T Settebello disabled (3 Indian sailors killed), and a US Apache downed near the strait. **Level 4 immediate trigger — does NOT fire**, on the qualifier the tree was drafted around: the clause requires Hormuz "*declared formally closed by Iran under international law*," and (1) an **IRGC military statement is not a state act under UNCLOS** — the strict-vs-functional distinction the April 21 IMO Council synthesis already drew; (2) **CENTCOM disputed operational closure in real time** (transits continued; this is a de jure claim layered on a pre-existing de facto blockade); (3) the declaration was **superseded within 72 hours** by the June 14 peace framework, with **Brent peaking ~$95, never near the $130 trigger**, 10yr capped 4.69 (<5.0), HY OAS flat at 2.71 — none of the corroborating L4 immediate clauses lit. This is the iteration that proves the international-law qualifier is load-bearing rather than decorative.
+
+**Source:** Al Jazeera (Tier 2 — "Iran shuts Hormuz strait: but wasn't it already closed?"); Business Standard citing Reuters (Tier 2–3, event confirmation); CENTCOM denial on record (Tier 1-pending — confirmed via secondary summaries, direct release URL not retrieved); AIS transit collapse via CSIS methodology (Tier 1 method, secondary summary).
+
+**Note:** Log this even though it does not escalate, precisely to document the qualifier holding under maximum pressure — Iranian closure rhetoric has preceded every major escalation since April, and this is the instance that tests whether "under international law" was meaningful. The ~13/day AIS baseline is the sharpest quantification yet of the de facto interdiction regime.
+
+---
+
+### US–Iran peace framework announced (June 14): ceasefire, Hormuz reopening, 60-day nuclear-talks window — first bilateral framework with a named-actor Iranian MFA confirmation; signing slated June 21 (June 14)
+
+**Indicators:** Delay-Tactics Composite axis C (**reset candidate** — held pending the June 21 signing + Khamenei confirmation; see note); Scenario A probability (upward pressure — first credible bilateral framework, Scenario-B managed-standoff path); US-Iran diplomatic signaling
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** De-escalation-direction, **Level 1.** Trump announced a framework on June 14 — ceasefire, "toll-free" Hormuz reopening + removal of the US naval blockade, and a 60-day window for enrichment/sanctions talks with low-level Iranian enrichment permitted; signing slated **June 21 in Switzerland**. Qualitatively past every prior unsigned-MOU non-reset because Iranian DFM **Gharibabadi confirmed the deal was finalized** — a named-actor MFA confirmation, not third-party reporting. **But not yet a DTC axis-C reset:** no Tier 1 Khamenei statement located (the Trump→negotiator chain has broken at the Khamenei level before — May 23 / May 28), and the hard terms (enrichment ceiling, sanctions, asset freeze) are deferred into the 60-day window, not resolved. **Level 3 — does not fire today:** the framework follows the pre-staged Scenario-B path and introduces no new Three-Body geometry; a *signed* instrument on June 21 would be a confirmed resolution/escalation of the working-document situation report and is the L3 addendum decision point. Brent at ~$83 (from ~$95) is the market's operative verdict; whether it sustains or snaps back on implementation failure is the next physical test.
+
+**Source:** ABC/NBC/NPR/CBS (Tier 2–3, announcement); Al Jazeera (Tier 2); Iranian DFM Gharibabadi quote via NPR/CBS (named-actor Tier 2 — MFA official on record). Formal Tier 1 is the June 21 signed text, not yet available.
+
+**Note:** **Held for the Synthesis Reviewer on the June 16–18 cluster / June 21 signing pass** — that is where the axis-C reset adjudicates (clock-start = signing date, not announcement) and where DTC ORANGE→YELLOW is decided, contingent on the signing holding + Khamenei confirmation + axis-A buffer pressure receding. Do not pre-action the zone transition. Convergence caution for that pass: a *de-escalatory* peace deal stacked with a *hawkish* FOMC + BOJ hike may point toward **different** scenarios — breadth without co-direction would still be disqualifying.
+
+---
+
+### BCRED Q1 2026 10-Q: non-accruals 0.6%→2.4% at cost (4× QoQ), third consecutive NAV decline, PIK 7.0% (down from 7.8%), ~7% of book below 1.0× interest coverage (Q1 filing, surfaced this pass)
+
+**Indicators:** Individual-fund-gate cascade (named indicator — the portfolio-quality data *behind* the June 9 gate, confirming the Q2 standard-cap gate was driven by real credit deterioration, not liquidity preference); private-fund NAV markdowns (named indicator — NAV down a third consecutive quarter; $45B NAV against $80.5B fair-value portfolio); Kindleberger Stage 4 deepening
+
+**Sections:** Market Behavior
+
+**Scenario impact:** Escalation-direction, **Level 1 — does not re-trigger the Market Behavior L2** (the June 9 BCRED entry already actioned the 3+/7d rule and its watch-list update; the window's L2 is spent). New granular Tier 1 EDGAR data not surfaced in the June 8–10 entries: non-accruals at cost **0.6%→2.4% (4× QoQ)**, at fair value 0.4%→1.4%, driven by software/dental markdowns; **~7% of debt investments below 1.0× interest coverage**. The signal is the **rate of change**, not the level — 2.4% remains below the Fitch ~5.8% BDC-sector Q1 default rate. PIK at **7.0% (down from 7.8%)** reads as advisers actively managing toward cash-pay ahead of redemption pressure — a Stage 4 management signal, not simple deterioration. **Structural-vs-whiplash: not forced deleveraging** — HY OAS flat at 2.71%, no SIFI collateral call.
+
+**Source:** BCRED Q1 2026 10-Q (Tier 1, EDGAR); AltsWire (Tier 2 specialist); Yahoo Finance Markets (Tier 2).
+
+**Note:** Deepens the Stage 4 cascade at the portfolio-quality level and connects directly to the `experiment/bezzle-index` **B2a** non-accrual-breadth / **B2b** NAV-divergence work — the 4× non-accrual jump alongside a held-flat-then-declining NAV is exactly the amend-and-pretend pattern the B2 rebuild keys on. Folds into the Aug 15 BZI Q2 basket pull (the Q2 10-Q is the RED decision point).
+
+---
+
+### Continuation notes (folded — pass disposition, BOJ/FOMC/Makerfield curtain-raisers, data hygiene): no standalone escalation this pass
+
+**Sections:** Global Debt, Regulatory Cycle, Armed Conflict
+
+- **Pass disposition.** L1 across the board. **No L2, no L3, no L4.** DTC **ORANGE** holds (A breached — **~24 days** to the July 9 IEA wall; C breached pending the June 21 axis-C-reset adjudication; B clean). NDI **RED-not-CRITICAL** holds (VIX fell to ~16.3 on deal-optimism; N3 power-cost flag unfired). **L4 convergence — non-fire:** Armed Conflict is again **internally counter-directional** within the 7-day window (closure declaration June 11 → peace deal June 14) — the same disqualifier that has killed every prior convergence test; HY OAS flat (2.71%) remains the load-bearing structural disqualifier.
+- **Warsh first FOMC June 16–17 (Regulatory, curtain-raiser, do NOT pre-fire).** Pre-meeting consensus (June 15): hold at 3.50–3.75% (~98% CME FedWatch); the lone 2026 cut expected removed from the dots, possible hike calls, easing-bias removal the highest-probability statement change; Warsh's stated intent to *restructure/scrap the dot plot* may surface. BofA SEP: higher inflation, lower unemployment, no 2026 cuts. **This is where the Regulatory L2 / Phase 5 candidate gets decided**, stacked on the June 10 CPI 4.2%.
+- **BOJ June 16 (Global Debt, curtain-raiser).** 94% pre-positioned for +25bp to 1.0% (first time since 1995). JGB 10-yr above 2% confirms the ~1.75% repatriation-incentive threshold is already active — the UST demand-channel pressure point, independent of the hike outcome.
+- **UK Makerfield June 18 (Global Debt, curtain-raiser).** UK 10-yr gilt ~4.94% — near but below 5.0%; Bloomberg (Tier 2) reports asset managers bracing for gilt volatility on the vote. The June 18 result + gilt response is the binary; not log-worthy today.
+- **Data hygiene.** `brent_usd` blank since June 2 (FRED publication lag confirmed); search puts June 10–11 Brent ~$93–95 (escalation spike) → ~$87 June 13 → ~$83 June 15 (deal). Gold round-tripped 4108 (6/10) → 4090 (6/11) → 4215 (6/12) → **4328 (6/15)**, a new local high diverging from falling Brent/VIX — analytically relevant for NDI, but gold is not a named indicator. Re-run `fetch_prices.py` to backfill June 9–13 Brent settlements once FRED publishes.
+- **Active Clock cluster (do not pre-fire) — mandatory follow-on pass June 16–18:** Warsh FOMC (Regulatory L2/Phase 5 decision), BOJ (Global Debt UST-channel), Makerfield (gilt), plus the June 21 signing (DTC axis-C reset + potential Three-Body L3 addendum). **Dispatch the Synthesis Reviewer at that cluster, not before.**
+
+---
+
 ## 2026-06-10
 
 ### May 2026 CPI: 4.2% headline YoY — first ALERT-level print in the framework — but core holds 2.9% (below WARN); the ALERT is energy-driven, six days before Warsh's first FOMC (June 10)
