@@ -8,6 +8,133 @@ categories: [news]
 
 # Signal Log
 
+## 2026-06-19
+
+### Warsh first FOMC (June 16–17): unanimous hold, but dot-plot flips to a 2026 hike, easing-bias language removed, five Fed-overhaul task forces announced — Phase 5 cut-binary NON-FIRES, the capture vector is institutional, not dovish (June 17)
+
+**Indicators:** Regulatory Phase 5 binary (named Active Clock — the discrete "rate cut against the CPI print" confirmation does NOT occur; cut-binary non-fires); CPI/inflation-mandate tension (SEP PCE forecast raised to 3.6%; 17/18 see inflation risks to the upside); 10-year Treasury yield (4.43–4.49% across the window — below the 4.75% WARN, but the dot-flip adds duration pressure)
+
+**Sections:** Regulatory Cycle, Global Debt
+
+**Scenario impact:** **Level 1 on the log entry; drives a Level 2 Regulatory position update (see `news/watch-list.md`, 2026-06-19).** FOMC held 3.50–3.75% unanimous (12-0). The Phase 5 thesis predicted political capture → a dovish override of the price-stability mandate; Warsh delivered the **opposite** — the dot-plot median flipped to a **2026 hike** (3.8% end-year, 9/18 projecting ≥1 hike), the easing-bias language was stripped entirely, and the SEP PCE forecast was raised to 3.6%. The cut-binary the watch list named as the hard Phase 5 confirmation therefore **NON-FIRES**, and the framework does not advance to confirmed Phase 5. The analytically decisive turn: a hawkish Warsh actively cuts AGAINST the dovish-capture limb of the thesis. **But the capture vector relocates rather than disappears** — Warsh abstained from submitting his own dot ("not helpful in the conduct of policy"), gutted the statement to ~130 words (from 341), and announced **five external task forces** to overhaul Fed operations (inflation framework, productivity/jobs, data, communications-incl-dot-plot, balance sheet). Reshaping the independent body's machinery (dot-plot elimination) is itself a Phase-5-adjacent institutional-capture marker, on a different axis than rate dovishness. **Level 4 — does not fire** (10yr 4.49% < 5.0%; no SIFI/derivatives/rating/repo/nuclear/Hormuz event). Cycle holds at the Phase 4/5 boundary.
+
+**Source:** FOMC statement + SEP (Tier 1, federalreserve.gov — confirmed via convergent Tier 2); CNBC, Fox Business, Kiplinger, TheStreet (Tier 2, consistent on all figures + Warsh press-conference quotes).
+
+**Note:** Provenance-clean Tier 1 primary event — no Trump-whiplash discount applies. This is the L2 evaluation window the June 9/10 passes pre-staged; the L2 fires on *conduct*, not the rate. Forward watch: the dot-plot-elimination task force as a named institutional-capture marker, and whether an actual 2026 hike (if the dots are executed) deepens the zombie-refinancing-failure pressure (Minsky Phase 3) rather than advancing Phase 5.
+
+---
+
+### BOJ hikes +25bp to 1.00% (June 16) — first time since 1995; yen-repatriation / UST-demand channel now operational (June 16)
+
+**Indicators:** BOJ rate normalization / yen-repatriation channel (named Active Clock — fires as pre-positioned); Sovereign credit spread widening — Japan leg (JGB 10-yr 2.615% vs. a 1.00% policy rate); 10-year Treasury yield (the demand-side pressure path on the US 10-yr is now live)
+
+**Sections:** Global Debt
+
+**Scenario impact:** Escalation-direction, **Level 1.** BOJ raised the policy rate +25bp to 1.00% (7-1 vote, Asada dissenting), the first 1% print since September 1995; JGB 10-yr climbed ~3bp to 2.615%; yen barely moved (~160.22 vs. USD on the still-wide differential); BOJ will continue ¥200B/quarter QT reduction then pause the taper at ¥2T/month from April 2027. The hike was ~94% pre-positioned — confirmation of the pre-staged trajectory, not a surprise. The repatriation incentive is real (JGB yields now capturable domestically without the geopolitical premium) but the carry unwind is slow, not a shock. **No threshold breach:** UST 10yr 4.43–4.49% net-*down* across the FOMC/BOJ window (oil-deflation from the deal dominating the hawkish-CB pressure). The taper-pause slightly *reduces* near-term JGB supply pressure — a marginal offset.
+
+**Source:** BOJ statement (Tier 1, boj.or.jp — via Tier 2); CNBC, FXStreet, InvestingLive (Tier 2, consistent).
+
+**Note:** Active Clock fires as expected. The structural read: JGB 10-yr at 2.615% vs. 1.00% policy = a >160bp term spread Japanese investors can now capture at home — narrowing the incentive to hold USTs over JGBs. Medium-term UST-demand-erosion, not an acute event; 10yr WARN unbreached.
+
+---
+
+### US–Iran MOU digitally pre-signed (~June 17) but the Bürgenstock ceremony POSTPONES (June 19); Mojtaba Khamenei accepts the deal — reluctantly; Israel–Hezbollah ceasefire holds but IDF stays in Lebanon; GOP-Senate opposition on record (June 17–19)
+
+**Indicators:** Delay-Tactics Composite axis C (Khamenei-level statement now on record — but reset HELD, see DTC note below); US-Iran diplomatic signaling (ceremony slipped; talks reslated ~June 21–22, unverified); Netanyahu coalition stability (named indicator — IDF stays in the south-Lebanon buffer; Hezbollah "conditional acceptance"); Scenario A/C cross-pressure
+
+**Sections:** Armed Conflict (cross-cutting Regulatory via INARA)
+
+**Scenario impact:** Mixed-direction, **Level 1; stages — but does NOT yet fire — a Three-Body L3 addendum (see disposition).** The 14-point MOU was digitally pre-signed ~June 17 (Trump/Pezeshkian), immediate effect — but the **formal Bürgenstock ceremony POSTPONED** on June 19 (Swiss FM): Vance canceled his trip ("logistical issues" — REPORTED-UNVERIFIED) and **Iran delayed its delegation citing Israel's ongoing Lebanon strikes.** **Mojtaba Khamenei gave the first SL-level statement (June 18, The Hill, Tier 2):** "as a matter of principle, I held a different view," accepting after Pezeshkian's assurances and warning the US against "excessive demands" — confirmation *with reservations*, the inverse of a clean concession. A US-mediated **Israel–Hezbollah ceasefire took effect June 19 (4pm)**, but **IDF forces remain in the southern buffer** — Hezbollah's withdrawal precondition unmet → fragile by construction. **GOP-Senate opposition is on record** (Wicker [SASC Chair, Tier 1 Senate-office statement], Cruz, Cassidy) targeting the $300B reconstruction fund / sanctions-before-concessions / no-enrichment-cap; Graham is conditional-support; **no INARA resolution of disapproval filed** (Trump pledged INARA transmittal at the G7 June 16; called critics "fools").
+
+**Source:** Swiss FDFA postponement (Tier 1 indirect via CBS/Al Jazeera Tier 2); The Hill (Khamenei quote, Tier 2); CNN/Times of Israel/NBC (ceasefire, Tier 2); Wicker office statement (Tier 1); Al Jazeera/The Hill (GOP opposition, Tier 2); Vance "freakout"/Lebanon-delay (NYT via Tier 2).
+
+**Note:** The **Lebanon↔Hormuz coupling staged June 5 is now observably operational** — Israel's Lebanon strikes → Iran delegation withdrawal → Bürgenstock slip → the re-closure threat below. This is the Three-Body addendum trigger, but the addendum is **HELD per user direction pending the June 21–22 signing actually occurring** (the original three-body thesis still holds → addendum not full report). The Netanyahu-leans-on-pro-Israel-senators thread (CNN via ToI) is REPORTED-UNVERIFIED — do not anchor on it. The process-spoiler geometry (Israel + GOP-Senate via INARA/Senate, not kinetics) is new and will be the addendum's core.
+
+---
+
+### Iran issues a SECOND Hormuz re-closure declaration (June 19) citing Israeli Lebanon strikes as a US "breach of promise" — L4 closure clause again does NOT fire (June 19)
+
+**Indicators:** IRGC naval activity (named indicator — second formal re-closure declaration in 8 days, now *post-MOU*: Iran using Hormuz as implementation-phase leverage rather than as a negotiating lever); DTC axis A/C interaction (the declaration explicitly links Lebanon to Hormuz — the coupling firing)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Escalation-direction, **Level 1.** Iran's Khatam al-Anbiya Central HQ declared the strait "closed to vessel traffic" on June 19, calling the Israeli Lebanon strikes a "breach of promise" by the US and framing it as a "first step." **Level 4 immediate trigger — does NOT fire**, on the identical doctrine the June 11/15 pass made load-bearing: (1) an **IRGC / Khatam al-Anbiya military statement is not a UNCLOS state act**; (2) **the US disputed the closure in real time** (transits continue/monitored); (3) Brent only ticked back to ~$80 — far below the $130 trigger — and **gold *unwound* (−4.3%, 4358→4172 over June 17–19) while HY OAS tightened to a series-low 2.63%.** This is the second instance, not a new threshold; the international-law qualifier holds under repeat pressure. Analytically it is the cleanest evidence yet of the **release-valve thesis**: a formal closure declaration that produces no oil panic because supply has already migrated to the STS workaround outside the strait (see the folded Reuters STS note below).
+
+**Source:** Times of Israel, Jerusalem Post (Tier 2); GlobalSecurity.org OPREP (Tier 2 specialist); US dispute via multiple Tier 2; prices from `data/prices.csv` (Tier 1, FRED — Brent FRED-blank June 16–19, ~$80 search-sourced).
+
+**Note:** Forward escalation-tree-geography question raised and **deferred to user decision (not actioned this pass):** the true oil-panic trigger has migrated from a strait-closure to a kinetic break of the STS anchorages off Fujairah/Sohar (Gulf of Oman, *outside* the strait) — whether the L4 closure clause should extend to that geography is an open flag, not a tree edit.
+
+---
+
+### Reuters STS-network "Exclusive" folded as context (June 16) + Apache shootdown date reconciled to June 9
+
+**Indicators:** AIS safe-corridor / Hormuz-reopening status (named indicator — context: "reopening" in the MOU is a covert STS workaround, not a cleared corridor)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** **Level 1, folded — not a standalone escalation.** A Reuters Energy "Exclusive" (2026-06-16, byline Feras Dalatey + Saul/Zhdannikov/Carron, Tier 2, 11-source) reports the US military has overseen ~92 covert ship-to-ship transfers (~90M bbl since early May) in the **Gulf of Oman off Fujairah/Sohar — OUTSIDE the strait** — drones + helicopters guiding convoys; ADNOC a top participant; CENTCOM denied. **Corroborated beyond single-source:** Trump described the operation publicly June 10 (principal-actor, Tier-1-equivalent) + NYT May 31. Its analytical value is that it explains *why* the June 19 re-closure produced no panic — the supply already left the strait. **The Apache-STS linkage is "role unconfirmed" by Reuters — NOT logged as fact.** **Data-hygiene reconciliation:** Reuters dates the **Apache shootdown to June 9**; the June 15 log block bundled it into the June 11 cluster. Corrected sequence: **Apache down June 9 → US retaliatory strikes → IRGC closure declaration June 11.**
+
+**Source:** Reuters Energy Exclusive (Tier 2, 11-source); Trump June 10 public statement (Tier-1-equivalent principal-actor); NYT May 31 (Tier 2).
+
+**Note:** Held since June 16; folded here per the cluster-pass plan. Supports the release-valve thesis and the escalation-tree-geography flag above.
+
+---
+
+### Partners Group Global Value SICAV gates (June 3): the redemption cascade jumps from private-credit BDCs into private-EQUITY evergreens — new transmission channel (June 3)
+
+**Indicators:** Private equity NAV markdowns / redemption gates at major funds (named indicator — first PE-evergreen gate, distinct from the BDC channel); individual-fund-gate cascade (channel jump); Bank→private-credit hook (a) — STILL LATENT (15% facility undrawn)
+
+**Sections:** Market Behavior
+
+**Scenario impact:** Escalation-direction, **Level 1 — does NOT re-fire the Market Behavior L2** (the June 9 BCRED-anchored L2 is spent; this event predates that trigger set and is a *new channel*, not a strengthening of it). Partners Group's $8.6B Global Value SICAV (PE evergreen) took ~9.8% Q2 redemption demand, honored only the 5% quarterly cap, and **blocked ~$413M**; the stock fell **17% — its worst day since the 2006 IPO**; Partners Group warned three more evergreen PE vehicles (~$9.7B combined) face 3.5–5% Q2 demand. The 15% credit facility sat **UNDRAWN** — the same hook-(a)-latent structure as BCRED. This is the gate cascade **migrating BDC → PE evergreen**, a transmission channel prior passes flagged as a forward-watch and which has now fired. **Structural-vs-whiplash: contained** — HY OAS flat 2.63–2.71%, no bank-line draw, no SIFI propagation; Stage 4 cascade broadening, not Minsky Phase 3→4.
+
+**Source:** SWI Swissinfo citing Bloomberg (Tier 2); Invezz (Tier 2); Partners Group is Swiss-listed (no SEC EDGAR vehicle). Bloomberg original paywalled, confirmed by multiple secondaries.
+
+**Note:** A PE-evergreen-channel notation is added to the Market Behavior watch list (see `news/watch-list.md`, 2026-06-19). Partners Group is not a US-GSIB-linked vehicle the way BCRED is, so the immediate SIFI-contagion path is less direct — the escalatory element is the cross-asset-class propagation itself.
+
+---
+
+### Oaktree Strategic Credit Fund Q2 tender comes in BELOW the 5% cap (June 12 / reported June 17–18) — first below-cap Q2 print, counter-directional within the cascade (June 17)
+
+**Indicators:** Individual-fund-gate cascade (named indicator — counter-directional partial signal; the cascade is not monolithic)
+
+**Sections:** Market Behavior
+
+**Scenario impact:** De-escalation-direction *within* the cascade, **Level 1.** Oaktree Strategic Credit Fund's Q2 tender (expired June 12) drew **4.5% demand — below the 5% cap** — and honored 100% with no proration and no affiliate purchase, versus Q1's 8.5% (which required a 7% expansion + ~$310M affiliate purchase). It is the **first major BDC to report Q2 demand below its cap** — but an **outlier**, not a trend: BCRED hit ~10%, Golub ~8.5% (both above cap). Bloomberg framed it as "the first major firm to stem the exodus." Its analytical value is keeping the Market Behavior section honest — the cascade is dispersed, which is itself a reason convergence stays disqualified.
+
+**Source:** SEC SC TO-I/A filing (Tier 1, EDGAR — confirms tender mechanics); AltsWire, Alternative Credit Investor, Bloomberg video (Tier 2, June 18).
+
+**Note:** Log as the counter-signal of record. Does not reverse the cascade; narrows the "all funds above cap" narrative.
+
+---
+
+### Bank of England publishes the 2nd SWES scenario (June 19): "Private Markets System-Wide Exploratory Scenario" — a central-bank stress test of the exact bank→private-credit channel the framework tracks (June 19)
+
+**Indicators:** Bank→private-credit direct-lending exposure (named Global Debt indicator — structural-context advance: the channel is now being probed at the FPC-directed level); shadow banking stress events (the exercise's liquidity-mismatch scope maps to this indicator)
+
+**Sections:** Global Debt
+
+**Scenario impact:** Structural-context / forward-marker, **Level 1.** The BoE published the scenario for its second SWES on June 19 — **46 firms** spanning insurers, pension funds, PE funds, **private credit funds, CLO managers, and the banks providing sponsor leverage**. It explicitly probes bank↔NBFI interconnection, the redemption-rights-vs-illiquid-assets liquidity mismatch, and "layer-cake" leverage (borrower/fund/sponsor) — i.e. the named "Bank→private-credit direct-lending exposure" channel. Severe scenario params: leveraged-loan spreads +390bp, VIX 40, FTSE −35%, "more severe than the financial crisis," built around an energy/supply-shock geopolitical premise (structurally adjacent to the live Hormuz thesis). **This is a stress *exercise*, not a stress *event*** — no phase advance; results are 12–18 months out (final 2027). Two reasons to log it: (1) **convergent regulator focus** — BoE + Fed (May FSR) + ECB (May FSR special feature) all independently flagged private credit, strengthening the structural Phase-3 record; (2) **interim findings land in the July 2026 FSR, which overlaps the late-July DTC×NDI×EOPL convergence window.**
+
+**Source:** BoE publication (Tier 1, bankofengland.co.uk — direct fetch 403'd; multiple Tier 2 institutional/legal outlets citing the primary release: finance-monthly, Macfarlanes June 17, City AM); Fed May FSR + ECB May FSR (Tier 2 via Macfarlanes).
+
+**Note:** L1 like the May FSB report. Hook (a) on the bank→PC indicator stays LATENT — the SWES models the stress (lev-loan +390bp, VIX 40) under which it would fire; nothing close has occurred (HY 2.63%, VIX 18.44). The July-FSR / late-July-convergence overlap is added to `news/composite-indices.md`.
+
+---
+
+### Continuation / disposition note (June 19 cluster): one L2 fired, one L3 staged-but-held, convergence non-fires
+
+**Sections:** Regulatory Cycle, Global Debt, Armed Conflict, Market Behavior
+
+- **Pass disposition.** **Level 2 fired** (Regulatory position update — FOMC conduct cutting against the dovish-capture limb; see `news/watch-list.md`). **Level 3 staged but HELD** (Three-Body addendum — authorized by the analysis but held per user direction pending the June 21–22 signing). L1 across all other entries. **No Level 4.**
+- **DTC — HOLDS ORANGE; axis-C reset NOT taken.** Khamenei's conditional acceptance clears the two bars that failed the May 23 / June 9 false resets (instrument now digitally signed; SL voice present) — but the **ceremony POSTPONED** (the named clock-start did not happen), the SL voice is **reluctant/Tier 2**, and a **same-day IRGC re-closure** is an active counter-signal. Reset is **skeptical-pending the June 21–22 signing actually occurring with Khamenei-level Tier 1 confirmation** (event-triggered, not calendar-triggered — the reslate date is itself unverified). Axis A ~20 days to the July 9 wall; axis B clean.
+- **NDI — HOLDS RED-not-CRITICAL.** N3 power-cost flag unfired; no Mag-7 input-cost/power guidance miss. The PC-redemption narrative-volume surge (visible argument-rebuttal cycle) is **annotated to N5 but NOT folded into the AI-scoped count** (definitional discipline — conflating the two narrative objects would risk a spurious CRITICAL read).
+- **L4 convergence — NON-FIRE.** Armed Conflict is again **internally counter-directional** (Israel–Hezbollah ceasefire + MOU pre-signing + Khamenei acceptance vs. IRGC re-closure + Bürgenstock slip + Lebanon fragility), and **HY OAS at 2.63% (series-tightest) is the load-bearing structural disqualifier** — zero credit transmission, gold unwinding, VIX 18.44 (<WARN). The FOMC and conflict legs also share the same oil→CPI driver, so they are not independent cross-section co-direction.
+- **Scenario table — NOT edited.** Scenario A (digitally-signed MOU + first SL acceptance) and Scenario C (re-closure threat + Lebanon-ceasefire fragility) pressures partially offset; neither clears the ≥15pp single-pass bar. C/A cross-pressure noted qualitatively.
+- **Live-lens hypotheses tested:** deal-as-macro-hedge **confirming-leaning** (signing slipped *after* the hawkish dots — the confirming falsifier; the killing falsifier of an on-time Khamenei-confirmed signing indifferent to the dots did not occur). Release-valve **strongly confirmed** (second closure threat → gold −4.3%, HY series-tightest; mechanism = the Reuters STS workaround). NDI-decay risk carried forward as the key late-July inflection.
+
+---
+
 ## 2026-06-15
 
 ### IRGC declares the Strait of Hormuz "closed to all vessels under international law" (June 11) — highest-rhetoric closure yet, paired with kinetic escalation — but the L4 closure clause does NOT fire (June 11)
