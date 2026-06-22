@@ -8,6 +8,36 @@ categories: [news]
 
 # Signal Log
 
+## 2026-06-22
+
+### Independent transit data resolves the conflicting Hormuz closure claims — the strait-count (A) vs. STS-anchorage (C) divergence is now measured; release-valve thesis confirmed with numbers (June 11–22)
+
+**Indicators:** AIS safe-corridor / Hormuz-reopening status (named indicator — quantitative update to the June 16 Reuters STS entry: the gap between AIS-visible strait transits and destination-arrival flows is now bounded); IRGC naval activity (the Iran closure claim and the US flows-continue claim are both technically true — different waters)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Thesis-confirming / escalation-neutral, **Level 1 — quantitative update to the folded June 16 Reuters STS entry, not a new escalation.** Independent (non-government) tracking resolves the conflicting June 11/19 closure declarations: both governments describe different geographies. **(A) Strait AIS-visible transits** collapsed to **1–7 vessels/day June 11–14** (~1–8% of the ~90–100/day pre-crisis baseline; Windward, Tier 2), recovering to **~20 visible + 5 dark on June 21** (~20% of baseline; Bloomberg/EnergyConnects, Tier 2) — Iran's closure claim is technically supportable *on the visible corridor*. **(B) The AIS undercount is real:** Windward caught **6 tankers broadcasting spoofed positions** ~55nm SE of the strait off Musandam (June 13, EO/SAR imagery) and estimated **16 dark tankers / ~8.6M bbl** transiting in the 7 days ending June 11 — AIS misses an estimated ~half of transits. **(C) The workaround outside the strait peaked exactly as the strait emptied:** **17 simultaneous STS transfer pairs** off Fujairah/Sohar on June 11 (satellite via Reuters/TankerTrackers); ADNOC's June spot sales reached **48M bbl with STS off Sohar as the named delivery mechanism** (Baird Maritime, June 22). **The decisive number:** while AIS-strait transits ran 1–7/day, **Vortexa tracked 3.4 mb/d of oil arriving at destination ports** (week ending June 13) — oil moving at ~4–10× what the strait picture implied. That gap *is* the release valve, measured. **L4 does not fire** — no physical strike/mining/UNCLOS-enforced closure; Brent ~$80 « $130.
+
+**Source:** EIA STEO + chokepoint brief (Tier 1, eia.gov — ~20 mb/d baseline, Q1 2026 −6 mb/d/−30%); Windward AI (Tier 2 specialist, AIS+EO+SAR — trough counts, Musandam spoofing cluster, dark-tanker estimates); Vortexa (Tier 2 — destination arrivals); Reuters/TankerTrackers (Tier 2 — June 11 STS peak, June 6 Sohar 2.3M-bbl transfer); Baird Maritime citing ADNOC (Tier 2, June 22 — spot-tender STS terms); Bloomberg/EnergyConnects (Tier 2 — June 21 recovery). FEDCom/FOIZ June weekly storage **NOT FOUND** (S&P Platts paywall). Aggregator figures ("71 transits June 19–21"; CENTCOM "17M bbl June 21–22 weekend") **REPORTED-UNVERIFIED** — not relied on.
+
+**Note:** Honest ceiling on the "crisis canceled" framing — even at 3.4 mb/d, total outbound is still only ~15–17% of the normal 20 mb/d; the release valve is buying runway, not replacing throughput (IEA emergency releases ~4.1 mb/d, May OMR, cover much of the rest). Pass was triggered by a Calhoun Forbes op-ed ("The Oil Market Canceled The Hormuz Crisis — Even Before The Ceasefire," June 18) — op-ed, **not logged**; the market facts above are sourced to primaries. Reinforces the June 19 escalation-tree-geography flag: the (A)-vs-(C) divergence shows the true oil-panic trigger has migrated to a kinetic break of the STS anchorages *outside* the strait.
+
+---
+
+### EIA June 9 STEO release — demand destruction caps the Hormuz price spike; the Tier 1 primary behind Brent peaking ~$95–101, not $130 (June 9)
+
+**Indicators:** Brent price path vs. the $130 L4 trigger (named indicator — the demand-side mechanism now sourced to a Tier 1 primary); IEA/EIA demand outlook
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** De-escalation-direction, **Level 1.** The EIA's June 9 release — "EIA expects a drop in global oil demand will limit price increases from Hormuz disruptions" — supplies the **demand-destruction** mechanism (high prices → consumption falls ~1 mb/d → price self-limits); Brent projected ~$95–105 near-term, reverting to ~$79 in 2027. This is the Tier 1 primary explaining why Brent peaked ~$95–101 and never approached the $130 trigger — *complementary to, not competing with*, the supply-routing release valve in the entry above. Demand-destruction means the supply shock was real and corrected partly through economic pain; supply-rerouting means part of the shock was phantom. Both are operating; together they held Brent at ~$80.
+
+**Source:** EIA Short-Term Energy Outlook + June 9 press release (Tier 1, eia.gov).
+
+**Note:** Fills a genuine gap — the demand mechanism was implicit across prior entries but never sourced to its Tier 1 primary. Keeping the two mechanisms (demand cap + supply reroute) distinct matters: they carry different implications — demand-destruction is bearish for the real economy, supply-reroute is not.
+
+---
+
 ## 2026-06-19
 
 ### Warsh first FOMC (June 16–17): unanimous hold, but dot-plot flips to a 2026 hike, easing-bias language removed, five Fed-overhaul task forces announced — Phase 5 cut-binary NON-FIRES, the capture vector is institutional, not dovish (June 17)
