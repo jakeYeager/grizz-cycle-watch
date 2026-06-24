@@ -8,6 +8,47 @@ categories: [news]
 
 # Signal Log
 
+## 2026-06-24
+
+### US–Iran Bürgenstock summit reconvenes and concludes (June 21–22): roadmap + 60-day clock, US sanctions waiver + naval-blockade lift, deconfliction hotline — but IAEA site access in OPEN DISPUTE Day 1; signing was delegation-level, not Khamenei-level (June 21–22)
+
+**Indicators:** US–Iran diplomatic signaling (the postponed-June-19 ceremony reconvened — Iran attended at delegation level once the June 19 Israel–Hezbollah ceasefire cleared the Lebanon-strike objection); DTC axis C (the held reset is RE-ADJUDICATED this pass — bar unmet, ORANGE holds; see composites); INARA 30-day clock (transmittal still unconfirmed); Scenario A/C cross-pressure; Brent vs. the $130 L4 trigger (now ~$77)
+
+**Sections:** Armed Conflict (cross-cutting Global Debt via the sanctions-waiver / oil-supply channel, Regulatory via INARA)
+
+**Scenario impact:** Mixed-direction, **Level 1; RELEASES the held Three-Body L3 addendum (see disposition).** The Bürgenstock ceremony postponed June 19 **reconvened and concluded June 21–22** — Iran attended (Araqchi led; US side Vance + Witkoff + Kushner), the June 17 digital MOU stands, and the summit produced NEW elements: a roadmap to a final deal within **60 days**, a US–Iran deconfliction **hotline**, a US Treasury **60-day general license** on Iranian oil (issued June 23, expires Aug 21), and a **lift of the US naval blockade** of Iranian ports. Mediators (Qatar + Pakistan) confirmed the roadmap; Swiss FDFA welcomed "constructive progress." **The central caveat — this is a contested implementation clock, not a clean close:** IAEA site access is in OPEN PUBLIC DISPUTE on Day 1 — Vance says Iran agreed to invite inspectors; Iran's foreign ministry says no inspection protocol for the damaged sites exists and no Grossi meeting occurred; Grossi says the MOU text "explicitly" provides for IAEA supervision. **The signing was delegation-level — NOT Khamenei-level;** no new Tier 1 Khamenei statement on the June 21–22 outcomes was found (the SL record remains the June 18 Mojtaba Khamenei statement, Tier 2). **L4 does not fire** (no strike/mine/UNCLOS closure; Brent ~$77 « $130; the June 22 IRGC re-closure statement is again a military, not a state, act, and CENTCOM disputed it in real time). Hormuz commercial traffic has NOT operationally normalized post-summit (Argus: "tanker traffic unchanged"; Windward 12 transits June 22 vs. 21 prior) — the reopening is political, not yet operational.
+
+**Source:** Bürgenstock summit + roadmap — Qatar/Pakistan mediator joint statement, Swiss FDFA (Tier 1 indirect via Tier 2); CNBC, Al Jazeera, NPR (Tier 2 convergent — hotline, blockade lift); US Treasury 60-day general license (Tier 1 indirect via CNBC/Al Jazeera/NPR, June 23); IAEA dispute — Vance vs. Iran MFA vs. Grossi (Tier 2 convergent, all three positions on record); Brent ~$77.4 (Fortune/TradingKey/EIA, Tier 2); Hormuz traffic (Argus Media/Windward, Tier 2).
+
+**Note:** The June 19 hold condition for the Three-Body L3 addendum ("pending the signing actually occurring") is now MET — the addendum is **RELEASED to the Report Writer this pass.** New geometry it must capture: the process-spoiler vector has migrated from kinetic/INARA levers to **nuclear-verification obstruction in the implementation phase** (the IAEA-access dispute), operating inside a live 60-day clock. Original Three-Body thesis holds → addendum, not full report. DTC axis-C reset re-adjudicated and NOT taken (delegation-level, no Khamenei Tier 1 — bar unmet; see composites). INARA: no resolution of disapproval filed; the Senate passed a non-binding bipartisan war-powers rebuke, but that is not an operative INARA block; transmittal / 30-day-clock start REPORTED-UNVERIFIED.
+
+---
+
+### BofA flips to forecasting three 2026 Fed hikes (June 22); June 23 tech/KOSPI rout spikes VIX to 19.5 as gold slides — a domestic rate-repricing event, not a geopolitical one (June 22–23)
+
+**Indicators:** Warsh dot-plot execution risk (named — BofA now projects the institutional-capture-vector dots to actually execute: Sep/Oct/Dec); 10-year Treasury path (4.51% June 22, below the 4.75% WARN); equity-vol / VIX (19.5, below the 25 WARN); zombie-refinancing-failure channel (Minsky Phase 3 deepening if hikes execute into a slowing economy)
+
+**Sections:** Global Debt (cross-cutting Regulatory — the Warsh dots; Market Behavior — the AI-multiple-vs-rates collision)
+
+**Scenario impact:** Escalation-direction (rates), **Level 1 — does NOT independently fire L2** (Tier 2 research note, not primary Fed data; no ≥15pp scenario shift). Bank of America reversed its no-change call June 22 and now projects **three 2026 hikes** (September/October/December), citing "unambiguously worse" inflation, resilient jobs, and Warsh's hawkish posture — i.e., the market is now pricing the Warsh dot-plot the June 19 L2 named as the institutional-capture vector to actually print. The June 23 tape followed: an Asia-led **semiconductor rout** (KOSPI hit circuit breakers) + the BofA note drove **Nasdaq −2.21%, S&P −1.44%, VIX +12.8% to 19.5**; gold fell a further **−$52 (4182→4130)** on higher real-rate expectations + equity-margin selling. **This resolves the gold-down/VIX-up "anomaly":** two independent chains — equity/rate-repricing lifting VIX, real-rates + geopolitical-premium deflation pressing gold — not a contradiction. **Structural-vs-whiplash: whiplash.** HY OAS 2.65→2.71 (+6bp) is minor, historically tight, far from the 3.5% break / 5.0% WARN; no bank-line draw, no SIFI/repo event (the KOSPI circuit-breaker is foreign — no US forced-deleveraging cascade). Hook (a) LATENT.
+
+**Source:** BofA research note via CNBC, Fortune, TheStreet (Tier 2 convergent, June 22); June 23 selloff — TheStreet/CNBC/CNN (Tier 2 convergent); prices from `data/prices.csv` (Tier 1, FRED — VIX 19.49, HY OAS 2.71, gold 4129.90, 10yr 4.51 June 22).
+
+**Note:** Cross-section but NOT convergence — the deal de-escalates (Armed Conflict) while rates/tech escalate (Global Debt / Market Behavior): counter-directional, so the L4 convergence trigger again does not fire, and HY at 2.71% is the load-bearing structural disqualifier. Forward: if Warsh executes even one hike into a slowing economy, the zombie-refinancing-failure channel (Minsky Phase 3) deepens; and Brent at ~$77 is now *below* the EIA $79/2027 path, which could pull the mid-July June-CPI print down and constrain the three-hike scenario — a Level 1 to watch once that print lands. NDI holds RED-not-CRITICAL (the "rate hikes kill AI multiples" rebuttal is gaining play — N2/N5 adjacent — but the N3 sell-side power-cost flag has not fired).
+
+---
+
+### Continuation / disposition note (June 24 daily pass): signing confirmed, addendum released, axis-C reset declined
+
+**Sections:** Armed Conflict, Regulatory Cycle, Global Debt, Market Behavior
+
+- **Pass disposition.** Signing **CONFIRMED** (Tier 2 convergent) — Bürgenstock concluded June 21–22; the June 19 Three-Body L3 hold condition is met. **Level 3 addendum RELEASED to the Report Writer.** L1 across all entries. **No L4; no clean L2.**
+- **DTC — HOLDS ORANGE; axis-C reset RE-ADJUDICATED and DECLINED.** The summit cleared "instrument signed" and "Iran at the table," but the June 19 bar was **Khamenei-level Tier 1 confirmation**, which is ABSENT (delegation-level Araqchi/Vance; no new SL statement on the outcomes). Per user adjudication this pass, axis C stays breached. Annotated in `news/composite-indices.md`. Axis A ~15 days to the July 9 wall; the sanctions waiver / blockade lift may extend the runway IF Iranian crude actually moves — watch. Axis B clean (the waiver may change Iran's revenue calculus — annotate, do not reset without data).
+- **Convergence non-fire** (counter-directional: deal vs. rates). NDI holds RED-not-CRITICAL.
+- **Aggregates staleness flag:** the June MSACSR housing months-supply print (an Active Clock — May was 10.3, second month above the 9.0 WARN) is due ~now and is not yet in `aggregates.csv`. If it has landed, a fetch + evaluation may clear an L2 on a third consecutive crossing above 9.0. User runs the fetch.
+
+---
+
 ## 2026-06-22
 
 ### Independent transit data resolves the conflicting Hormuz closure claims — the strait-count (A) vs. STS-anchorage (C) divergence is now measured; release-valve thesis confirmed with numbers (June 11–22)

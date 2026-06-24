@@ -51,6 +51,7 @@ website:
           - armed-conflict/ordnance-cost-asymmetry.md
           - armed-conflict/three-blockade-problem.md
           - armed-conflict/2026-06-05-hezbollah-fourth-body.md
+          - armed-conflict/three-body-problem-implementation-addendum.md
 format:
   html:
     theme: cosmo
