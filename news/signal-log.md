@@ -8,6 +8,49 @@ categories: [news]
 
 # Signal Log
 
+## 2026-06-26
+
+### IRGC drone strike on a commercial vessel in the Hormuz transit lane (June 25): first post-signing kinetic escalation — L4 Hormuz clause does NOT fire by the letter (vessel ≠ infrastructure); the narrative and kinetic arenas diverge
+
+**Indicators:** IRGC naval activity (named — now KINETIC against a commercial vessel on a UN-backed evacuation route, not a declaration); AIS safe-corridor / Hormuz status (IMO paused the evacuation); Brent vs. the $130 trigger ($74.7, bounced ~2% on the strike)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Escalation-direction, **Level 1 — the L4 Hormuz-closure clause does NOT fire by the literal text.** On June 25 the IRGC drone-struck the *Ever Lovely* (Evergreen, Singapore-flagged container ship) 7.5nm SE of Dahit, Oman — bridge damage, no casualties, no environmental impact. The IMO **paused the Hormuz stranded-fleet evacuation** "to reconfirm that the necessary safety guarantees continue to be in place." An intercepted IRGC Navy radio broadcast asserted corridor control: "Transit only with IRGC permission, on designated routes… AIS off, or off-route, and you carry the consequences." **L4 check — does NOT fire:** the escalation-tree clause reads "physical *infrastructure* struck, mined, or formally closed under international law"; a *vessel* is not infrastructure, the strait was not mined, and no formal UNCLOS closure was declared (the radio warning is a behavioral assertion; the IMO pause is voluntary). Brent ticked **+~2% to $74.7** (from $73.74 June 24) — a partial re-pricing of closure risk, still far below the $130 trigger.
+
+**Source:** UKMTO Warning 074-26 (Tier 1); US officials (Tier 1 statements via Fox), Ambrey / Reuters drone assessment (Tier 2), Evergreen company confirmation (Tier 1); IMO press release on the evacuation pause (Tier 1); IRGC radio broadcast (Euronews / NBC, Tier 2); Brent (CNBC / NBC, Tier 2).
+
+**Note:** The **two-arena divergence** is the analytical core, per the framing this pass adopts (Reviewer: confirmation, not transition — no scenario moves ≥15pp; this is the counter-directionality the June 24 addendum already models): the **narrative/posturing arena** (the signed Bürgenstock deal, the 60-day roadmap, the IMO-backed evacuation) says de-escalation, while the **kinetic arena** (this strike + the radio command) shows the IRGC asserting *physical* corridor authority during the implementation phase. This is qualitatively new — the prior June 11/19/22 closure declarations were *narrative* (military statements, not state acts); this is the first *post-signing kinetic enforcement against a commercial vessel on a UN-backed route*. It supersedes the deferred Fujairah/Sohar geography flag with a sharper **clause-definition question — vessel-strike-in-corridor vs. infrastructure-only — RAISED FOR USER DECISION, not actioned.** **Synthesis Reviewer verdict (this pass):** L1 confirmed — the strike *tests the release-valve falsifier the June 24 Three-Body implementation-phase addendum already named, and it held* (Brent +~2% only, no oil panic, no infrastructure, no casualty). The one new element — the **kinetic channel re-asserting during implementation** (IRGC drone + corridor-control radio directly countermanding an IMO mandate) — is a mild tension with that addendum's "spoiler changed channels to process" thesis, but a single data point does not materially update the geometry. **A Three-Body follow-on addendum is therefore STAGED, not fired** — it fires on a *second* kinetic data point: a strike on the STS anchorages (the named falsifier), a sinking/casualty event, or a Brent break. The munitions-supply-chain strain thread is VERIFIED and logged separately below.
+
+---
+
+### Trump–defense-CEO munitions meeting + $35.3B THAAD award + $87.6B war supplemental (June 24): the ordnance-cost-asymmetry monitoring indicators fire for the first time — inventory stress meets the political-achievement clock
+
+**Indicators:** US interceptor replenishment / surge procurement (named `ordnance-cost-asymmetry.md` §8 indicator — FIRES: $35.3B sole-source THAAD ~12/yr→~400/yr; $398.7M AMRAAM); US defense supplemental / emergency munitions appropriations (named §8 indicator — FIRES: $87.6B supplemental, $21B munitions → sovereign-debt transmission channel); DPA Title III munitions invocation (June 11)
+
+**Sections:** Armed Conflict (defense-industrial) — cross-cutting Global Debt (fiscal / sovereign-debt transmission)
+
+**Scenario impact:** Escalation-direction (structural), **Level 1.** On June 24 Trump met defense-prime CEOs — **Boeing, Lockheed Martin, Honeywell** (NOT RTX/Northrop/GD; those were a separate March meeting — do not miscount) — on munitions production ramp + stockpile replenishment after the Iran war. Same day: MDA awarded Lockheed a **$35.3B sole-source THAAD** contract through 2032 (production target ~12/yr → ~400/yr), Raytheon **$398.7M** for AMRAAM, and the White House submitted an **$87.6B supplemental** ($67B DoD, $21B weapons/munitions). Backdrop: **DPA Title III invoked June 11 — six days BEFORE the June 17 signing** — citing "systemic constraints in the munitions base." CSIS "Last Rounds?" (April 24, Tier 2) quantifies the draw: **THAAD ≥50% depleted, PAC-3 ~50%, PrSM ≥45%, JASSM >1,000 fired, Tomahawk >1,000**; the **solid-rocket-motor line is the single binding upstream bottleneck**; PAC-3/THAAD recovery not until **mid-to-late 2029.** This is the first firing of two named §8 monitoring indicators (interceptor surge + defense supplemental). **No L4** (no trigger breached; HY 2.76% whiplash, 10yr 4.41 « 5.0).
+
+**Source:** MDA contract awards + Lockheed Martin press release (Tier 1, June 24); RTX framework agreements (Tier 1, Feb 4); DPA Title III invocation (Tier 2 convergent — CNN / Washington Times / The Hill, June 11–18); CSIS "Last Rounds?" (Tier 2, April 24); CNBC / Military Times / The Hill on the meeting + supplemental (Tier 2, June 24–25).
+
+**Note:** Provenance-clean (procurement primaries + CSIS) — no Trump-whiplash discount. The **strain framing** (user): inventory stress vs. the political-achievement clock. The munitions-exhaustion-as-release-valve read (DPA-before-deal timing + the supplemental) is **a background variable with a live falsifier, NOT a confirmed driver** — CSIS's own caveat is that current stocks are "adequate for THIS war under any plausible scenario"; the depletion is a future-Pacific vulnerability, not an Iran-campaign operational ceiling. It therefore *sharpens the structural form* of the ordnance-cost-asymmetry thesis (the 2029 recovery + SRM bottleneck quantify the cost-exchange-ratio ceiling and the §6.1 debt-amplification channel) while *bounding the operational form*. Cross-section **CONVERGENCE evaluated and NON-FIRES** — the $87.6B supplemental is the fiscal cost of the war, *endogenous* to the Armed Conflict leg (one shock counted twice), and HY-tight (2.76%) is the load-bearing structural disqualifier. A watch-list gap-fill registering this defense-industrial/munitions channel as a standing indicator is **applied this pass — Level 2 (see disposition).**
+
+---
+
+### Continuation / disposition note (June 26 pass): strike L1 + munitions L1, munitions L2 gap-fill, convergence NON-FIRE, follow-on addendum STAGED, L4 clause HELD
+
+**Sections:** Armed Conflict, Global Debt
+
+- **Pass disposition.** Two L1 entries (June 25 *Ever Lovely* strike; June 24 munitions / defense-industrial cluster). **One Level 2 — the defense-industrial / munitions-replenishment + fiscal-transmission channel gap-fill** (per user; two named `ordnance-cost-asymmetry.md` §8 indicators fire for the first time — see `news/watch-list.md`). **No L3, no L4, no scenario-table change.**
+- **Two-arena lens (user framing).** Narrative/posturing (signed deal, 60-day roadmap, IMO evacuation) vs. kinetic activity (the strike + corridor-control radio) are openly divergent — but per the Reviewer this is **confirmation, not transition**: the counter-directionality is what the June 24 Three-Body addendum already models; no probability moves ≥15pp.
+- **Three-Body follow-on addendum — STAGED, not fired.** The strike tested the addendum's named release-valve falsifier and it held (Brent +~2%). The kinetic-channel-reassertion is a single data point → fires on a *second*: a strike on the STS anchorages, a sinking/casualty, or a Brent break.
+- **L4 Hormuz clause — HELD infrastructure-only (user decision).** The vessel-attrition gap (a severe strike campaign could choke the strait without striking "infrastructure" or filing a UNCLOS notice) is acknowledged as a **known, accepted limitation**; the escalation tree is NOT edited.
+- **Cross-section CONVERGENCE — NON-FIRE.** Breadth present (strike + $87.6B supplemental + $35.3B THAAD within 48h) but disqualified by: HY-tight (2.76%, load-bearing), counter-direction, and the supplemental's non-independence (the war's fiscal cost counted twice, not an independent debt vector). DTC HOLDS ORANGE (axis-A runway not yet extended — crude has not operationally moved); NDI HOLDS RED-not-CRITICAL.
+- **Munitions-exhaustion-as-release-valve** = background variable with a live falsifier, NOT a confirmed driver (CSIS: stocks "adequate for THIS war"; depletion is a future-Pacific vulnerability).
+
+---
+
 ## 2026-06-24
 
 ### US–Iran Bürgenstock summit reconvenes and concludes (June 21–22): roadmap + 60-day clock, US sanctions waiver + naval-blockade lift, deconfliction hotline — but IAEA site access in OPEN DISPUTE Day 1; signing was delegation-level, not Khamenei-level (June 21–22)
