@@ -8,6 +8,26 @@ categories: [news]
 
 # Signal Log
 
+## 2026-07-01
+
+### SCOTUS overrules *Humphrey's Executor* (June 29): *Trump v. Slaughter* makes independent-commission heads removable at will (deepens Phase 4); *Trump v. Cook* provisionally shields the Fed — L1 log + L2 Regulatory position update
+
+**Indicators:** Regulatory Phase 4/5 boundary (named — *Slaughter* doctrinally entrenches Phase 4 by removing a structural check on deregulation across FTC/SEC/CFTC); institutional-capture-vector / Warsh dot-plot execution risk (named — the Fed carve-out reshapes the thread's geometry: near-term de-escalation, net structural tightening via the concentration effect); "innovation/competitiveness to exempt asset classes" indicator (at-will SEC/CFTC makes exemption-by-rulemaking faster and more durable); S&P AA+ vs. the L4 G7-downgrade trigger (reaffirmed, opposite direction)
+
+**Sections:** Regulatory Cycle (cross-cutting Global Debt via the Fed-independence risk-premium channel — no debt threshold moved)
+
+**Scenario impact:** Phase-4-deepening (NOT Phase 5), **Level 1 log + Level 2 position update** (user-adjudicated). On **June 29, 2026** (last opinion day of the term; both Roberts-authored) the Court decided two companion removal-power cases:
+- ***Trump v. Slaughter*** (No. 25-332, **6-3**; Sotomayor/Kagan/Jackson dissenting): **OVERRULES *Humphrey's Executor v. United States* (1935)** — "if anything more is left of Humphrey's, the Court overrules it." Principal officers of multimember independent commissions exercising executive power (FTC + direct reach to **SEC/CFTC**, logic to NLRB; ~2 dozen agencies) are now removable at will. **Scope discipline — this reaches independent-*commission* heads, NOT the civil-service / Schedule F rank-and-file** (a separate legal track), and does not newly touch CFPB (*Seila Law*, 2020). **The user's "fire federal workers" framing is broader than the actual holding.**
+- ***Trump v. Cook*** (docket **25A312** — emergency application, **5-4**; Roberts + Sotomayor/Kagan/Kavanaugh/Jackson): leaves in place the preliminary injunction **protecting Governor Lisa Cook's seat.** **This is a provisional injunction affirmance on the same 2025 shadow-docket case-line, NOT a final merits ruling** — the constitutional question (is the Fed's for-cause provision valid?) is unresolved, the government *waived* it below, and DOJ retains a roadmap to relitigate. Carve-out reasoned *sui generis* (central-bank historical independence, dollar reserve-currency role), reaching the **Board of Governors**, boundary untested past Cook's facts.
+
+**L4 — does NOT fire:** single-section (Regulatory); no rating downgrade (S&P *reaffirmed* AA+ June 26, citing Fed institutional strength — opposite of the trigger); no 10yr breach (4.44%); no SIFI event. **Market non-event:** 10yr +6bp, HY OAS *tightened* 2.83%→2.75%, VIX fell to 16.45 — a mild relief drift, noise-level.
+
+**Source:** SCOTUS slip opinions *Trump v. Slaughter* / *Trump v. Cook* (Tier 1, supremecourt.gov, June 29); SCOTUSblog + Reuters/Bloomberg legal desks (Tier 2 convergent on holding, vote, and the Humphrey's-overruled framing); S&P Global US AA+ reaffirmation (Tier 1, June 26); prices.csv (Tier 1, 10yr/HY/VIX through June 30). **Misdating caution:** the 2025 shadow-docket stay in the Cook line (Cook fired Aug 2025 → district-court injunction) and this June 29 2026 emergency-appeal ruling read almost identically ~a year apart — the "A" docket number (25A312) confirms this is the *emergency-appeal* resolution of that injunction, not a fresh merits judgment.
+
+**Note:** Answers the user's question — how does this factor into the deregulation perspective? **It deepens Phase 4; it does not advance toward Phase 5** (Phase 5 is a *reversal* of the 2025 deregulation wave; *Slaughter* removes a structural check *on* deregulation, making it faster/more durable). Doctrinally larger than the Dec-5-2025 OCC/FDIC leveraged-lending rescission (a 91-year foundational precedent overruled). **Framework-hygiene point captured in the position update:** post-*Slaughter*, the Phase 5 "enforcement crisis at a deregulated institution" limb needs a **provenance qualifier** — a politically-directed enforcement action against a disfavored institution is capture-through-enforcement, not an organic Phase 5 tell (flag for `escalation-tree.md` open questions). **Institutional-capture-vector net effect:** modest near-term de-escalation (Cook keeps her seat) but **net structural tightening dominates** — provisional 5-4 shield + concentration effect (Fed now the sole remaining capture target after every other independent-agency protection was legally dismantled → the Warsh/dot-plot channel becomes the last lever standing). **The thread is NOT marked de-escalated.** L2 position-text update applied to `news/watch-list.md` Regulatory section this pass.
+
+---
+
 ## 2026-06-29
 
 ### Second commercial vessel struck in 72h (Kiku VLCC, June 27) + US second night of strikes expands target set to minelayer capabilities — IMO evacuation stays suspended, JMIC threat level → "substantial"; the tit-for-tat is no longer "controlled"
