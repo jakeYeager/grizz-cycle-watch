@@ -8,6 +8,81 @@ categories: [news]
 
 # Signal Log
 
+## 2026-06-29
+
+### Second commercial vessel struck in 72h (Kiku VLCC, June 27) + US second night of strikes expands target set to minelayer capabilities — IMO evacuation stays suspended, JMIC threat level → "substantial"; the tit-for-tat is no longer "controlled"
+
+**Indicators:** IRGC naval activity (named — second kinetic enforcement against commercial shipping in 72h, first against a laden VLCC); AIS safe-corridor / Hormuz-reopening status (IMO evacuation remains suspended, no resumption date; JMIC → "substantial"; freight rates reported at 22-month highs); US–Iran kinetic exchange (second US offensive action on Iranian soil within the 60-day window); Brent vs. the $130 trigger (~$72, FALLING)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Escalation-direction, **Level 1 — no L4 fires by the literal text.** On June 27 an IRGC attack drone struck the **Kiku** (Panama-flagged VLCC, ~300,866 dwt, ~2M bbl Qatari crude) in the Strait — minor bridge damage, **no casualties, no sinking**, vessel remained seaworthy and continued transit (CENTCOM attribution, Tier 1). Same period, the US ran a **second night of strikes** on Iranian military targets, the set now expanded to **minelayer capabilities** — the first time the L4 Hormuz-closure language ("mined") connects to an actual targeting event (the US is pre-emptively striking the mining-enablement infrastructure). **L4 check — does NOT fire:** vessel ≠ infrastructure; no UNCLOS closure; no casualties; Brent ~$72 and falling. **Two qualitative escalators vs. June 25:** (a) the Kiku was reportedly struck *on the designated safe corridor* (Tier 3 attribution, needs Windward/UKMTO Tier 1/2 confirmation) — if confirmed, the IRGC attacked the MOU's *operational implementation mechanism*, not an opportunistic commercial vessel, and did so *while the IMO evacuation was already suspended* (during a safety-guarantee review, not in defiance of an active guarantee); (b) freight rates at 22-month highs are a **real-economy transmission not visible in Brent**.
+
+**Source:** CENTCOM attribution (Tier 1) convergent via CNBC / NPR (Tier 2); gCaptain "Second Tanker Struck in Strait of Hormuz" + Seatrade Maritime + Windward "Hormuz's Stalled Recovery" (Tier 2 specialist); IMO evacuation-suspension release (Tier 1); US second-night strikes — NPR / CNN / Al Jazeera (Tier 2 convergent; standalone CENTCOM release URL not located, treat strike as Tier 2 convergent pending direct link). **Corridor-attribution caveat:** the "designated safe route" framing is **Tier 3 (TechTimes)** only — pending Tier 1/2 confirmation.
+
+**Note:** The "designated safe corridor" detail and the "minelayer" target category are the two analytically load-bearing elements; both need firmer sourcing but both point the same direction — the kinetic arena is now contesting the *implementation framework itself*, not just transiting tonnage. Combined with the June 28 entry below, this is the **second kinetic data point** that the June 26 pass named as the condition for the staged Three-Body follow-on.
+
+---
+
+### Iran fires real ballistic missiles at two US bases (Ali Al Salem / Kuwait + Fifth Fleet HQ / Bahrain, June 28) — Kuwait intercepts, Bahrain confirms civilian damage, CENTCOM reports no force damage; first direct Iran-on-US-base attack of the war — RELEASES the staged Three-Body follow-on addendum on geometry grounds
+
+**Indicators:** IRGC aerospace activity (named — first confirmed Iranian ballistic-missile launch at US military installations this war; qualitative step-change from vessel-strike-and-claim); Scenario C/D pressure (direct state-on-state exchange at US basing hubs — kinetics no longer confined to the maritime corridor); AIS / Hormuz status (escalation during the implementation window); Brent vs. $130 ($72, falling)
+
+**Sections:** Armed Conflict
+
+**Scenario impact:** Escalation-direction, **Level 1 by the letter — but a categorical geometry shift, so the staged addendum RELEASES (user decision).** On June 28 Iran launched ballistic missiles at **Ali Al Salem Air Base (Kuwait)** and **US Fifth Fleet HQ / NSA Bahrain (Juffair)**. Layered verification: **real BMs launched and intercepted — CONFIRMED** (Kuwait government, Tier 1 ally — two detected/intercepted, no casualties); **partial penetration of the Bahrain area — CONFIRMED** (Bahrain Interior Ministry, Tier 1 — a residential building near the airport damaged, no fatalities); **no damage to US forces — CONFIRMED** (CENTCOM, Tier 1); IRGC "8 US infrastructure targets destroyed" — **REPORTED-UNVERIFIED** (Iranian state claim, CENTCOM denies). **Materially different from the June 26 ISNA counter-strike claim** (which CENTCOM ignored with zero specifics): here CENTCOM *actively contests the outcome*, which at minimum confirms the missiles were real and launched at US installations. **L4 — does NOT fire:** CENTCOM reports no force damage; Bahrain damage is civilian, not military infrastructure; no nuclear/radiological event; Brent $72; 10yr 4.38.
+
+**Source:** Kuwait government (Tier 1 foreign — intercepts, no casualties); Bahrain Interior Ministry (Tier 1 foreign — residential damage); CENTCOM (Tier 1 US — no force damage); IRGC claim via Al Jazeera / Deccan Chronicle (Tier 2 / Iranian-state — "8 targets," unverified); Al Jazeera "Iran and US trade attacks as Strait of Hormuz ceasefire falters" + Gulf News (Tier 2 framing).
+
+**Note:** **Staged Three-Body follow-on addendum — RELEASED this pass (user adjudication: kinetic-return geometry shift).** The literal staged trigger (d) — "CENTCOM-*confirmed* strike on US forces" — is **not** met (CENTCOM: no force damage). The release is on **geometry grounds independent of the letter triggers:** the June 24 implementation-phase addendum's central thesis was that the spoiler had *migrated from the kinetic channel to the process channel* ("the collision surface moved from the Litani to the memorandum text"). June 27–28 **partially falsifies that** — the spoiler vector has **returned to direct kinetics at a NEW theater** (GCC military hubs via ballistic missiles + a second vessel on the designated corridor), the "new variable" the escalation tree names for an L3 update. The original three-body framing (Israel–Iran–US + Hezbollah fourth body) still holds → **addendum, not full report.** Report Writer dispatched. Market-decoupling (Brent $72, HY-contained, VIX 18.4) is *content for* the addendum, not a reason to suppress it: geometry escalated, market shrugged.
+
+---
+
+### HY OAS widening (+20bp, June 17→26: 2.63→2.83%) is rate-path repricing — BofA three-hike call is the driver, NOT Iran-risk — answering the standing structural question; deepens Minsky Phase 3 but is endogenous to the Regulatory story, so no independent convergence vector
+
+**Indicators:** HY OAS (named — 2.83% June 26 per FRED Tier 1, +20bp over 9 sessions, now *directional* not flat-tight); Warsh dot-plot execution risk (named — BofA projects the institutional-capture-vector dots to print: ~75bp Sep/Oct/Dec → bench 4.25–4.50% by Dec 2026); zombie-refinancing-failure channel (Minsky Phase 3 deepening)
+
+**Sections:** Global Debt (cross-cutting Regulatory — the Warsh dots)
+
+**Scenario impact:** Structural-deepening, **Level 1 — confirmatory of an already-logged driver.** The standing structural question (is the HY creep Iran-risk, Fed-path, or idiosyncratic credit?) resolves to **Fed-path:** the +20bp widening tracks BofA's June 22 three-hike note ("inflation getting unambiguously worse"), not the Iran kinetics (Brent fell through the same window) and not a credit event (none occurred). **What this changes:** the HY widening is *endogenous to the Regulatory / monetary-policy story already logged* (Warsh hawkish dots, June 19 L2) — it deepens the Minsky Phase 3 zombie-refinancing channel via a higher real-rate forecast but provides **no independent Global Debt vector** for cross-section convergence. The "HY-tight as structural disqualifier" framing weakens slightly (+20bp) but **remains operative at 2.83% vs. the 3.5% break / 5.0% WARN.**
+
+**Source:** FRED BAMLH0A0HYM2 (Tier 1 — 2.83% June 26, ground-truth in prices.csv); BofA research note via CNBC / Fortune (Tier 2, June 22, multi-outlet convergent).
+
+**Note:** This is the confirmatory reading that extends the June 22 BofA L1 entry into credit-market pricing. It does NOT advance the broader Minsky phase; it deepens the existing Phase 3 position. The directional-widening test result is logged for the next convergence adjudication: HY is no longer flat-tight, but it is still *endogenous-not-independent*, which is the load-bearing reason convergence non-fires this pass despite a genuine two-section (Armed Conflict + rate-path) escalation.
+
+---
+
+### Hormuz throughput quantified (June 29): strait transits recovered to ~33% then COLLAPSED back to ~10–14% after the Kiku strike — but total outflow (incl. STS + pipeline bypass) holds ~33–45%; the (A)-vs-(C) divergence IS the release valve, measured
+
+**Indicators:** AIS strait-transit count (named — ~13/day June 29 vs. ~44/day June 22–26 peak); STS-anchorage / pipeline-bypass throughput (the release-valve workaround); Brent vs. the $130 trigger ($72, explained by total-outflow not strait-count)
+
+**Sections:** Armed Conflict (cross-cutting Global Debt via the oil-supply / Brent channel)
+
+**Scenario impact:** Release-valve CONFIRMED with numbers, **Level 1.** The project's load-bearing distinction — *"ships transiting the strait" ≠ "oil flowing"* — is now quantified across the two measurements:
+- **(A) AIS strait transits — ~13/day (June 29) = ~10–14% of the pre-war baseline** (Windward 130–138/day, Tier 2, CONFIRMED). This is the headline "closure" number. **The user's recalled "<20%" is approximately right for (A) today.** But (A) had *recovered* to **~44/day (~33%; single-day peak ~49 on June 24)** during the post-signing window June 22–26, then **collapsed ~70% to ~13/day** after the June 27 Kiku strike + the IRGC corridor-enforcement directive ("AIS off, or off-route, you carry the consequences"). The **44→13 reversal is the measurable fingerprint of the kinetic channel pushing the strait number back down** — the empirical signature of the "spoiler returned to kinetics" thesis in the same-day kinetic-return addendum.
+- **(C) Total oil outflow incl. workaround — ~6.5–9 mb/d = ~33–45% of the 20 mb/d baseline** (composite estimate, REPORTED-UNVERIFIED). **This has NEVER been below ~20%** — the user's "<20%" does NOT describe (C). Components: STS off Fujairah/Sohar ~1.5–2 mb/d (≥90M bbl since early May, US-Navy-monitored); Habshan–Fujairah ~1.1–1.5 mb/d and Petroline/East-West to the Red Sea ~2–3 mb/d — **both pipelines bypass the strait entirely and sit outside IRGC corridor reach.** The pipeline-only bypass is a **structural ~15–20% floor that holds even at zero strait transits.**
+
+**Brent-at-$72 reconciliation:** $72 tracks (C), not (A) — workaround floor (~6.5 mb/d) + IEA reserve releases (~4.1 mb/d) + April-$138-spike demand destruction + the Bürgenstock deal as a market put. **Falsifier un-tripped:** June 25–28 hit vessels *on the AIS corridor*, never the Gulf-of-Oman STS anchorages or the pipelines — the one thing that would break $72. Stranded-vessel backlog is **re-accumulating** post-IMO-suspension (est. ~100–120 tankers still inside the Gulf; NOT FOUND at Tier 1/2 with a specific post-suspension count).
+
+**Source:** Windward "IRGC Turn-Back Order Stalls Strait of Hormuz Recovery" + "Hormuz's Stalled Recovery" (Tier 2 specialist, June 29 datelines); Lloyd's List "Ships keep moving through Hormuz…" (Tier 2); PortNews citing US Navy monitoring — ≥90M bbl STS (Tier 2, through June 17); CNBC "two oil pipelines helping Saudi Arabia and UAE bypass Hormuz" (Tier 2); Kpler/Outlook Money transit counts (Tier 2). **Staleness:** STS figure 12 days old (through June 17); Kpler ~4.8 mb/d strait-volume figure is **pre-Kiku (June 13–21) — do NOT use as a current read**; Petroline ramp above its ~2 mb/d floor unconfirmed; the ~13/day June 29 count is a single-day Windward read (directional, not yet 24h-confirmed).
+
+**Note:** This is the quantitative backbone for the June 29 kinetic-return addendum's two-truths thesis — **geometry escalated (strait 44→13) while the market decoupled (C holds 33–45% → Brent $72).** No escalation beyond L1: the data *confirms* the release valve rather than moving a scenario ≥15pp or advancing a framework phase. The standing watch item it sharpens: the STS anchorages / pipeline infrastructure remain the named falsifier — if either is struck, (C) collapses and the $72 read breaks.
+
+---
+
+### Continuation / disposition note (June 29 pass): tit-for-tat BROKE, 3× L1 + throughput L1, Three-Body follow-on RELEASED on geometry, L4 non-fire, DTC holds ORANGE — and two monitor data-errors corrected (aggregates are current; MSACSR L2 does NOT clear)
+
+**Sections:** Armed Conflict, Global Debt
+
+- **Pass disposition.** Four L1 entries (June 27 Kiku + US second-night strikes; June 28 Iran BMs at two US bases; HY = rate-path repricing; Hormuz throughput quantification — the (A)-vs-(C) release-valve measurement). **One L3 — the Three-Body follow-on addendum RELEASED** (kinetic-return geometry shift; Report Writer dispatched). No L4, no scenario-table change.
+- **The tit-for-tat read BROKE.** The June 25–26 "controlled exchange" characterization does **not** survive June 27–28: a *second* commercial vessel struck in 72h (likely on the safe corridor), the US target set expanded to *minelayer capabilities*, and Iran fired *real ballistic missiles* at two US bases in two GCC countries. The 60-day Bürgenstock roadmap is formally intact (no party has repudiated it) but under active kinetic stress ("ceasefire on brink," Tier 2 framing).
+- **Brent ~$72 and falling is the paradox of the week** (independently web-sourced; CSV Brent feed dark since June 23). The most extreme release-valve confirmation yet — the oil market priced de-escalation *through* accelerating kinetics. Either the market reads the exchange as controlled theater, or the STS workaround off Fujairah/Sohar is fully absorbing flow (no evidence the STS anchorages were struck — the named falsifier remains un-tripped).
+- **L4 — non-fire.** All immediate triggers negative (Brent $72 « $130; 10yr 4.38 « 5.0; no SIFI/derivatives, no G7 downgrade, no nuclear/radiological, no Hormuz *infrastructure* strike or UNCLOS closure). **Convergence non-fires:** Armed Conflict is escalatory and HY widened, but the HY move is *endogenous* to the Regulatory/rate-path story (not an independent debt vector) — the structural disqualifier holds (2.83% « 3.5%). **DTC HOLDS ORANGE** — the escalation is kinetic, not diplomatic, so axis-C keeps running (reinforces the breach, no change to the reading); axis-A runway NOT extended (crude has not operationally moved). NDI HOLDS RED-not-CRITICAL.
+- **Monitor data-error #1 corrected — aggregates are CURRENT, not stale.** The Monitor flagged MSACSR-May, May-CPI, and May-unemployment as "not in aggregates.csv" and recommended an immediate fetch. **All three are present** (MSACSR May 10.3, CPI 333.979, unemployment 4.3); only Case-Shiller lags, at its normal ~2-month publication cadence (March). The user's "no new aggregates" is correct — nothing to fetch.
+- **Monitor data-error #2 corrected — MSACSR L2 does NOT clear.** The Monitor counted May as the "third consecutive crossing above 9.0" and suggested an L2. The series is **Jan 9.8 · Feb 9.1 · Mar 8.5 (breaks the streak) · Apr 9.4 · May 10.3** — the current run is **two** consecutive (April, May), not three. The watch-list "sustained crossing" test (third consecutive) clears on the **June** MSACSR print (Census release ~late July). Housing stays **PARKED on data**, consistent with the June-24 memory carry. ROAD Act unchanged (Trump withholding; ~July 7 auto-enactment clock) — watch only.
+
+---
+
 ## 2026-06-26
 
 ### IRGC drone strike on a commercial vessel in the Hormuz transit lane (June 25): first post-signing kinetic escalation — L4 Hormuz clause does NOT fire by the letter (vessel ≠ infrastructure); the narrative and kinetic arenas diverge

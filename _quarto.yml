@@ -52,6 +52,7 @@ website:
           - armed-conflict/three-blockade-problem.md
           - armed-conflict/2026-06-05-hezbollah-fourth-body.md
           - armed-conflict/three-body-problem-implementation-addendum.md
+          - armed-conflict/three-body-problem-kinetic-return-addendum.md
 format:
   html:
     theme: cosmo
